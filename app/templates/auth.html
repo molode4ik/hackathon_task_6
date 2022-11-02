@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Авторизация</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="center">
+      <h1>Добро пожаловать</h1>
+      <form method="post">
+        <div class="inputbox">
+          <input type="text" name="login_auth" id="login_auth" required="required">
+          <span>Логин</span>
+        </div>
+        <div class="inputbox">
+          <input type="password" name="pass_auth" id="pass_auth" required="required">
+          <span>Пароль</span>
+        </div>
+        <div class="small">
+          <input class="styled" type="submit" name="log_button" id="log_button" value="Войти">
+        </div>
+        <div>
+          <a class="styled" href="/registration">Регистрация</a>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
