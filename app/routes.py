@@ -1,8 +1,8 @@
 from app import app
 from flask import render_template, request, redirect, url_for
 from werkzeug.security import generate_password_hash, check_password_hash
-log = 1001
-pass_w = 2002
+
+n = 4  # pages в analogue и adjustments (кол-во аналагов, которые будут показываться), используется в jinja
 
 @app.route('/', methods=["GET", "POST"])
 @app.route('/auth', methods=["GET", "POST"])
@@ -17,9 +17,21 @@ def index():
     else:
         return render_template('auth.html')
 
-@app.route('/welcome')
+
+@app.route('/welcome', methods=["GET", "POST"])
 def welcome():
         return render_template('welcome.html')
+
+
+@app.route('/analogue', methods=["GET", "POST"])
+def analogue():
+        return render_template('analogue.html', pages=n)
+
+
+@app.route('/adjustments', methods=["GET", "POST"])
+def adjustments():
+        return render_template('adjustments.html', pages=n)
+
 
 @app.route('/registration', methods=["GET", "POST"])
 def registration():
