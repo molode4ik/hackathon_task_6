@@ -1,7 +1,6 @@
 import datetime
 import os
-from peewee import SqliteDatabase, Model, TextField, DateTimeField, PrimaryKeyField, CharField, \
-    IntegerField, BooleanField, FloatField
+from peewee import SqliteDatabase, Model, TextField, DateTimeField, PrimaryKeyField, CharField, IntegerField, BooleanField, FloatField
 
 db = SqliteDatabase(os.path.dirname(os.path.realpath(__file__)) + '/avito_parser.db')
 
@@ -53,10 +52,26 @@ class Advertisement(BaseModel):
     selling_method = CharField(null=True, default=None, max_length=50)
     transaction_type = CharField(null=True, default=None, max_length=50)
     metro_info = TextField(null=True, default=None)
-    nearest_metro_station = TextField(null=True, default=None)
+    nearest_metro_sttion = TextField(null=True, default=None)
     nearest_metro_time = IntegerField(null=True, default=None)
     vendor = CharField(null=True, default=None, max_length=50)
 
+
     class Meta:
-        table_name = 'Advertisements'
+        table_name = 'Advertisement'
+        order_by = 'id'
+
+
+class Users(BaseModel):
+    __table_name__ = 'Users'
+    id_users = IntegerField( primary_key=True)
+    login = CharField()
+    password = CharField()
+    blacklist_avito = TextField()
+
+   
+
+
+    class Meta:
+        table_name = 'Users'
         order_by = 'id'
