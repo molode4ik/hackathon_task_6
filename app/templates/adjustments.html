@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница рассчета</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_analogue.css') }}" type="text/css">
+</head>
+<body>
+<center>
+    <table class="table_block two_per">
+        <tbody>
+            <tr>
+                <td><p>Корректировка на торг</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Корректировка на площадь:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Корректировка на удаленность от метро:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Корректировка на этаж:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Корректировка на комнатность:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Корректировка на площадь кухни:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Корректировка на наличие балкона/лоджии:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Корректировка на ремонт:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Разница между максимальным и минимальным значением:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Размер примененных корректировок, %:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Вес аналога:</p></td>
+                {% for i in range(pages) %}
+                <td>{{i}}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td><p>Рыночная стоимость, руб./кв.м. (с НДС):</p></td>
+                <td>199</td>
+            </tr>
+            <tr>
+                <td><p>Рыночная стоимость, руб. (с НДС):</p></td>
+                <td>200</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+<table class="onehalf_per">
+    <tr><td><center><a class="small" href="/analogue">Назад</a></center></td>
+    <td><input class="styled" type="submit" name="Export" id="Export" value="Экспорт"></td></tr>
+</table>
+</body>
+</html>
