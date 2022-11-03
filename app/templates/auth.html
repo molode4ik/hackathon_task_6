@@ -9,17 +9,18 @@
 	<div class="center">
       <h1>Добро пожаловать</h1>
       <form method="post">
-        <div class="inputbox">
-          <input type="text" name="login_auth" id="login_auth" required="required">
-          <span>Логин</span>
-        </div>
-        <div class="inputbox">
-          <input type="password" name="pass_auth" id="pass_auth" required="required">
-          <span>Пароль</span>
-        </div>
-        <div class="small">
-          <input class="styled" type="submit" name="log_button" id="log_button" value="Войти">
-        </div>
+        {{ form.hidden_tag() }}
+
+          <p>{{ form.login.label }}
+             {{ form.login(size=32) }}</p>
+
+
+          <p>{{ form.password.label }}
+             {{ form.password(size=32) }}</p>
+
+
+          <p>{{ form.submit() }}</p>
+
         <div>
           <a class="styled" href="/registration">Регистрация</a>
         </div>

@@ -67,11 +67,19 @@ class Users(BaseModel):
     id_users = IntegerField( primary_key=True)
     login = CharField()
     password = CharField()
-    blacklist_avito = TextField()
+    blacklist_avito = TextField(null=True, default=None)
 
-   
+    def get_id(self):
+        return self.id
 
 
     class Meta:
         table_name = 'Users'
         order_by = 'id'
+
+
+# class User(db.Model):
+#     id = datab.Column(datab.Integer, primary_key=True)
+#     username = datab.Column(datab.String(64), index=True, unique=True)
+#     password = datab.Column(datab.String(120), index=True, unique=True)
+#     blacklist_avito = datab.Column(datab.String(128))
