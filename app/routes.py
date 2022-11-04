@@ -37,14 +37,13 @@ def index():
             print()
             for person in Users.select():
                 print(person.login)
-                if check_password_hash(person.login,LoginForm().login.data) and check_password_hash(person.password,LoginForm().password.data):
+                if check_password_hash(person.login, LoginForm().login.data) and check_password_hash(person.password, LoginForm().password.data):
                     user = Users.get(login=person.login, password=person.password)
-                    break
+                    user_auth = User_n(id=user.id_users, login=user.login, password=user.password)
+                    login_user(user_auth)
+                    return redirect(url_for('welcome'))
         except:
             return render_template('auth.html', form=form)
-        user_auth = User_n(id=user.id_users, login=user.login, password=user.password)
-        login_user(user_auth)
-        return redirect(url_for('welcome'))
     return render_template('auth.html', form=form)
 
 @app.route('/welcome', methods=["GET", "POST"])

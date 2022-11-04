@@ -8631,3 +8631,1671 @@ AttributeError: 'Flask' object has no attribute 'login_manager'
 2022-11-04 02:17:44,266 INFO 127.0.0.1 - - [04/Nov/2022 02:17:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2022-11-04 02:17:44,856 INFO Браузер закрыт
 2022-11-04 02:17:45,877 INFO Браузер закрыт
+2022-11-04 02:21:19,042 INFO ====== WebDriver manager ======
+2022-11-04 02:21:19,052 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 02:21:19,052 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 02:21:19,054 INFO  * Restarting with stat
+2022-11-04 02:21:19,521 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 02:21:19,775 INFO ====== WebDriver manager ======
+2022-11-04 02:21:19,783 WARNING  * Debugger is active!
+2022-11-04 02:21:19,786 INFO  * Debugger PIN: 952-476-392
+2022-11-04 02:21:20,188 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 02:21:20,252 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 02:21:20,785 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 02:21:21,292 INFO Браузер открыт
+2022-11-04 02:21:21,734 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 02:21:21,804 INFO Браузер открыт
+2022-11-04 02:21:22,131 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 02:21:25,767 INFO Браузер закрыт
+2022-11-04 02:21:26,201 INFO Браузер закрыт
+2022-11-04 02:21:29,089 INFO 127.0.0.1 - - [04/Nov/2022 02:21:29] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 02:21:29,104 INFO 127.0.0.1 - - [04/Nov/2022 02:21:29] "GET /auth HTTP/1.1" 200 -
+2022-11-04 02:21:29,332 INFO 127.0.0.1 - - [04/Nov/2022 02:21:29] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-04 02:22:03,647 INFO 127.0.0.1 - - [04/Nov/2022 02:22:03] "POST /auth HTTP/1.1" 200 -
+2022-11-04 02:22:03,664 INFO 127.0.0.1 - - [04/Nov/2022 02:22:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-04 02:22:15,653 INFO 127.0.0.1 - - [04/Nov/2022 02:22:15] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 02:22:15,660 INFO 127.0.0.1 - - [04/Nov/2022 02:22:15] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 02:22:15,680 INFO 127.0.0.1 - - [04/Nov/2022 02:22:15] "GET /static/style_welcome.css HTTP/1.1" 200 -
+2022-11-04 02:22:24,651 INFO 127.0.0.1 - - [04/Nov/2022 02:22:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 02:22:24,661 INFO 127.0.0.1 - - [04/Nov/2022 02:22:24] "GET /auth HTTP/1.1" 200 -
+2022-11-04 02:22:24,680 INFO 127.0.0.1 - - [04/Nov/2022 02:22:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-04 02:28:12,166 INFO ====== WebDriver manager ======
+2022-11-04 02:28:12,179 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 02:28:12,179 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 02:28:12,181 INFO  * Restarting with stat
+2022-11-04 02:28:12,691 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 02:28:13,022 INFO ====== WebDriver manager ======
+2022-11-04 02:28:13,031 WARNING  * Debugger is active!
+2022-11-04 02:28:13,034 INFO  * Debugger PIN: 952-476-392
+2022-11-04 02:28:13,396 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 02:28:13,557 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 02:28:14,224 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 02:28:14,525 INFO Браузер открыт
+2022-11-04 02:28:14,928 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 02:28:15,241 INFO Браузер открыт
+2022-11-04 02:28:15,612 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 02:28:18,980 INFO Браузер закрыт
+2022-11-04 02:28:19,645 INFO Браузер закрыт
+2022-11-04 02:28:20,006 INFO 127.0.0.1 - - [04/Nov/2022 02:28:20] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 02:28:20,019 INFO 127.0.0.1 - - [04/Nov/2022 02:28:20] "GET /auth HTTP/1.1" 200 -
+2022-11-04 02:28:20,243 INFO 127.0.0.1 - - [04/Nov/2022 02:28:20] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-04 02:28:23,625 INFO 127.0.0.1 - - [04/Nov/2022 02:28:23] "GET /registration HTTP/1.1" 200 -
+2022-11-04 02:28:23,643 INFO 127.0.0.1 - - [04/Nov/2022 02:28:23] "GET /static/style_reg.css HTTP/1.1" 200 -
+2022-11-04 02:28:39,979 INFO 127.0.0.1 - - [04/Nov/2022 02:28:39] "POST /registration HTTP/1.1" 200 -
+2022-11-04 02:28:39,995 INFO 127.0.0.1 - - [04/Nov/2022 02:28:39] "[36mGET /static/style_reg.css HTTP/1.1[0m" 304 -
+2022-11-04 16:09:47,100 INFO ====== WebDriver manager ======
+2022-11-04 16:09:47,112 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:09:47,113 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:09:47,115 INFO  * Restarting with stat
+2022-11-04 16:09:47,635 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:09:48,160 INFO ====== WebDriver manager ======
+2022-11-04 16:09:48,200 WARNING  * Debugger is active!
+2022-11-04 16:09:48,203 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:09:48,486 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:09:48,694 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:09:49,639 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:09:51,922 INFO Браузер открыт
+2022-11-04 16:09:51,973 INFO Браузер открыт
+2022-11-04 16:09:52,241 INFO 127.0.0.1 - - [04/Nov/2022 16:09:52] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 16:09:52,272 INFO 127.0.0.1 - - [04/Nov/2022 16:09:52] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:09:52,558 INFO 127.0.0.1 - - [04/Nov/2022 16:09:52] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-04 16:09:52,905 INFO 127.0.0.1 - - [04/Nov/2022 16:09:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-04 16:09:55,060 INFO 127.0.0.1 - - [04/Nov/2022 16:09:55] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:09:55,083 INFO 127.0.0.1 - - [04/Nov/2022 16:09:55] "GET /static/style_reg.css HTTP/1.1" 200 -
+2022-11-04 16:09:57,964 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:10:02,673 INFO Найдено 114532 объявлений
+2022-11-04 16:10:03,329 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_586m_1717et._2467842425
+2022-11-04 16:10:07,996 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_586m_1717et._2467842425 с ценой 14814666
+2022-11-04 16:10:07,997 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:10:09,103 INFO 127.0.0.1 - - [04/Nov/2022 16:10:09] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 16:10:09,108 INFO 127.0.0.1 - - [04/Nov/2022 16:10:09] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:10:09,218 INFO 127.0.0.1 - - [04/Nov/2022 16:10:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-04 16:10:11,268 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:10:12,467 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:10:16,887 INFO Найдено 114532 объявлений
+2022-11-04 16:10:17,561 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_586m_1717et._2467842425
+2022-11-04 16:10:22,277 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:10:26,863 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:10:42,480 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719 с ценой 14700000
+2022-11-04 16:10:42,480 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_25et._2598297927
+2022-11-04 16:10:46,993 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_25et._2598297927 с ценой 11000000
+2022-11-04 16:10:46,993 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_232m_217et._2551671428
+2022-11-04 16:10:51,524 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:10:56,875 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_25et._2598297927
+2022-11-04 16:11:01,437 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_232m_217et._2551671428
+2022-11-04 16:11:06,122 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:11:21,540 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_232m_217et._2551671428 с ценой 6344555
+2022-11-04 16:11:21,540 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_362m_124et._2498898713
+2022-11-04 16:14:15,613 INFO ====== WebDriver manager ======
+2022-11-04 16:14:15,632 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:14:15,632 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:14:15,634 INFO  * Restarting with stat
+2022-11-04 16:14:16,428 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:14:16,809 INFO ====== WebDriver manager ======
+2022-11-04 16:14:16,819 WARNING  * Debugger is active!
+2022-11-04 16:14:16,822 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:14:17,100 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:14:17,267 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:14:17,977 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:14:18,192 INFO 127.0.0.1 - - [04/Nov/2022 16:14:18] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:14:18,289 INFO Браузер открыт
+2022-11-04 16:14:18,470 INFO 127.0.0.1 - - [04/Nov/2022 16:14:18] "GET /static/form.css HTTP/1.1" 200 -
+2022-11-04 16:14:19,019 INFO Браузер открыт
+2022-11-04 16:14:21,289 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:14:26,699 INFO Найдено 114537 объявлений
+2022-11-04 16:14:27,375 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_854m_3232et._2499451849
+2022-11-04 16:14:30,363 INFO 127.0.0.1 - - [04/Nov/2022 16:14:30] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:14:30,391 INFO 127.0.0.1 - - [04/Nov/2022 16:14:30] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:14:32,230 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_854m_3232et._2499451849 с ценой 22427748
+2022-11-04 16:14:32,230 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:14:36,391 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:14:37,032 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:14:41,623 INFO Найдено 114563 объявлений
+2022-11-04 16:14:42,440 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 16:14:43,502 INFO 127.0.0.1 - - [04/Nov/2022 16:14:43] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:14:43,560 INFO 127.0.0.1 - - [04/Nov/2022 16:14:43] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:14:47,071 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:15:07,052 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_409m_612et._2644564424
+2022-11-04 16:15:11,563 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_409m_612et._2644564424 с ценой 10774344
+2022-11-04 16:15:11,563 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_62m_2324et._2532924097
+2022-11-04 16:15:16,048 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_62m_2324et._2532924097 с ценой 15750000
+2022-11-04 16:15:16,048 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1021m_1024et._2339840541
+2022-11-04 16:15:16,294 INFO 127.0.0.1 - - [04/Nov/2022 16:15:16] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:15:16,324 INFO 127.0.0.1 - - [04/Nov/2022 16:15:16] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:15:17,114 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565 с ценой 4450000
+2022-11-04 16:15:17,114 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 16:15:20,734 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1021m_1024et._2339840541 с ценой 25315695
+2022-11-04 16:15:20,734 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:15:21,703 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760 с ценой 17500000
+2022-11-04 16:15:21,704 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 16:15:25,242 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_459m_2632et._2467390816
+2022-11-04 16:15:26,364 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 16:15:29,732 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_459m_2632et._2467390816 с ценой 13513327
+2022-11-04 16:15:29,732 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_245m_1624et._2447371840
+2022-11-04 16:15:31,497 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641 с ценой 5775000
+2022-11-04 16:15:31,497 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 16:15:34,166 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_245m_1624et._2447371840 с ценой 8500000
+2022-11-04 16:15:34,166 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_867m_241et._2414139162
+2022-11-04 16:15:35,924 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626 с ценой 10600000
+2022-11-04 16:15:35,925 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 16:15:38,695 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_867m_241et._2414139162 с ценой 50069250
+2022-11-04 16:15:38,695 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_331m_210et._2619927123
+2022-11-04 16:15:40,471 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733 с ценой 7088475
+2022-11-04 16:15:40,471 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 16:15:43,296 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:15:44,113 INFO 127.0.0.1 - - [04/Nov/2022 16:15:44] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:15:44,141 INFO 127.0.0.1 - - [04/Nov/2022 16:15:44] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:15:44,943 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483 с ценой 3579000
+2022-11-04 16:15:44,944 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-04 16:15:49,427 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652 с ценой 27500000
+2022-11-04 16:15:49,427 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 16:15:53,921 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:16:13,421 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_331m_210et._2619927123 с ценой 6841277
+2022-11-04 16:16:13,421 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 16:16:18,035 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:16:23,931 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373
+2022-11-04 16:16:28,377 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373 с ценой 7343000
+2022-11-04 16:16:28,377 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602
+2022-11-04 16:16:32,894 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602 с ценой 17500000
+2022-11-04 16:16:32,894 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_44m_515et._2563238560
+2022-11-04 16:16:37,591 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_44m_515et._2563238560 с ценой 12900000
+2022-11-04 16:16:37,591 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846
+2022-11-04 16:16:42,063 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846 с ценой 15000000
+2022-11-04 16:16:42,063 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524
+2022-11-04 16:16:46,666 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524 с ценой 12500000
+2022-11-04 16:16:46,666 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_79et._2542955985
+2022-11-04 16:16:48,151 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319 с ценой 23700000
+2022-11-04 16:16:48,152 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_721et._2600194635
+2022-11-04 16:16:51,276 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_79et._2542955985 с ценой 12300000
+2022-11-04 16:16:51,277 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166
+2022-11-04 16:16:53,174 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_721et._2600194635 с ценой 6915490
+2022-11-04 16:16:53,174 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_765m_330et._2635978681
+2022-11-04 16:16:55,781 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166 с ценой 35000000
+2022-11-04 16:16:55,781 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969
+2022-11-04 16:16:57,761 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_765m_330et._2635978681 с ценой 16525569
+2022-11-04 16:16:57,761 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003
+2022-11-04 16:17:00,308 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969 с ценой 64990000
+2022-11-04 16:17:00,308 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676
+2022-11-04 16:17:02,434 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_663m_26et._2644523941
+2022-11-04 16:17:04,797 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:17:07,333 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_663m_26et._2644523941 с ценой 31161000
+2022-11-04 16:17:07,333 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_141m_13et._2629952521
+2022-11-04 16:17:11,695 INFO ====== WebDriver manager ======
+2022-11-04 16:17:11,710 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:17:11,710 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:17:11,712 INFO  * Restarting with stat
+2022-11-04 16:17:12,397 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:17:12,806 INFO ====== WebDriver manager ======
+2022-11-04 16:17:12,816 WARNING  * Debugger is active!
+2022-11-04 16:17:12,819 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:17:12,889 INFO 127.0.0.1 - - [04/Nov/2022 16:17:12] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:17:13,118 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:17:13,188 INFO 127.0.0.1 - - [04/Nov/2022 16:17:13] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:17:13,346 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:17:14,019 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:17:14,242 INFO Браузер открыт
+2022-11-04 16:17:15,015 INFO Браузер открыт
+2022-11-04 16:17:16,787 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:17:17,166 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:17:21,822 INFO Найдено 114532 объявлений
+2022-11-04 16:17:22,160 INFO Найдено 114532 объявлений
+2022-11-04 16:17:22,923 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1621et._2599857864
+2022-11-04 16:17:22,978 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1621et._2599857864
+2022-11-04 16:17:27,608 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1621et._2599857864 с ценой 7084367
+2022-11-04 16:17:27,608 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:17:27,612 INFO 127.0.0.1 - - [04/Nov/2022 16:17:27] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:17:27,638 INFO 127.0.0.1 - - [04/Nov/2022 16:17:27] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:17:28,031 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:17:32,207 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:17:32,713 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:18:02,224 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_2433et._2339556876
+2022-11-04 16:18:02,724 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_2433et._2339556876
+2022-11-04 16:18:03,880 INFO 127.0.0.1 - - [04/Nov/2022 16:18:03] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:18:03,922 INFO 127.0.0.1 - - [04/Nov/2022 16:18:03] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:18:06,834 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_2433et._2339556876 с ценой 11791494
+2022-11-04 16:18:06,834 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-04 16:18:07,493 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-04 16:21:42,953 INFO ====== WebDriver manager ======
+2022-11-04 16:21:42,965 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:21:42,965 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:21:42,967 INFO  * Restarting with stat
+2022-11-04 16:21:43,879 INFO ====== WebDriver manager ======
+2022-11-04 16:21:43,889 WARNING  * Debugger is active!
+2022-11-04 16:21:43,892 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:21:44,002 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:21:44,445 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:21:44,624 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:21:45,050 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:21:46,263 INFO Браузер открыт
+2022-11-04 16:21:46,279 INFO Браузер открыт
+2022-11-04 16:21:46,922 INFO 127.0.0.1 - - [04/Nov/2022 16:21:46] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:21:47,147 INFO 127.0.0.1 - - [04/Nov/2022 16:21:47] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:21:48,015 INFO 127.0.0.1 - - [04/Nov/2022 16:21:48] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:21:48,032 INFO 127.0.0.1 - - [04/Nov/2022 16:21:48] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:21:48,824 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:21:48,946 INFO 127.0.0.1 - - [04/Nov/2022 16:21:48] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:21:48,991 INFO 127.0.0.1 - - [04/Nov/2022 16:21:48] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:21:53,648 INFO Найдено 114605 объявлений
+2022-11-04 16:21:54,298 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 16:21:58,880 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:22:03,885 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:22:05,704 INFO 127.0.0.1 - - [04/Nov/2022 16:22:05] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:22:05,721 INFO 127.0.0.1 - - [04/Nov/2022 16:22:05] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:22:08,569 INFO Найдено 114609 объявлений
+2022-11-04 16:22:09,233 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_421et._2600149278
+2022-11-04 16:22:13,915 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_421et._2600149278 с ценой 8874318
+2022-11-04 16:22:13,915 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:22:18,274 INFO 127.0.0.1 - - [04/Nov/2022 16:22:18] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:22:18,290 INFO 127.0.0.1 - - [04/Nov/2022 16:22:18] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:22:18,447 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:22:28,910 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 16:22:33,497 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 16:22:37,999 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 16:22:40,760 INFO 127.0.0.1 - - [04/Nov/2022 16:22:40] "[35m[1mGET /auth HTTP/1.1[0m" 500 -
+2022-11-04 16:22:40,787 INFO 127.0.0.1 - - [04/Nov/2022 16:22:40] "GET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-04 16:22:40,791 INFO 127.0.0.1 - - [04/Nov/2022 16:22:40] "GET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-04 16:22:40,827 INFO 127.0.0.1 - - [04/Nov/2022 16:22:40] "GET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-04 16:22:40,849 INFO 127.0.0.1 - - [04/Nov/2022 16:22:40] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:22:42,442 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 16:22:46,972 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 16:22:48,469 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_499m_1633et._2499631803
+2022-11-04 16:22:51,421 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 16:22:53,230 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_499m_1633et._2499631803 с ценой 10714927
+2022-11-04 16:22:53,230 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1721et._2600116080
+2022-11-04 16:22:55,858 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-04 16:22:55,880 INFO 127.0.0.1 - - [04/Nov/2022 16:22:55] "[35m[1mGET /auth HTTP/1.1[0m" 500 -
+2022-11-04 16:22:55,896 INFO 127.0.0.1 - - [04/Nov/2022 16:22:55] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 16:22:55,899 INFO 127.0.0.1 - - [04/Nov/2022 16:22:55] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 16:22:55,911 INFO 127.0.0.1 - - [04/Nov/2022 16:22:55] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:22:55,937 INFO 127.0.0.1 - - [04/Nov/2022 16:22:55] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:22:57,729 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1721et._2600116080 с ценой 7116637
+2022-11-04 16:22:57,729 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:23:00,438 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 16:23:02,390 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_323m_3333et._2339813910
+2022-11-04 16:23:04,900 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:23:06,965 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_323m_3333et._2339813910 с ценой 7953552
+2022-11-04 16:23:06,965 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_88m_2732et._2339864450
+2022-11-04 16:23:11,448 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_88m_2732et._2339864450 с ценой 23791680
+2022-11-04 16:23:11,448 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-04 16:23:15,915 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:23:24,886 INFO 127.0.0.1 - - [04/Nov/2022 16:23:24] "[35m[1mGET /auth HTTP/1.1[0m" 500 -
+2022-11-04 16:23:24,902 INFO 127.0.0.1 - - [04/Nov/2022 16:23:24] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 16:23:24,902 INFO 127.0.0.1 - - [04/Nov/2022 16:23:24] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 16:23:24,912 INFO 127.0.0.1 - - [04/Nov/2022 16:23:24] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:23:24,930 INFO 127.0.0.1 - - [04/Nov/2022 16:23:24] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:23:34,920 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373
+2022-11-04 16:23:39,090 INFO 127.0.0.1 - - [04/Nov/2022 16:23:39] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:23:39,117 INFO 127.0.0.1 - - [04/Nov/2022 16:23:39] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:23:39,372 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602
+2022-11-04 16:23:43,801 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_44m_515et._2563238560
+2022-11-04 16:23:45,942 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770 с ценой 6300000
+2022-11-04 16:23:45,942 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 16:23:48,233 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846
+2022-11-04 16:23:50,448 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:23:52,785 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524
+2022-11-04 16:23:57,092 INFO 127.0.0.1 - - [04/Nov/2022 16:23:57] "[35m[1mGET /auth HTTP/1.1[0m" 500 -
+2022-11-04 16:23:57,112 INFO 127.0.0.1 - - [04/Nov/2022 16:23:57] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 16:23:57,114 INFO 127.0.0.1 - - [04/Nov/2022 16:23:57] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 16:23:57,125 INFO 127.0.0.1 - - [04/Nov/2022 16:23:57] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:23:57,139 INFO 127.0.0.1 - - [04/Nov/2022 16:23:57] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:23:57,291 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_79et._2542955985
+2022-11-04 16:24:01,705 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166
+2022-11-04 16:24:06,293 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969
+2022-11-04 16:24:10,700 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676
+2022-11-04 16:24:15,141 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:24:17,873 INFO 127.0.0.1 - - [04/Nov/2022 16:24:17] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:24:17,891 INFO 127.0.0.1 - - [04/Nov/2022 16:24:17] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:24:20,462 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_417m_1833et._2467305614
+2022-11-04 16:24:24,911 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_417m_1833et._2467305614 с ценой 9806589
+2022-11-04 16:24:24,911 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_751m_1116et._2597965388
+2022-11-04 16:24:26,665 INFO 127.0.0.1 - - [04/Nov/2022 16:24:26] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:24:26,687 INFO 127.0.0.1 - - [04/Nov/2022 16:24:26] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:24:29,338 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_751m_1116et._2597965388 с ценой 29000000
+2022-11-04 16:24:29,338 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_967m_212et._2339300884
+2022-11-04 16:24:33,844 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_967m_212et._2339300884 с ценой 25021125
+2022-11-04 16:24:33,844 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003
+2022-11-04 16:24:38,306 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_519m_533et._2467469313
+2022-11-04 16:24:42,213 INFO 127.0.0.1 - - [04/Nov/2022 16:24:42] "[35m[1mGET /auth HTTP/1.1[0m" 500 -
+2022-11-04 16:24:42,229 INFO 127.0.0.1 - - [04/Nov/2022 16:24:42] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 16:24:42,233 INFO 127.0.0.1 - - [04/Nov/2022 16:24:42] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 16:24:42,246 INFO 127.0.0.1 - - [04/Nov/2022 16:24:42] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:24:42,266 INFO 127.0.0.1 - - [04/Nov/2022 16:24:42] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:24:42,718 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_519m_533et._2467469313 с ценой 13394824
+2022-11-04 16:24:42,718 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_341et._2541450215
+2022-11-04 16:24:45,168 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676 с ценой 9800000
+2022-11-04 16:24:45,168 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_57m_617et._2591580636
+2022-11-04 16:24:47,256 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_341et._2541450215 с ценой 26300000
+2022-11-04 16:24:47,256 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_426m_1826et._2583035761
+2022-11-04 16:24:47,729 INFO 127.0.0.1 - - [04/Nov/2022 16:24:47] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:24:47,751 INFO 127.0.0.1 - - [04/Nov/2022 16:24:47] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:24:49,722 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_57m_617et._2591580636 с ценой 17000000
+2022-11-04 16:24:49,722 INFO Открываю страницу: https://www.avito.ru/moskva_zelenograd/kvartiry/1-k._kvartira_286m_28et._2593373748
+2022-11-04 16:24:51,872 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_426m_1826et._2583035761 с ценой 17040000
+2022-11-04 16:24:51,872 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639
+2022-11-04 16:24:54,084 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_2333et._2585168202
+2022-11-04 16:24:56,728 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:24:58,548 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_2333et._2585168202 с ценой 14500000
+2022-11-04 16:24:58,548 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1723et._2590915477
+2022-11-04 16:25:03,005 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:25:06,870 INFO 127.0.0.1 - - [04/Nov/2022 16:25:06] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:25:06,889 INFO 127.0.0.1 - - [04/Nov/2022 16:25:06] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:25:26,760 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639 с ценой 5990000
+2022-11-04 16:25:26,760 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_409m_312et._2467365160
+2022-11-04 16:25:31,218 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_409m_312et._2467365160 с ценой 15298236
+2022-11-04 16:25:31,218 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1164m_530et._2582543237
+2022-11-04 16:25:33,035 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1723et._2590915477 с ценой 22800000
+2022-11-04 16:25:33,035 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_264m_1115et._2476718710
+2022-11-04 16:25:35,744 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1164m_530et._2582543237 с ценой 44000000
+2022-11-04 16:25:35,744 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_513m_2033et._2499016996
+2022-11-04 16:25:37,598 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:25:40,223 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_513m_2033et._2499016996 с ценой 11085417
+2022-11-04 16:25:40,224 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_327m_112et._2601236287
+2022-11-04 16:25:44,654 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:27:33,840 INFO ====== WebDriver manager ======
+2022-11-04 16:27:33,852 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:27:33,853 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:27:33,854 INFO  * Restarting with stat
+2022-11-04 16:27:34,456 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:27:34,858 INFO ====== WebDriver manager ======
+2022-11-04 16:27:34,872 WARNING  * Debugger is active!
+2022-11-04 16:27:34,876 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:27:35,200 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:27:35,510 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:27:36,524 INFO Браузер открыт
+2022-11-04 16:27:36,539 INFO 127.0.0.1 - - [04/Nov/2022 16:27:36] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:27:36,727 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:27:36,866 INFO 127.0.0.1 - - [04/Nov/2022 16:27:36] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:27:37,738 INFO Браузер открыт
+2022-11-04 16:27:38,897 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:27:40,592 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:27:44,366 INFO Найдено 114537 объявлений
+2022-11-04 16:27:45,954 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_15m_25et._2463874366
+2022-11-04 16:27:46,166 INFO Найдено 114537 объявлений
+2022-11-04 16:27:47,665 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_15m_25et._2463874366
+2022-11-04 16:27:50,729 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:27:52,222 INFO 127.0.0.1 - - [04/Nov/2022 16:27:52] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:27:52,262 INFO 127.0.0.1 - - [04/Nov/2022 16:27:52] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:27:53,494 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:28:08,757 INFO  * Detected change in 'C:\\Users\\simpl\\Desktop\\grrr\\hakaton_task_6\\app\\forms.py', reloading
+2022-11-04 16:28:09,381 INFO 127.0.0.1 - - [04/Nov/2022 16:28:09] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:28:09,404 INFO 127.0.0.1 - - [04/Nov/2022 16:28:09] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:28:10,708 INFO 127.0.0.1 - - [04/Nov/2022 16:28:10] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:28:10,724 INFO 127.0.0.1 - - [04/Nov/2022 16:28:10] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:28:14,084 INFO ====== WebDriver manager ======
+2022-11-04 16:28:14,100 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:28:14,100 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:28:14,103 INFO  * Restarting with stat
+2022-11-04 16:28:14,510 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:28:14,981 INFO ====== WebDriver manager ======
+2022-11-04 16:28:14,991 WARNING  * Debugger is active!
+2022-11-04 16:28:14,995 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:28:15,054 INFO 127.0.0.1 - - [04/Nov/2022 16:28:15] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:28:15,135 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:28:15,399 INFO 127.0.0.1 - - [04/Nov/2022 16:28:15] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:28:15,499 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:28:16,191 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:28:16,259 INFO Браузер открыт
+2022-11-04 16:28:17,221 INFO Браузер открыт
+2022-11-04 16:28:19,224 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:28:21,006 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:28:25,157 INFO Найдено 114570 объявлений
+2022-11-04 16:28:27,074 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 16:28:27,177 INFO Найдено 114372 объявлений
+2022-11-04 16:28:28,703 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-04 16:28:32,234 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:28:33,385 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:29:02,248 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 16:29:03,410 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_531m_714et._2524470776
+2022-11-04 16:29:06,740 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 16:29:08,086 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_531m_714et._2524470776 с ценой 11700000
+2022-11-04 16:29:08,086 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_1314et._2568575849
+2022-11-04 16:29:11,293 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 16:29:12,681 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_1314et._2568575849 с ценой 12400000
+2022-11-04 16:29:12,681 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_422m_2133et._2467271662
+2022-11-04 16:29:15,796 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 16:29:17,196 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:29:20,391 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 16:29:21,785 INFO  * Detected change in 'C:\\Users\\simpl\\Desktop\\grrr\\hakaton_task_6\\app\\forms.py', reloading
+2022-11-04 16:29:24,284 INFO ====== WebDriver manager ======
+2022-11-04 16:29:24,296 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:29:24,296 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:29:24,298 INFO  * Restarting with stat
+2022-11-04 16:29:24,738 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:29:25,200 INFO ====== WebDriver manager ======
+2022-11-04 16:29:25,209 WARNING  * Debugger is active!
+2022-11-04 16:29:25,211 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:29:25,347 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:29:25,604 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:29:26,219 INFO 127.0.0.1 - - [04/Nov/2022 16:29:26] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:29:26,360 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:29:26,449 INFO Браузер открыт
+2022-11-04 16:29:26,455 INFO 127.0.0.1 - - [04/Nov/2022 16:29:26] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:29:27,384 INFO Браузер открыт
+2022-11-04 16:29:28,958 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:29:29,550 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:29:30,727 INFO The CSRF token is missing.
+2022-11-04 16:29:30,729 INFO 127.0.0.1 - - [04/Nov/2022 16:29:30] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:29:30,747 INFO 127.0.0.1 - - [04/Nov/2022 16:29:30] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:29:33,467 INFO The CSRF token is missing.
+2022-11-04 16:29:33,468 INFO 127.0.0.1 - - [04/Nov/2022 16:29:33] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:29:33,483 INFO 127.0.0.1 - - [04/Nov/2022 16:29:33] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:29:33,748 INFO Найдено 114609 объявлений
+2022-11-04 16:29:34,374 INFO Найдено 114568 объявлений
+2022-11-04 16:29:34,516 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_214m_12et._2608271679
+2022-11-04 16:29:35,250 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_214m_12et._2608271679
+2022-11-04 16:29:39,102 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_214m_12et._2608271679 с ценой 5395248
+2022-11-04 16:29:39,102 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_15m_25et._2463874366
+2022-11-04 16:29:40,060 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_15m_25et._2463874366
+2022-11-04 16:29:43,785 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:29:44,819 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:29:48,837 INFO The CSRF token is missing.
+2022-11-04 16:29:48,838 INFO 127.0.0.1 - - [04/Nov/2022 16:29:48] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:29:48,854 INFO 127.0.0.1 - - [04/Nov/2022 16:29:48] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:30:13,804 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_15m_25et._2463874366 с ценой 3799000
+2022-11-04 16:30:13,804 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_216m_316et._2599875142
+2022-11-04 16:30:14,835 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_417m_2424et._2499390791
+2022-11-04 16:30:18,342 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:30:19,313 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_417m_2424et._2499390791 с ценой 15518655
+2022-11-04 16:30:19,314 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:30:23,691 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:30:49,615 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_216m_316et._2599875142 с ценой 5863968
+2022-11-04 16:30:49,615 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:30:53,701 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_22m_821et._2467717120
+2022-11-04 16:30:54,062 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:30:58,138 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_22m_821et._2467717120 с ценой 6496380
+2022-11-04 16:30:58,138 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_378m_334et._2467548244
+2022-11-04 16:31:02,549 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_378m_334et._2467548244 с ценой 10844294
+2022-11-04 16:31:02,549 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_531m_714et._2524470776
+2022-11-04 16:31:06,970 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:31:11,496 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_43m_613et._2623617193
+2022-11-04 16:31:15,965 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_43m_613et._2623617193 с ценой 14424026
+2022-11-04 16:31:15,965 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_382m_232et._2467064580
+2022-11-04 16:31:20,371 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_382m_232et._2467064580 с ценой 11749097
+2022-11-04 16:31:20,371 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_875m_819et._2585632690
+2022-11-04 16:31:24,078 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_417m_2424et._2499390791
+2022-11-04 16:31:24,777 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_875m_819et._2585632690 с ценой 40713750
+2022-11-04 16:31:24,777 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 16:31:28,584 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_59m_917et._2499424406
+2022-11-04 16:31:29,144 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:31:33,091 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_59m_917et._2499424406 с ценой 14576680
+2022-11-04 16:31:33,091 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:31:37,589 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_22m_821et._2467717120
+2022-11-04 16:31:42,211 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_378m_334et._2467548244
+2022-11-04 16:31:46,789 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 16:31:50,196 INFO The CSRF token is missing.
+2022-11-04 16:31:50,197 INFO 127.0.0.1 - - [04/Nov/2022 16:31:50] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:31:50,212 INFO 127.0.0.1 - - [04/Nov/2022 16:31:50] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:31:51,258 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:31:56,619 INFO The CSRF token is missing.
+2022-11-04 16:31:56,620 INFO 127.0.0.1 - - [04/Nov/2022 16:31:56] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:31:56,636 INFO 127.0.0.1 - - [04/Nov/2022 16:31:56] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:31:59,162 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_865m_320et._2508074536
+2022-11-04 16:32:02,788 INFO 127.0.0.1 - - [04/Nov/2022 16:32:02] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 16:32:02,797 INFO 127.0.0.1 - - [04/Nov/2022 16:32:02] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:32:02,813 INFO 127.0.0.1 - - [04/Nov/2022 16:32:02] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:32:03,598 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_865m_320et._2508074536 с ценой 26751742
+2022-11-04 16:32:03,598 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003
+2022-11-04 16:32:08,056 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_972m_412et._2339787636
+2022-11-04 16:32:12,556 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_972m_412et._2339787636 с ценой 25937820
+2022-11-04 16:32:12,557 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_425m_1525et._2499078270
+2022-11-04 16:32:17,094 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_425m_1525et._2499078270 с ценой 11685375
+2022-11-04 16:32:17,094 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1164m_530et._2582543237
+2022-11-04 16:32:21,285 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_875m_819et._2585632690
+2022-11-04 16:32:21,624 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639
+2022-11-04 16:32:25,865 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_321m_1623et._2623269348
+2022-11-04 16:32:26,182 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:32:30,379 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:32:35,566 INFO 127.0.0.1 - - [04/Nov/2022 16:32:35] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:32:35,585 INFO 127.0.0.1 - - [04/Nov/2022 16:32:35] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:32:39,809 INFO ====== WebDriver manager ======
+2022-11-04 16:32:39,820 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:32:39,820 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:32:39,822 INFO  * Restarting with stat
+2022-11-04 16:32:40,272 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:32:40,726 INFO ====== WebDriver manager ======
+2022-11-04 16:32:40,737 WARNING  * Debugger is active!
+2022-11-04 16:32:40,740 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:32:40,883 INFO 127.0.0.1 - - [04/Nov/2022 16:32:40] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:32:40,951 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:32:41,161 INFO 127.0.0.1 - - [04/Nov/2022 16:32:41] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:32:41,221 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:32:41,869 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:32:42,084 INFO Браузер открыт
+2022-11-04 16:32:42,141 INFO 127.0.0.1 - - [04/Nov/2022 16:32:42] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:32:42,174 INFO 127.0.0.1 - - [04/Nov/2022 16:32:42] "[36mGET /static/style_reg.css HTTP/1.1[0m" 304 -
+2022-11-04 16:32:42,911 INFO Браузер открыт
+2022-11-04 16:32:44,852 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:32:46,138 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:32:49,707 INFO 127.0.0.1 - - [04/Nov/2022 16:32:49] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 16:32:49,712 INFO 127.0.0.1 - - [04/Nov/2022 16:32:49] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:32:49,743 INFO 127.0.0.1 - - [04/Nov/2022 16:32:49] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:32:49,810 INFO Найдено 114568 объявлений
+2022-11-04 16:32:50,919 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_214m_12et._2608271679
+2022-11-04 16:32:51,067 INFO Найдено 114569 объявлений
+2022-11-04 16:32:51,919 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 16:32:53,825 INFO The CSRF token is missing.
+2022-11-04 16:32:53,827 INFO 127.0.0.1 - - [04/Nov/2022 16:32:53] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:32:53,861 INFO 127.0.0.1 - - [04/Nov/2022 16:32:53] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:32:55,514 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_519m_633et._2466992630
+2022-11-04 16:32:56,621 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:33:00,063 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_519m_633et._2466992630 с ценой 13742842
+2022-11-04 16:33:00,063 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:33:04,608 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:33:26,644 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 16:33:31,306 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 16:33:34,626 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_593m_217et._2467631567
+2022-11-04 16:33:35,894 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 16:33:39,121 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_593m_217et._2467631567 с ценой 14102147
+2022-11-04 16:33:39,121 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_15m_25et._2463874366
+2022-11-04 16:33:40,393 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 16:33:43,727 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:33:44,104 INFO  * Detected change in 'C:\\Users\\simpl\\Desktop\\grrr\\hakaton_task_6\\app\\routes.py', reloading
+2022-11-04 16:33:45,068 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 16:33:49,633 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 16:33:54,463 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-04 16:33:59,018 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 16:33:59,114 INFO 127.0.0.1 - - [04/Nov/2022 16:33:59] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:33:59,129 INFO 127.0.0.1 - - [04/Nov/2022 16:33:59] "[36mGET /static/style_reg.css HTTP/1.1[0m" 304 -
+2022-11-04 16:34:03,611 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:34:05,429 INFO 127.0.0.1 - - [04/Nov/2022 16:34:05] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 16:34:05,434 INFO 127.0.0.1 - - [04/Nov/2022 16:34:05] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:34:05,460 INFO 127.0.0.1 - - [04/Nov/2022 16:34:05] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:34:13,744 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_116et._2600730746
+2022-11-04 16:34:17,899 INFO The CSRF token is missing.
+2022-11-04 16:34:17,901 INFO 127.0.0.1 - - [04/Nov/2022 16:34:17] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:34:17,918 INFO 127.0.0.1 - - [04/Nov/2022 16:34:17] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:34:18,230 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:34:33,638 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373
+2022-11-04 16:34:38,275 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602
+2022-11-04 16:34:42,948 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_44m_515et._2563238560
+2022-11-04 16:34:47,485 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846
+2022-11-04 16:34:48,260 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_116et._2600730746 с ценой 7431280
+2022-11-04 16:34:48,260 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:34:51,999 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524
+2022-11-04 16:34:53,324 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_117m_2222et._2585279372
+2022-11-04 16:34:56,493 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_79et._2542955985
+2022-11-04 16:34:58,138 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:35:01,054 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166
+2022-11-04 16:35:05,535 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969
+2022-11-04 16:35:10,034 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676
+2022-11-04 16:37:24,201 INFO ====== WebDriver manager ======
+2022-11-04 16:37:24,212 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:37:24,212 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:37:24,214 INFO  * Restarting with stat
+2022-11-04 16:37:24,668 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:37:25,457 INFO ====== WebDriver manager ======
+2022-11-04 16:37:25,467 WARNING  * Debugger is active!
+2022-11-04 16:37:25,469 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:37:25,470 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:37:25,887 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:37:26,512 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:37:26,600 INFO Браузер открыт
+2022-11-04 16:37:27,511 INFO Браузер открыт
+2022-11-04 16:37:29,118 INFO The CSRF token is missing.
+2022-11-04 16:37:29,125 INFO 127.0.0.1 - - [04/Nov/2022 16:37:29] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:37:29,510 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:37:29,522 INFO 127.0.0.1 - - [04/Nov/2022 16:37:29] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:37:30,791 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:37:35,408 INFO Найдено 114532 объявлений
+2022-11-04 16:37:36,234 INFO Найдено 114568 объявлений
+2022-11-04 16:37:36,947 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 16:37:38,263 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1216m_612et._2611101223
+2022-11-04 16:37:38,263 INFO The CSRF token is missing.
+2022-11-04 16:37:38,265 INFO 127.0.0.1 - - [04/Nov/2022 16:37:38] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:37:38,287 INFO 127.0.0.1 - - [04/Nov/2022 16:37:38] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:41:22,651 INFO ====== WebDriver manager ======
+2022-11-04 16:41:22,663 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:41:22,663 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:41:22,665 INFO  * Restarting with stat
+2022-11-04 16:41:23,138 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:41:23,600 INFO ====== WebDriver manager ======
+2022-11-04 16:41:23,615 WARNING  * Debugger is active!
+2022-11-04 16:41:23,618 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:41:23,754 INFO 127.0.0.1 - - [04/Nov/2022 16:41:23] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:41:23,840 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:41:24,057 INFO 127.0.0.1 - - [04/Nov/2022 16:41:24] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:41:24,118 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:41:24,807 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:41:25,066 INFO Браузер открыт
+2022-11-04 16:41:25,846 INFO Браузер открыт
+2022-11-04 16:41:27,536 INFO 127.0.0.1 - - [04/Nov/2022 16:41:27] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 16:41:27,552 INFO 127.0.0.1 - - [04/Nov/2022 16:41:27] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:41:27,578 INFO 127.0.0.1 - - [04/Nov/2022 16:41:27] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:41:28,826 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:41:33,492 INFO Найдено 114372 объявлений
+2022-11-04 16:41:34,150 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_223m_36et._2564141367
+2022-11-04 16:41:37,913 INFO 127.0.0.1 - - [04/Nov/2022 16:41:37] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2022-11-04 16:41:37,929 INFO 127.0.0.1 - - [04/Nov/2022 16:41:37] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 16:41:37,930 INFO 127.0.0.1 - - [04/Nov/2022 16:41:37] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 16:41:37,965 INFO 127.0.0.1 - - [04/Nov/2022 16:41:37] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:41:37,986 INFO 127.0.0.1 - - [04/Nov/2022 16:41:37] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:41:38,834 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_223m_36et._2564141367 с ценой 5528547
+2022-11-04 16:41:38,834 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 16:41:42,549 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:41:43,393 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609 с ценой 34900000
+2022-11-04 16:41:43,393 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_237m_916et._2615769342
+2022-11-04 16:41:48,027 INFO Найдено 114570 объявлений
+2022-11-04 16:41:48,062 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:41:49,051 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_223m_36et._2564141367
+2022-11-04 16:41:53,881 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_89m_45et._2478902558
+2022-11-04 16:41:58,429 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:42:18,081 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_237m_916et._2615769342 с ценой 7598006
+2022-11-04 16:42:18,081 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_89m_45et._2478902558
+2022-11-04 16:42:22,553 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:42:28,304 INFO 127.0.0.1 - - [04/Nov/2022 16:42:28] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:42:28,328 INFO 127.0.0.1 - - [04/Nov/2022 16:42:28] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:42:28,448 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_89m_45et._2478902558 с ценой 29990000
+2022-11-04 16:42:28,448 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_1221et._2530927492
+2022-11-04 16:42:32,980 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_1221et._2530927492 с ценой 13320342
+2022-11-04 16:42:32,980 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_485m_325et._2499410776
+2022-11-04 16:42:37,562 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:42:39,811 INFO 127.0.0.1 - - [04/Nov/2022 16:42:39] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 16:42:39,814 INFO 127.0.0.1 - - [04/Nov/2022 16:42:39] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:42:39,849 INFO 127.0.0.1 - - [04/Nov/2022 16:42:39] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:42:42,129 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:42:44,905 INFO 127.0.0.1 - - [04/Nov/2022 16:42:44] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 16:42:44,918 INFO 127.0.0.1 - - [04/Nov/2022 16:42:44] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 16:42:44,951 INFO 127.0.0.1 - - [04/Nov/2022 16:42:44] "GET /static/style_welcome.css HTTP/1.1" 200 -
+2022-11-04 16:42:52,574 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_1221et._2530927492
+2022-11-04 16:42:57,155 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-04 16:43:03,724 INFO ====== WebDriver manager ======
+2022-11-04 16:43:03,736 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:43:03,736 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:43:03,738 INFO  * Restarting with stat
+2022-11-04 16:43:04,221 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:43:04,750 INFO ====== WebDriver manager ======
+2022-11-04 16:43:04,760 WARNING  * Debugger is active!
+2022-11-04 16:43:04,764 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:43:04,827 INFO 127.0.0.1 - - [04/Nov/2022 16:43:04] "[32mGET /auth HTTP/1.1[0m" 302 -
+2022-11-04 16:43:04,838 INFO 127.0.0.1 - - [04/Nov/2022 16:43:04] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 16:43:04,920 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:43:05,207 INFO 127.0.0.1 - - [04/Nov/2022 16:43:05] "[36mGET /static/style_welcome.css HTTP/1.1[0m" 304 -
+2022-11-04 16:43:05,398 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:43:06,136 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:43:06,140 INFO Браузер открыт
+2022-11-04 16:43:07,128 INFO Браузер открыт
+2022-11-04 16:43:09,222 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:43:11,293 INFO 127.0.0.1 - - [04/Nov/2022 16:43:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 16:43:11,302 INFO 127.0.0.1 - - [04/Nov/2022 16:43:11] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:43:11,326 INFO 127.0.0.1 - - [04/Nov/2022 16:43:11] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:43:13,946 INFO Найдено 114568 объявлений
+2022-11-04 16:43:14,598 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_171m_814et._2628602410
+2022-11-04 16:43:16,937 INFO The CSRF token is missing.
+2022-11-04 16:43:16,938 INFO 127.0.0.1 - - [04/Nov/2022 16:43:16] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:43:16,991 INFO 127.0.0.1 - - [04/Nov/2022 16:43:16] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:43:18,602 INFO 127.0.0.1 - - [04/Nov/2022 16:43:18] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:43:18,621 INFO 127.0.0.1 - - [04/Nov/2022 16:43:18] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:43:19,420 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_171m_814et._2628602410 с ценой 5814000
+2022-11-04 16:43:19,420 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_485m_325et._2499410776
+2022-11-04 16:43:23,806 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:43:23,984 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_223m_36et._2564141367
+2022-11-04 16:43:27,058 INFO 127.0.0.1 - - [04/Nov/2022 16:43:27] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 16:43:27,062 INFO 127.0.0.1 - - [04/Nov/2022 16:43:27] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:43:27,098 INFO 127.0.0.1 - - [04/Nov/2022 16:43:27] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:43:28,512 INFO Найдено 114527 объявлений
+2022-11-04 16:43:28,521 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_1221et._2530927492
+2022-11-04 16:43:29,445 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_417m_233et._2467011965
+2022-11-04 16:43:30,965 INFO The CSRF token is missing.
+2022-11-04 16:43:30,970 INFO 127.0.0.1 - - [04/Nov/2022 16:43:30] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:43:30,998 INFO 127.0.0.1 - - [04/Nov/2022 16:43:30] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:43:33,126 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:43:34,352 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_417m_233et._2467011965 с ценой 9536373
+2022-11-04 16:43:34,352 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:43:37,806 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:43:39,058 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:44:28,199 INFO ====== WebDriver manager ======
+2022-11-04 16:44:28,213 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:44:28,213 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:44:28,215 INFO  * Restarting with stat
+2022-11-04 16:44:28,956 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:44:29,556 INFO ====== WebDriver manager ======
+2022-11-04 16:44:29,566 WARNING  * Debugger is active!
+2022-11-04 16:44:29,571 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:44:29,634 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:44:30,008 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:44:30,278 INFO The CSRF token is missing.
+2022-11-04 16:44:30,285 INFO 127.0.0.1 - - [04/Nov/2022 16:44:30] "POST /auth HTTP/1.1" 200 -
+2022-11-04 16:44:30,681 INFO 127.0.0.1 - - [04/Nov/2022 16:44:30] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:44:30,849 INFO Браузер открыт
+2022-11-04 16:44:30,876 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:44:31,895 INFO Браузер открыт
+2022-11-04 16:44:33,720 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:44:35,852 INFO 127.0.0.1 - - [04/Nov/2022 16:44:35] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 16:44:35,859 INFO 127.0.0.1 - - [04/Nov/2022 16:44:35] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 16:44:35,878 INFO 127.0.0.1 - - [04/Nov/2022 16:44:35] "[36mGET /static/style_welcome.css HTTP/1.1[0m" 304 -
+2022-11-04 16:44:38,997 INFO Найдено 114372 объявлений
+2022-11-04 16:44:39,983 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_29m_99et._2598061797
+2022-11-04 16:44:44,759 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_29m_99et._2598061797 с ценой 7250000
+2022-11-04 16:44:44,759 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 16:44:48,050 INFO 127.0.0.1 - - [04/Nov/2022 16:44:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 16:44:48,061 INFO 127.0.0.1 - - [04/Nov/2022 16:44:48] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:44:48,116 INFO 127.0.0.1 - - [04/Nov/2022 16:44:48] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:44:49,135 INFO 127.0.0.1 - - [04/Nov/2022 16:44:49] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:44:49,164 INFO 127.0.0.1 - - [04/Nov/2022 16:44:49] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:44:49,256 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 16:44:49,594 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:44:53,880 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_307m_916et._2600095964
+2022-11-04 16:44:55,343 INFO Найдено 114568 объявлений
+2022-11-04 16:44:56,995 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 16:44:58,551 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:45:01,599 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_29m_99et._2598061797
+2022-11-04 16:45:03,012 INFO 127.0.0.1 - - [04/Nov/2022 16:45:03] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 16:45:03,019 INFO 127.0.0.1 - - [04/Nov/2022 16:45:03] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:45:03,051 INFO 127.0.0.1 - - [04/Nov/2022 16:45:03] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:45:06,086 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_307m_916et._2600095964
+2022-11-04 16:45:08,023 INFO 127.0.0.1 - - [04/Nov/2022 16:45:08] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 16:45:08,026 INFO 127.0.0.1 - - [04/Nov/2022 16:45:08] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 16:45:08,050 INFO 127.0.0.1 - - [04/Nov/2022 16:45:08] "[36mGET /static/style_welcome.css HTTP/1.1[0m" 304 -
+2022-11-04 16:45:10,594 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:45:18,616 INFO 127.0.0.1 - - [04/Nov/2022 16:45:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 16:45:18,621 INFO 127.0.0.1 - - [04/Nov/2022 16:45:18] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:45:18,645 INFO 127.0.0.1 - - [04/Nov/2022 16:45:18] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:48:20,216 INFO ====== WebDriver manager ======
+2022-11-04 16:48:20,227 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:48:20,227 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:48:20,229 INFO  * Restarting with stat
+2022-11-04 16:48:20,721 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:48:21,098 INFO ====== WebDriver manager ======
+2022-11-04 16:48:21,108 WARNING  * Debugger is active!
+2022-11-04 16:48:21,110 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:48:21,292 INFO 127.0.0.1 - - [04/Nov/2022 16:48:21] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:48:21,346 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:48:21,525 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:48:21,538 INFO 127.0.0.1 - - [04/Nov/2022 16:48:21] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:48:22,181 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:48:22,453 INFO Браузер открыт
+2022-11-04 16:48:22,641 INFO 127.0.0.1 - - [04/Nov/2022 16:48:22] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2022-11-04 16:48:22,661 INFO 127.0.0.1 - - [04/Nov/2022 16:48:22] "GET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-04 16:48:22,662 INFO 127.0.0.1 - - [04/Nov/2022 16:48:22] "GET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-04 16:48:22,669 INFO 127.0.0.1 - - [04/Nov/2022 16:48:22] "GET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-04 16:48:22,687 INFO 127.0.0.1 - - [04/Nov/2022 16:48:22] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 16:48:23,189 INFO Браузер открыт
+2022-11-04 16:48:34,296 INFO 127.0.0.1 - - [04/Nov/2022 16:48:34] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:48:34,310 INFO 127.0.0.1 - - [04/Nov/2022 16:48:34] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:48:39,819 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:48:40,542 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:48:45,016 INFO Найдено 114568 объявлений
+2022-11-04 16:48:46,037 INFO Найдено 114372 объявлений
+2022-11-04 16:48:47,167 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_132m_410et._2360122813
+2022-11-04 16:48:48,187 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_132m_410et._2360122813
+2022-11-04 16:48:51,891 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_132m_410et._2360122813 с ценой 4180000
+2022-11-04 16:48:51,891 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1624et._2570413246
+2022-11-04 16:48:53,688 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1624et._2570413246
+2022-11-04 16:48:56,441 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1624et._2570413246 с ценой 22591866
+2022-11-04 16:48:56,441 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:48:58,363 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:49:00,966 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:49:02,980 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:49:30,984 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_385m_421et._2599886955
+2022-11-04 16:49:32,994 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_233m_821et._2600174901
+2022-11-04 16:49:35,615 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_385m_421et._2599886955 с ценой 12174012
+2022-11-04 16:49:35,616 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_412et._2616760256
+2022-11-04 16:49:37,351 INFO  * Detected change in 'C:\\Users\\simpl\\Desktop\\grrr\\hakaton_task_6\\app\\forms.py', reloading
+2022-11-04 16:49:37,523 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_233m_821et._2600174901 с ценой 8688075
+2022-11-04 16:49:37,523 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_412et._2616760256
+2022-11-04 16:49:38,238 INFO 127.0.0.1 - - [04/Nov/2022 16:49:38] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:38,252 INFO 127.0.0.1 - - [04/Nov/2022 16:49:38] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:40,419 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_412et._2616760256 с ценой 12000000
+2022-11-04 16:49:40,419 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 16:49:42,076 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_513m_833et._2435317916
+2022-11-04 16:49:42,086 INFO 127.0.0.1 - - [04/Nov/2022 16:49:42] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:42,103 INFO 127.0.0.1 - - [04/Nov/2022 16:49:42] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:42,568 INFO 127.0.0.1 - - [04/Nov/2022 16:49:42] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:42,603 INFO 127.0.0.1 - - [04/Nov/2022 16:49:42] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:42,996 INFO 127.0.0.1 - - [04/Nov/2022 16:49:42] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:43,012 INFO 127.0.0.1 - - [04/Nov/2022 16:49:43] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:43,347 INFO 127.0.0.1 - - [04/Nov/2022 16:49:43] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:43,364 INFO 127.0.0.1 - - [04/Nov/2022 16:49:43] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:43,609 INFO 127.0.0.1 - - [04/Nov/2022 16:49:43] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:43,627 INFO 127.0.0.1 - - [04/Nov/2022 16:49:43] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:43,905 INFO 127.0.0.1 - - [04/Nov/2022 16:49:43] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:43,920 INFO 127.0.0.1 - - [04/Nov/2022 16:49:43] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:45,079 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_513m_833et._2435317916
+2022-11-04 16:49:52,052 INFO ====== WebDriver manager ======
+2022-11-04 16:49:52,066 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:49:52,066 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:49:52,068 INFO  * Restarting with stat
+2022-11-04 16:49:52,481 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:49:52,902 INFO ====== WebDriver manager ======
+2022-11-04 16:49:52,911 WARNING  * Debugger is active!
+2022-11-04 16:49:52,914 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:49:53,137 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:49:53,307 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:49:53,527 INFO 127.0.0.1 - - [04/Nov/2022 16:49:53] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:49:53,799 INFO 127.0.0.1 - - [04/Nov/2022 16:49:53] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:49:53,998 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:49:54,275 INFO Браузер открыт
+2022-11-04 16:49:55,084 INFO Браузер открыт
+2022-11-04 16:50:01,964 INFO 127.0.0.1 - - [04/Nov/2022 16:50:01] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:50:01,976 INFO 127.0.0.1 - - [04/Nov/2022 16:50:01] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:50:11,433 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:50:12,894 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:50:17,231 INFO Найдено 114527 объявлений
+2022-11-04 16:50:18,705 INFO Найдено 114570 объявлений
+2022-11-04 16:50:19,277 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_75m_3866et._2604767298
+2022-11-04 16:50:20,718 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_75m_3866et._2604767298
+2022-11-04 16:50:22,590 INFO 127.0.0.1 - - [04/Nov/2022 16:50:22] "GET /registration HTTP/1.1" 200 -
+2022-11-04 16:50:22,621 INFO 127.0.0.1 - - [04/Nov/2022 16:50:22] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:50:24,386 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:50:26,158 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:50:32,649 INFO 127.0.0.1 - - [04/Nov/2022 16:50:32] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 16:50:32,657 INFO 127.0.0.1 - - [04/Nov/2022 16:50:32] "GET /auth HTTP/1.1" 200 -
+2022-11-04 16:50:32,684 INFO 127.0.0.1 - - [04/Nov/2022 16:50:32] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:50:40,757 INFO 127.0.0.1 - - [04/Nov/2022 16:50:40] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 16:50:40,763 INFO 127.0.0.1 - - [04/Nov/2022 16:50:40] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 16:50:40,794 INFO 127.0.0.1 - - [04/Nov/2022 16:50:40] "[36mGET /static/style_welcome.css HTTP/1.1[0m" 304 -
+2022-11-04 16:52:37,266 INFO ====== WebDriver manager ======
+2022-11-04 16:52:37,277 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:52:37,277 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:52:37,279 INFO  * Restarting with stat
+2022-11-04 16:52:37,782 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:52:38,220 INFO ====== WebDriver manager ======
+2022-11-04 16:52:38,231 WARNING  * Debugger is active!
+2022-11-04 16:52:38,233 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:52:38,403 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:52:38,455 INFO 127.0.0.1 - - [04/Nov/2022 16:52:38] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 16:52:38,637 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:52:38,685 INFO 127.0.0.1 - - [04/Nov/2022 16:52:38] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:52:39,350 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:52:39,524 INFO Браузер открыт
+2022-11-04 16:52:40,340 INFO Браузер открыт
+2022-11-04 16:52:43,067 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:52:43,180 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:52:47,833 INFO Найдено 114527 объявлений
+2022-11-04 16:52:47,966 INFO Найдено 114372 объявлений
+2022-11-04 16:52:48,631 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_713m_36et._2344502181
+2022-11-04 16:52:48,686 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_917et._2606730310
+2022-11-04 16:52:49,533 INFO 127.0.0.1 - - [04/Nov/2022 16:52:49] "GET /welcome?file_xl_welcome= HTTP/1.1" 200 -
+2022-11-04 16:52:49,573 INFO 127.0.0.1 - - [04/Nov/2022 16:52:49] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:52:50,476 INFO 127.0.0.1 - - [04/Nov/2022 16:52:50] "GET /welcome?file_xl_welcome= HTTP/1.1" 200 -
+2022-11-04 16:52:50,514 INFO 127.0.0.1 - - [04/Nov/2022 16:52:50] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:52:53,562 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_917et._2606730310 с ценой 9700000
+2022-11-04 16:52:53,562 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_687m_3232et._2338904204
+2022-11-04 16:52:53,616 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_713m_36et._2344502181 с ценой 28900000
+2022-11-04 16:52:53,616 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-04 16:52:58,199 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:52:58,256 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_687m_3232et._2338904204 с ценой 20348253
+2022-11-04 16:52:58,256 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:53:02,984 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:53:27,764 INFO 127.0.0.1 - - [04/Nov/2022 16:53:27] "GET /welcome?file_xl_welcome= HTTP/1.1" 200 -
+2022-11-04 16:53:27,779 INFO 127.0.0.1 - - [04/Nov/2022 16:53:27] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:53:28,234 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_118m_45et._2598453309
+2022-11-04 16:53:33,007 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_243m_3032et._2402868408
+2022-11-04 16:53:33,248 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_118m_45et._2598453309 с ценой 4356600
+2022-11-04 16:53:33,248 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_451m_225et._2636645843
+2022-11-04 16:53:37,463 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_243m_3032et._2402868408 с ценой 5843664
+2022-11-04 16:53:37,463 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._apartamenty_1314m_2324et._2316751658
+2022-11-04 16:53:37,991 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_451m_225et._2636645843 с ценой 10864361
+2022-11-04 16:53:37,992 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:53:41,946 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._apartamenty_1314m_2324et._2316751658 с ценой 27188466
+2022-11-04 16:53:41,946 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:53:42,712 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:53:46,367 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._apartamenty_922m_1028et._2179257653
+2022-11-04 16:53:50,810 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:53:51,867 INFO 127.0.0.1 - - [04/Nov/2022 16:53:51] "GET /welcome?file_xl_welcome= HTTP/1.1" 200 -
+2022-11-04 16:53:51,882 INFO 127.0.0.1 - - [04/Nov/2022 16:53:51] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:54:12,724 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_877m_528et._2459148941
+2022-11-04 16:54:17,253 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:54:20,831 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._apartamenty_922m_1028et._2179257653 с ценой 16347060
+2022-11-04 16:54:20,831 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/auktsion_2-k._kvartira_58m_330et._2419760358
+2022-11-04 16:54:21,699 INFO 127.0.0.1 - - [04/Nov/2022 16:54:21] "GET /welcome?file_xl_welcome= HTTP/1.1" 200 -
+2022-11-04 16:54:21,716 INFO 127.0.0.1 - - [04/Nov/2022 16:54:21] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:54:25,269 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:54:36,563 INFO 127.0.0.1 - - [04/Nov/2022 16:54:36] "GET /welcome?file_xl_welcome= HTTP/1.1" 200 -
+2022-11-04 16:54:36,577 INFO 127.0.0.1 - - [04/Nov/2022 16:54:36] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:54:40,322 INFO 127.0.0.1 - - [04/Nov/2022 16:54:40] "GET /analogue HTTP/1.1" 200 -
+2022-11-04 16:54:40,351 INFO 127.0.0.1 - - [04/Nov/2022 16:54:40] "GET /static/style_analogue.css HTTP/1.1" 200 -
+2022-11-04 16:54:42,488 INFO 127.0.0.1 - - [04/Nov/2022 16:54:42] "GET /adjustments HTTP/1.1" 200 -
+2022-11-04 16:54:42,510 INFO 127.0.0.1 - - [04/Nov/2022 16:54:42] "[36mGET /static/style_analogue.css HTTP/1.1[0m" 304 -
+2022-11-04 16:54:47,283 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_877m_528et._2459148941 с ценой 28453307
+2022-11-04 16:54:47,283 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_166m_714et._2566517878
+2022-11-04 16:54:51,705 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_166m_714et._2566517878 с ценой 5810000
+2022-11-04 16:54:51,705 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_687m_3232et._2338904204
+2022-11-04 16:54:55,297 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/auktsion_2-k._kvartira_58m_330et._2419760358 с ценой 19500000
+2022-11-04 16:54:55,298 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1008m_2323et._2623795058
+2022-11-04 16:54:56,163 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:54:59,727 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1008m_2323et._2623795058 с ценой 28234663
+2022-11-04 16:54:59,727 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_783m_724et._2498943698
+2022-11-04 16:55:00,784 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_1121et._2599905254
+2022-11-04 16:55:04,242 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_783m_724et._2498943698 с ценой 19788289
+2022-11-04 16:55:04,243 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 16:55:05,333 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_1121et._2599905254 с ценой 8630226
+2022-11-04 16:55:05,333 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._apartamenty_922m_1028et._2179257653
+2022-11-04 16:56:03,861 INFO ====== WebDriver manager ======
+2022-11-04 16:56:03,872 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 16:56:03,872 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 16:56:03,874 INFO  * Restarting with stat
+2022-11-04 16:56:04,261 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:56:04,666 INFO ====== WebDriver manager ======
+2022-11-04 16:56:04,676 WARNING  * Debugger is active!
+2022-11-04 16:56:04,678 INFO  * Debugger PIN: 952-476-392
+2022-11-04 16:56:04,727 INFO 127.0.0.1 - - [04/Nov/2022 16:56:04] "GET /welcome?file_xl_welcome= HTTP/1.1" 200 -
+2022-11-04 16:56:04,976 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:56:05,026 INFO 127.0.0.1 - - [04/Nov/2022 16:56:05] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:56:05,155 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 16:56:05,911 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 16:56:06,142 INFO Браузер открыт
+2022-11-04 16:56:06,963 INFO Браузер открыт
+2022-11-04 16:56:07,912 INFO 127.0.0.1 - - [04/Nov/2022 16:56:07] "GET /analogue HTTP/1.1" 200 -
+2022-11-04 16:56:08,943 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:56:10,118 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 16:56:10,820 INFO 127.0.0.1 - - [04/Nov/2022 16:56:10] "GET /adjustments HTTP/1.1" 200 -
+2022-11-04 16:56:10,856 INFO 127.0.0.1 - - [04/Nov/2022 16:56:10] "[36mGET /static/style_analogue.css HTTP/1.1[0m" 304 -
+2022-11-04 16:56:12,609 INFO 127.0.0.1 - - [04/Nov/2022 16:56:12] "GET /analogue HTTP/1.1" 200 -
+2022-11-04 16:56:14,475 INFO Найдено 114372 объявлений
+2022-11-04 16:56:15,336 INFO Найдено 114461 объявлений
+2022-11-04 16:56:15,480 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_72m_616et._2534468271
+2022-11-04 16:56:16,201 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 16:56:20,177 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_72m_616et._2534468271 с ценой 25000000
+2022-11-04 16:56:20,177 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_216et._2615800055
+2022-11-04 16:56:20,902 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:56:24,846 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_216et._2615800055 с ценой 11060020
+2022-11-04 16:56:24,846 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 16:56:29,381 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:56:36,626 INFO 127.0.0.1 - - [04/Nov/2022 16:56:36] "GET /adjustments HTTP/1.1" 200 -
+2022-11-04 16:56:36,639 INFO 127.0.0.1 - - [04/Nov/2022 16:56:36] "[36mGET /static/style_analogue.css HTTP/1.1[0m" 304 -
+2022-11-04 16:56:39,018 INFO 127.0.0.1 - - [04/Nov/2022 16:56:39] "GET /analogue HTTP/1.1" 200 -
+2022-11-04 16:56:50,929 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 16:56:55,453 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 16:56:59,397 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_325m_533et._2467574296
+2022-11-04 16:57:00,167 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 16:57:04,200 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:57:05,114 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 16:57:07,196 INFO 127.0.0.1 - - [04/Nov/2022 16:57:07] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 16:57:07,203 INFO 127.0.0.1 - - [04/Nov/2022 16:57:07] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 16:57:07,220 INFO 127.0.0.1 - - [04/Nov/2022 16:57:07] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 16:57:09,642 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 16:57:14,240 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 16:57:18,946 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-04 16:57:23,703 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 16:57:28,363 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:57:34,230 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_325m_533et._2467574296 с ценой 7880898
+2022-11-04 16:57:34,231 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_375m_116et._2599955235
+2022-11-04 16:57:38,860 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:57:58,385 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373
+2022-11-04 16:58:03,209 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602
+2022-11-04 16:58:07,882 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_44m_515et._2563238560
+2022-11-04 16:58:08,960 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_375m_116et._2599955235 с ценой 7371000
+2022-11-04 16:58:08,960 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 16:58:12,606 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846
+2022-11-04 16:58:14,147 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_536m_1821et._2435773011
+2022-11-04 16:58:17,238 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524
+2022-11-04 16:58:19,057 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_536m_1821et._2435773011 с ценой 13005504
+2022-11-04 16:58:19,058 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 16:58:21,869 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_79et._2542955985
+2022-11-04 16:58:24,171 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_253m_221et._2599865284
+2022-11-04 16:58:26,352 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166
+2022-11-04 16:58:28,707 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_253m_221et._2599865284 с ценой 8605602
+2022-11-04 16:58:28,707 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-04 16:58:31,145 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969
+2022-11-04 16:58:33,282 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 16:58:35,695 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676
+2022-11-04 16:58:40,272 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:00:22,033 INFO ====== WebDriver manager ======
+2022-11-04 17:00:22,045 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:00:22,045 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:00:22,047 INFO  * Restarting with stat
+2022-11-04 17:00:22,483 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:00:22,853 INFO ====== WebDriver manager ======
+2022-11-04 17:00:22,862 WARNING  * Debugger is active!
+2022-11-04 17:00:22,865 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:00:23,093 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:00:23,238 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:00:23,967 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:00:23,995 INFO 127.0.0.1 - - [04/Nov/2022 17:00:23] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:00:24,181 INFO Браузер открыт
+2022-11-04 17:00:24,215 INFO 127.0.0.1 - - [04/Nov/2022 17:00:24] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:00:25,009 INFO 127.0.0.1 - - [04/Nov/2022 17:00:25] "GET /analogue HTTP/1.1" 200 -
+2022-11-04 17:00:25,010 INFO Браузер открыт
+2022-11-04 17:00:27,579 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:00:28,688 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:00:32,128 INFO 127.0.0.1 - - [04/Nov/2022 17:00:32] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:00:32,166 INFO 127.0.0.1 - - [04/Nov/2022 17:00:32] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:00:32,950 INFO Найдено 114572 объявлений
+2022-11-04 17:00:34,120 INFO Найдено 114507 объявлений
+2022-11-04 17:00:34,187 INFO 127.0.0.1 - - [04/Nov/2022 17:00:34] "GET /analogue HTTP/1.1" 200 -
+2022-11-04 17:00:34,219 INFO 127.0.0.1 - - [04/Nov/2022 17:00:34] "[36mGET /static/style_analogue.css HTTP/1.1[0m" 304 -
+2022-11-04 17:00:34,655 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 17:00:35,913 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 17:00:39,590 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:00:40,766 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:01:09,603 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 17:01:10,794 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 17:01:14,172 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 17:01:15,334 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 17:01:18,988 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 17:01:20,127 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 17:01:20,192 INFO 127.0.0.1 - - [04/Nov/2022 17:01:20] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:01:20,214 INFO 127.0.0.1 - - [04/Nov/2022 17:01:20] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:01:23,542 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 17:01:24,700 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 17:01:28,047 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 17:01:29,347 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 17:01:32,649 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 17:01:33,940 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 17:01:37,212 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-04 17:01:38,565 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-04 17:01:41,716 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 17:01:43,148 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 17:01:46,209 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:02:10,825 INFO ====== WebDriver manager ======
+2022-11-04 17:02:10,836 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:02:10,837 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:02:10,838 INFO  * Restarting with stat
+2022-11-04 17:02:11,256 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:02:11,627 INFO ====== WebDriver manager ======
+2022-11-04 17:02:11,637 WARNING  * Debugger is active!
+2022-11-04 17:02:11,639 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:02:11,900 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:02:12,069 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:02:12,605 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:02:12,993 INFO Браузер открыт
+2022-11-04 17:02:13,608 INFO Браузер открыт
+2022-11-04 17:02:14,109 INFO 127.0.0.1 - - [04/Nov/2022 17:02:14] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:02:14,326 INFO 127.0.0.1 - - [04/Nov/2022 17:02:14] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:02:15,311 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:02:16,297 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:02:20,203 INFO Найдено 114466 объявлений
+2022-11-04 17:02:20,906 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_342m_133et._2531226473
+2022-11-04 17:02:21,012 INFO Найдено 114527 объявлений
+2022-11-04 17:02:21,694 INFO 127.0.0.1 - - [04/Nov/2022 17:02:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 17:02:21,782 INFO 127.0.0.1 - - [04/Nov/2022 17:02:21] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:02:21,902 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_39m_2526et._2595798422
+2022-11-04 17:02:21,903 INFO 127.0.0.1 - - [04/Nov/2022 17:02:21] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:02:25,624 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_342m_133et._2531226473 с ценой 8867718
+2022-11-04 17:02:25,624 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:02:26,771 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_39m_2526et._2595798422 с ценой 13298688
+2022-11-04 17:02:26,771 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:02:30,239 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:02:31,309 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:02:34,318 INFO 127.0.0.1 - - [04/Nov/2022 17:02:34] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2022-11-04 17:02:34,334 INFO 127.0.0.1 - - [04/Nov/2022 17:02:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 17:02:34,338 INFO 127.0.0.1 - - [04/Nov/2022 17:02:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 17:02:34,349 INFO 127.0.0.1 - - [04/Nov/2022 17:02:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:02:34,365 INFO 127.0.0.1 - - [04/Nov/2022 17:02:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:03:00,259 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1216et._2600579311
+2022-11-04 17:03:01,321 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_769m_834et._2499789783
+2022-11-04 17:03:04,836 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:03:05,902 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_769m_834et._2499789783 с ценой 17740825
+2022-11-04 17:03:05,903 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_342m_133et._2531226473
+2022-11-04 17:03:10,432 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 17:03:14,957 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_199m_223et._2467496622
+2022-11-04 17:03:19,698 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_199m_223et._2467496622 с ценой 7079823
+2022-11-04 17:03:19,698 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_256m_1621et._2562934958
+2022-11-04 17:03:24,183 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_256m_1621et._2562934958 с ценой 6937705
+2022-11-04 17:03:24,183 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 17:03:28,626 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:03:32,997 INFO 127.0.0.1 - - [04/Nov/2022 17:03:32] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:03:34,852 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1216et._2600579311 с ценой 5775224
+2022-11-04 17:03:34,852 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_39m_2526et._2595798422
+2022-11-04 17:03:39,509 INFO 127.0.0.1 - - [04/Nov/2022 17:03:39] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 17:03:39,513 INFO 127.0.0.1 - - [04/Nov/2022 17:03:39] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:03:39,535 INFO 127.0.0.1 - - [04/Nov/2022 17:03:39] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:03:39,569 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 17:03:44,093 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_328m_69et._2535169187
+2022-11-04 17:03:45,821 INFO 127.0.0.1 - - [04/Nov/2022 17:03:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 17:03:45,829 INFO 127.0.0.1 - - [04/Nov/2022 17:03:45] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:03:45,845 INFO 127.0.0.1 - - [04/Nov/2022 17:03:45] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:03:48,582 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:03:48,931 INFO 127.0.0.1 - - [04/Nov/2022 17:03:48] "GET /registration HTTP/1.1" 200 -
+2022-11-04 17:03:48,947 INFO 127.0.0.1 - - [04/Nov/2022 17:03:48] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:03:56,347 INFO 127.0.0.1 - - [04/Nov/2022 17:03:56] "POST /registration HTTP/1.1" 200 -
+2022-11-04 17:03:56,362 INFO 127.0.0.1 - - [04/Nov/2022 17:03:56] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:03:58,652 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_787m_6268et._2379918983
+2022-11-04 17:04:03,139 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_787m_6268et._2379918983 с ценой 18957234
+2022-11-04 17:04:03,140 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_1421et._2600652124
+2022-11-04 17:04:07,597 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_1421et._2600652124 с ценой 7040050
+2022-11-04 17:04:07,597 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003
+2022-11-04 17:04:09,084 INFO 127.0.0.1 - - [04/Nov/2022 17:04:09] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 17:04:09,088 INFO 127.0.0.1 - - [04/Nov/2022 17:04:09] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:04:09,109 INFO 127.0.0.1 - - [04/Nov/2022 17:04:09] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:04:10,393 INFO 127.0.0.1 - - [04/Nov/2022 17:04:10] "GET /registration HTTP/1.1" 200 -
+2022-11-04 17:04:10,408 INFO 127.0.0.1 - - [04/Nov/2022 17:04:10] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:04:11,979 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1216et._2600579311
+2022-11-04 17:04:16,377 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:04:17,530 INFO 127.0.0.1 - - [04/Nov/2022 17:04:17] "POST /registration HTTP/1.1" 200 -
+2022-11-04 17:04:17,546 INFO 127.0.0.1 - - [04/Nov/2022 17:04:17] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:04:18,606 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_328m_69et._2535169187 с ценой 8300000
+2022-11-04 17:04:18,606 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_1421et._2600652124
+2022-11-04 17:04:23,069 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 17:04:27,568 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_633et._2434949133
+2022-11-04 17:04:32,294 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_633et._2434949133 с ценой 9114300
+2022-11-04 17:04:32,294 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_421et._2600503832
+2022-11-04 17:04:32,546 INFO 127.0.0.1 - - [04/Nov/2022 17:04:32] "POST /registration HTTP/1.1" 200 -
+2022-11-04 17:04:32,588 INFO 127.0.0.1 - - [04/Nov/2022 17:04:32] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:04:36,878 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_421et._2600503832 с ценой 8448117
+2022-11-04 17:04:36,878 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 17:04:37,826 INFO 127.0.0.1 - - [04/Nov/2022 17:04:37] "POST /registration HTTP/1.1" 200 -
+2022-11-04 17:04:37,847 INFO 127.0.0.1 - - [04/Nov/2022 17:04:37] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:04:41,353 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:04:46,398 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_25m_714et._2511511318
+2022-11-04 17:04:49,848 INFO 127.0.0.1 - - [04/Nov/2022 17:04:49] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 17:04:49,852 INFO 127.0.0.1 - - [04/Nov/2022 17:04:49] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:04:49,868 INFO 127.0.0.1 - - [04/Nov/2022 17:04:49] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:04:50,949 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_25m_714et._2511511318 с ценой 6300000
+2022-11-04 17:04:50,949 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_416m_523et._2466942358
+2022-11-04 17:04:56,200 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_416m_523et._2466942358 с ценой 8892000
+2022-11-04 17:04:56,201 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639
+2022-11-04 17:04:56,337 INFO 127.0.0.1 - - [04/Nov/2022 17:04:56] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2022-11-04 17:04:56,351 INFO 127.0.0.1 - - [04/Nov/2022 17:04:56] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 17:04:56,356 INFO 127.0.0.1 - - [04/Nov/2022 17:04:56] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 17:04:56,365 INFO 127.0.0.1 - - [04/Nov/2022 17:04:56] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:04:56,378 INFO 127.0.0.1 - - [04/Nov/2022 17:04:56] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:05:00,639 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:05:06,983 INFO 127.0.0.1 - - [04/Nov/2022 17:05:06] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 17:05:06,987 INFO 127.0.0.1 - - [04/Nov/2022 17:05:06] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:05:07,003 INFO 127.0.0.1 - - [04/Nov/2022 17:05:07] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:05:11,388 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_715m_713et._2393333578
+2022-11-04 17:05:15,984 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_715m_713et._2393333578 с ценой 33762300
+2022-11-04 17:05:15,985 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_223m_55et._2628334650
+2022-11-04 17:05:20,474 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_223m_55et._2628334650 с ценой 6351320
+2022-11-04 17:05:20,474 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_718m_1333et._2339362566
+2022-11-04 17:05:24,995 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:05:30,653 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_493m_1324et._2531269636
+2022-11-04 17:05:35,161 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_493m_1324et._2531269636 с ценой 13148704
+2022-11-04 17:05:35,162 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_402m_618et._2636660265
+2022-11-04 17:05:35,879 INFO 127.0.0.1 - - [04/Nov/2022 17:05:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 17:05:35,891 INFO 127.0.0.1 - - [04/Nov/2022 17:05:35] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:05:35,916 INFO 127.0.0.1 - - [04/Nov/2022 17:05:35] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:05:39,677 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:10:06,254 INFO ====== WebDriver manager ======
+2022-11-04 17:10:06,273 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:10:06,273 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:10:06,275 INFO  * Restarting with stat
+2022-11-04 17:10:07,007 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:10:07,376 INFO ====== WebDriver manager ======
+2022-11-04 17:10:07,387 WARNING  * Debugger is active!
+2022-11-04 17:10:07,389 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:10:07,637 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:10:07,834 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:10:08,357 INFO 127.0.0.1 - - [04/Nov/2022 17:10:08] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:10:08,558 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:10:08,647 INFO 127.0.0.1 - - [04/Nov/2022 17:10:08] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:10:08,721 INFO Браузер открыт
+2022-11-04 17:10:09,565 INFO Браузер открыт
+2022-11-04 17:10:11,032 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:10:12,099 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:10:13,119 INFO 127.0.0.1 - - [04/Nov/2022 17:10:13] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:10:13,139 INFO 127.0.0.1 - - [04/Nov/2022 17:10:13] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:10:17,574 INFO Найдено 114461 объявлений
+2022-11-04 17:10:17,662 INFO Найдено 114461 объявлений
+2022-11-04 17:10:18,916 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_25m_11et._2594113540
+2022-11-04 17:10:19,201 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_13m_34et._2628009152
+2022-11-04 17:10:20,673 INFO 127.0.0.1 - - [04/Nov/2022 17:10:20] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:10:20,706 INFO 127.0.0.1 - - [04/Nov/2022 17:10:20] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:10:24,070 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:10:24,216 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_13m_34et._2628009152 с ценой 6142806
+2022-11-04 17:10:24,217 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1521et._2600556978
+2022-11-04 17:10:28,871 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1521et._2600556978 с ценой 7354756
+2022-11-04 17:10:28,871 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:10:33,442 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:10:54,149 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_25m_11et._2594113540 с ценой 9500000
+2022-11-04 17:10:54,149 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_69m_1113et._2585579525
+2022-11-04 17:10:57,402 INFO ====== WebDriver manager ======
+2022-11-04 17:10:57,420 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:10:57,420 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:10:57,423 INFO  * Restarting with stat
+2022-11-04 17:10:57,994 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:10:58,584 INFO ====== WebDriver manager ======
+2022-11-04 17:10:58,598 WARNING  * Debugger is active!
+2022-11-04 17:10:58,603 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:10:58,740 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:10:59,083 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:10:59,844 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:10:59,904 INFO Браузер открыт
+2022-11-04 17:11:00,911 INFO Браузер открыт
+2022-11-04 17:11:07,283 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:11:07,346 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:11:11,416 INFO Браузер закрыт
+2022-11-04 17:11:11,445 INFO Браузер закрыт
+2022-11-04 17:11:18,239 INFO 127.0.0.1 - - [04/Nov/2022 17:11:18] "GET /registration HTTP/1.1" 200 -
+2022-11-04 17:11:18,468 INFO 127.0.0.1 - - [04/Nov/2022 17:11:18] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:11:30,962 INFO 127.0.0.1 - - [04/Nov/2022 17:11:30] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 17:11:30,966 INFO 127.0.0.1 - - [04/Nov/2022 17:11:30] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:11:30,983 INFO 127.0.0.1 - - [04/Nov/2022 17:11:30] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:11:39,266 INFO 127.0.0.1 - - [04/Nov/2022 17:11:39] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:11:39,287 INFO 127.0.0.1 - - [04/Nov/2022 17:11:39] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:11:46,137 INFO 127.0.0.1 - - [04/Nov/2022 17:11:46] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:11:46,155 INFO 127.0.0.1 - - [04/Nov/2022 17:11:46] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:11:50,201 INFO 127.0.0.1 - - [04/Nov/2022 17:11:50] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:11:50,215 INFO 127.0.0.1 - - [04/Nov/2022 17:11:50] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:12:12,467 INFO 127.0.0.1 - - [04/Nov/2022 17:12:12] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:12:12,482 INFO 127.0.0.1 - - [04/Nov/2022 17:12:12] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:13:29,251 INFO  * Detected change in 'C:\\Users\\simpl\\Desktop\\grrr\\hakaton_task_6\\app\\routes.py', reloading
+2022-11-04 17:13:29,325 INFO  * Restarting with stat
+2022-11-04 17:13:30,088 INFO ====== WebDriver manager ======
+2022-11-04 17:13:30,099 WARNING  * Debugger is active!
+2022-11-04 17:13:30,101 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:13:30,496 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:13:31,080 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:13:32,099 INFO 127.0.0.1 - - [04/Nov/2022 17:13:32] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 17:13:32,107 INFO 127.0.0.1 - - [04/Nov/2022 17:13:32] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:13:32,164 INFO Браузер открыт
+2022-11-04 17:13:32,453 INFO 127.0.0.1 - - [04/Nov/2022 17:13:32] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:13:35,911 INFO 127.0.0.1 - - [04/Nov/2022 17:13:35] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 17:13:35,917 INFO 127.0.0.1 - - [04/Nov/2022 17:13:35] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:13:35,936 INFO 127.0.0.1 - - [04/Nov/2022 17:13:35] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:13:43,023 INFO 127.0.0.1 - - [04/Nov/2022 17:13:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 17:13:43,033 INFO 127.0.0.1 - - [04/Nov/2022 17:13:43] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:13:43,050 INFO 127.0.0.1 - - [04/Nov/2022 17:13:43] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:13:49,338 INFO 127.0.0.1 - - [04/Nov/2022 17:13:49] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2022-11-04 17:13:49,354 INFO 127.0.0.1 - - [04/Nov/2022 17:13:49] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 17:13:49,360 INFO 127.0.0.1 - - [04/Nov/2022 17:13:49] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 17:13:49,369 INFO 127.0.0.1 - - [04/Nov/2022 17:13:49] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:13:49,385 INFO 127.0.0.1 - - [04/Nov/2022 17:13:49] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:13:49,626 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:13:52,085 INFO 127.0.0.1 - - [04/Nov/2022 17:13:52] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:13:54,816 INFO Найдено 114461 объявлений
+2022-11-04 17:13:55,474 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 17:14:00,075 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:14:26,868 INFO ====== WebDriver manager ======
+2022-11-04 17:14:26,882 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:14:26,882 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:14:26,884 INFO  * Restarting with stat
+2022-11-04 17:14:27,722 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:14:28,233 INFO ====== WebDriver manager ======
+2022-11-04 17:14:28,243 WARNING  * Debugger is active!
+2022-11-04 17:14:28,245 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:14:28,398 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:14:28,496 INFO 127.0.0.1 - - [04/Nov/2022 17:14:28] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:14:28,676 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:14:28,729 INFO 127.0.0.1 - - [04/Nov/2022 17:14:28] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:14:29,355 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:14:29,478 INFO Браузер открыт
+2022-11-04 17:14:30,366 INFO Браузер открыт
+2022-11-04 17:14:31,460 INFO 127.0.0.1 - - [04/Nov/2022 17:14:31] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 17:14:31,464 INFO 127.0.0.1 - - [04/Nov/2022 17:14:31] "GET /auth?form=%3Capp.forms.LoginForm+object+at+0x000001EF1DEFF8B0%3E HTTP/1.1" 200 -
+2022-11-04 17:14:31,483 INFO 127.0.0.1 - - [04/Nov/2022 17:14:31] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:14:32,429 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:14:33,261 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:14:35,528 INFO 127.0.0.1 - - [04/Nov/2022 17:14:35] "[32mPOST /auth?form=%3Capp.forms.LoginForm+object+at+0x000001EF1DEFF8B0%3E HTTP/1.1[0m" 302 -
+2022-11-04 17:14:35,534 INFO 127.0.0.1 - - [04/Nov/2022 17:14:35] "GET /auth?form=%3Capp.forms.LoginForm+object+at+0x000001EF1DEE7520%3E HTTP/1.1" 200 -
+2022-11-04 17:14:35,551 INFO 127.0.0.1 - - [04/Nov/2022 17:14:35] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:14:37,350 INFO Найдено 114526 объявлений
+2022-11-04 17:14:38,131 INFO Найдено 114461 объявлений
+2022-11-04 17:14:38,328 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 17:14:39,357 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 17:14:43,220 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:14:44,173 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:15:13,237 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 17:15:14,250 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_317m_15et._2601110047
+2022-11-04 17:15:17,758 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 17:15:18,905 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_317m_15et._2601110047 с ценой 4574000
+2022-11-04 17:15:18,905 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_897m_715et._2623664830
+2022-11-04 17:15:22,269 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 17:15:23,603 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_897m_715et._2623664830 с ценой 27913492
+2022-11-04 17:15:23,603 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_561m_721et._2600771915
+2022-11-04 17:15:26,776 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 17:15:28,159 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_561m_721et._2600771915 с ценой 21133094
+2022-11-04 17:15:28,159 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:15:31,331 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-04 17:15:32,664 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:15:35,983 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-04 17:15:40,460 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-04 17:15:45,036 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 17:15:49,514 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:17:18,987 INFO ====== WebDriver manager ======
+2022-11-04 17:17:19,004 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:17:19,005 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:17:19,007 INFO  * Restarting with stat
+2022-11-04 17:17:19,507 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:17:19,927 INFO ====== WebDriver manager ======
+2022-11-04 17:17:19,937 WARNING  * Debugger is active!
+2022-11-04 17:17:19,939 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:17:20,205 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:17:20,367 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:17:20,847 INFO 127.0.0.1 - - [04/Nov/2022 17:17:20] "GET /auth?form=%3Capp.forms.LoginForm+object+at+0x000001EF1DEE7520%3E HTTP/1.1" 200 -
+2022-11-04 17:17:21,084 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:17:21,154 INFO 127.0.0.1 - - [04/Nov/2022 17:17:21] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:17:21,298 INFO Браузер открыт
+2022-11-04 17:17:22,178 INFO Браузер открыт
+2022-11-04 17:17:23,254 INFO 127.0.0.1 - - [04/Nov/2022 17:17:23] "[32mPOST /auth?form=%3Capp.forms.LoginForm+object+at+0x000001EF1DEE7520%3E HTTP/1.1[0m" 302 -
+2022-11-04 17:17:23,258 INFO 127.0.0.1 - - [04/Nov/2022 17:17:23] "GET /auth?form=%3Capp.forms.LoginForm+object+at+0x0000022DEACF3BB0%3E HTTP/1.1" 200 -
+2022-11-04 17:17:23,279 INFO 127.0.0.1 - - [04/Nov/2022 17:17:23] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:17:24,200 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:17:27,577 ERROR Ошибка браузера!!! Не удалось открыть сайт
+2022-11-04 17:17:29,622 INFO ====== WebDriver manager ======
+2022-11-04 17:17:29,633 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:17:29,633 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:17:29,635 INFO  * Restarting with stat
+2022-11-04 17:17:30,049 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:17:30,529 INFO ====== WebDriver manager ======
+2022-11-04 17:17:30,540 WARNING  * Debugger is active!
+2022-11-04 17:17:30,542 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:17:30,613 INFO 127.0.0.1 - - [04/Nov/2022 17:17:30] "GET /auth?form=%3Capp.forms.LoginForm+object+at+0x0000022DEACF3BB0%3E HTTP/1.1" 200 -
+2022-11-04 17:17:30,724 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:17:30,965 INFO 127.0.0.1 - - [04/Nov/2022 17:17:30] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:17:31,086 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:17:31,779 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:17:31,829 INFO Браузер открыт
+2022-11-04 17:17:32,789 INFO Браузер открыт
+2022-11-04 17:17:34,146 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:17:34,833 INFO 127.0.0.1 - - [04/Nov/2022 17:17:34] "[35m[1mPOST /auth?form=%3Capp.forms.LoginForm+object+at+0x0000022DEACF3BB0%3E HTTP/1.1[0m" 500 -
+2022-11-04 17:17:34,857 INFO 127.0.0.1 - - [04/Nov/2022 17:17:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-04 17:17:34,882 INFO 127.0.0.1 - - [04/Nov/2022 17:17:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-04 17:17:34,931 INFO 127.0.0.1 - - [04/Nov/2022 17:17:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:17:34,941 INFO 127.0.0.1 - - [04/Nov/2022 17:17:34] "[36mGET /auth?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-04 17:17:38,955 INFO Найдено 114383 объявлений
+2022-11-04 17:17:39,623 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_615m_1617et._2467794596
+2022-11-04 17:17:44,239 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_615m_1617et._2467794596 с ценой 12807990
+2022-11-04 17:17:44,239 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:17:48,843 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:17:49,688 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:17:54,436 INFO Найдено 114383 объявлений
+2022-11-04 17:17:55,111 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_615m_1617et._2467794596
+2022-11-04 17:18:24,537 INFO ====== WebDriver manager ======
+2022-11-04 17:18:24,549 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:18:24,549 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:18:24,551 INFO  * Restarting with stat
+2022-11-04 17:18:25,020 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:18:25,540 INFO ====== WebDriver manager ======
+2022-11-04 17:18:25,549 WARNING  * Debugger is active!
+2022-11-04 17:18:25,553 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:18:25,741 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:18:26,073 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:18:26,747 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:18:26,874 INFO Браузер открыт
+2022-11-04 17:18:27,760 INFO Браузер открыт
+2022-11-04 17:18:30,705 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:18:32,882 INFO 127.0.0.1 - - [04/Nov/2022 17:18:32] "POST /auth?form=%3Capp.forms.LoginForm+object+at+0x0000022DEACF3BB0%3E HTTP/1.1" 200 -
+2022-11-04 17:18:33,269 INFO 127.0.0.1 - - [04/Nov/2022 17:18:33] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:18:35,708 INFO Найдено 114461 объявлений
+2022-11-04 17:18:36,448 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 17:18:41,117 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_27m_1224et._2316660337
+2022-11-04 17:18:44,083 INFO 127.0.0.1 - - [04/Nov/2022 17:18:44] "POST /auth?form=%3Capp.forms.LoginForm+object+at+0x0000022DEACF3BB0%3E HTTP/1.1" 200 -
+2022-11-04 17:18:44,099 INFO 127.0.0.1 - - [04/Nov/2022 17:18:44] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:18:44,552 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:18:45,660 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_27m_1224et._2316660337 с ценой 8409626
+2022-11-04 17:18:45,660 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:18:49,660 INFO Найдено 114466 объявлений
+2022-11-04 17:18:50,250 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:18:50,443 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 17:18:55,085 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_27m_1224et._2316660337
+2022-11-04 17:18:59,681 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:18:59,836 INFO 127.0.0.1 - - [04/Nov/2022 17:18:59] "POST /auth?form=%3Capp.forms.LoginForm+object+at+0x0000022DEACF3BB0%3E HTTP/1.1" 200 -
+2022-11-04 17:18:59,852 INFO 127.0.0.1 - - [04/Nov/2022 17:18:59] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:19:04,123 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:19:09,523 INFO 127.0.0.1 - - [04/Nov/2022 17:19:09] "[32mPOST /auth?form=%3Capp.forms.LoginForm+object+at+0x0000022DEACF3BB0%3E HTTP/1.1[0m" 302 -
+2022-11-04 17:19:09,528 INFO 127.0.0.1 - - [04/Nov/2022 17:19:09] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:19:09,547 INFO 127.0.0.1 - - [04/Nov/2022 17:19:09] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:19:20,268 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_821et._2600648634
+2022-11-04 17:19:24,826 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_821et._2600648634 с ценой 8736621
+2022-11-04 17:19:24,827 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_3033et._2435380958
+2022-11-04 17:19:29,329 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_3033et._2435380958 с ценой 11425014
+2022-11-04 17:19:29,330 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_641m_722et._2585023989
+2022-11-04 17:19:33,865 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_641m_722et._2585023989 с ценой 29684710
+2022-11-04 17:19:33,865 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 17:19:34,138 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_641m_722et._2585023989
+2022-11-04 17:19:52,551 INFO ====== WebDriver manager ======
+2022-11-04 17:19:52,564 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:19:52,564 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:19:52,566 INFO  * Restarting with stat
+2022-11-04 17:19:53,019 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:19:53,522 INFO ====== WebDriver manager ======
+2022-11-04 17:19:53,533 WARNING  * Debugger is active!
+2022-11-04 17:19:53,537 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:19:53,730 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:19:53,965 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:19:54,662 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:19:54,817 INFO Браузер открыт
+2022-11-04 17:19:55,223 INFO 127.0.0.1 - - [04/Nov/2022 17:19:55] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:19:55,535 INFO 127.0.0.1 - - [04/Nov/2022 17:19:55] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:19:55,728 INFO Браузер открыт
+2022-11-04 17:19:57,635 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:19:58,994 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:19:59,410 INFO 127.0.0.1 - - [04/Nov/2022 17:19:59] "[33mGET /дщпщге HTTP/1.1[0m" 404 -
+2022-11-04 17:20:02,392 INFO Найдено 114491 объявлений
+2022-11-04 17:20:03,197 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-04 17:20:03,913 INFO Найдено 114461 объявлений
+2022-11-04 17:20:04,870 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 17:20:05,435 INFO 127.0.0.1 - - [04/Nov/2022 17:20:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 17:20:05,497 INFO 127.0.0.1 - - [04/Nov/2022 17:20:05] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:20:05,549 INFO 127.0.0.1 - - [04/Nov/2022 17:20:05] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:06,539 INFO 127.0.0.1 - - [04/Nov/2022 17:20:06] "GET /registration HTTP/1.1" 200 -
+2022-11-04 17:20:06,577 INFO 127.0.0.1 - - [04/Nov/2022 17:20:06] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:08,041 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:20:10,230 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_719m_1741et._2413922177
+2022-11-04 17:20:14,827 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_719m_1741et._2413922177 с ценой 45070515
+2022-11-04 17:20:14,828 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:20:19,438 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:20:21,342 INFO 127.0.0.1 - - [04/Nov/2022 17:20:21] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 17:20:21,346 INFO 127.0.0.1 - - [04/Nov/2022 17:20:21] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:20:21,365 INFO 127.0.0.1 - - [04/Nov/2022 17:20:21] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:28,435 INFO 127.0.0.1 - - [04/Nov/2022 17:20:28] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 17:20:28,440 INFO 127.0.0.1 - - [04/Nov/2022 17:20:28] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:20:28,456 INFO 127.0.0.1 - - [04/Nov/2022 17:20:28] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:36,470 INFO 127.0.0.1 - - [04/Nov/2022 17:20:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 17:20:36,475 INFO 127.0.0.1 - - [04/Nov/2022 17:20:36] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:20:36,495 INFO 127.0.0.1 - - [04/Nov/2022 17:20:36] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:38,055 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_412et._2587872760
+2022-11-04 17:20:42,526 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-04 17:20:45,861 INFO 127.0.0.1 - - [04/Nov/2022 17:20:45] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:20:45,878 INFO 127.0.0.1 - - [04/Nov/2022 17:20:45] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:46,696 INFO 127.0.0.1 - - [04/Nov/2022 17:20:46] "GET /registration HTTP/1.1" 200 -
+2022-11-04 17:20:46,714 INFO 127.0.0.1 - - [04/Nov/2022 17:20:46] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:47,053 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_231m_1314et._2628012641
+2022-11-04 17:20:49,449 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_487m_524et._2498996753
+2022-11-04 17:20:51,451 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-04 17:20:54,316 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_487m_524et._2498996753 с ценой 13925083
+2022-11-04 17:20:54,317 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_271m_1621et._2600264799
+2022-11-04 17:20:54,942 INFO 127.0.0.1 - - [04/Nov/2022 17:20:54] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2022-11-04 17:20:54,947 INFO 127.0.0.1 - - [04/Nov/2022 17:20:54] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:20:54,972 INFO 127.0.0.1 - - [04/Nov/2022 17:20:54] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:20:56,023 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-04 17:20:58,727 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_271m_1621et._2600264799 с ценой 10386383
+2022-11-04 17:20:58,727 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_531m_224et._2622953533
+2022-11-04 17:21:00,380 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:21:01,567 INFO 127.0.0.1 - - [04/Nov/2022 17:21:01] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 17:21:01,570 INFO 127.0.0.1 - - [04/Nov/2022 17:21:01] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:21:01,586 INFO 127.0.0.1 - - [04/Nov/2022 17:21:01] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:21:03,180 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_531m_224et._2622953533 с ценой 14143546
+2022-11-04 17:21:03,180 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 17:21:07,632 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_721et._2600084262
+2022-11-04 17:21:17,188 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_721et._2600084262 с ценой 6813270
+2022-11-04 17:21:17,188 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_3033et._2435380958
+2022-11-04 17:23:11,655 INFO ====== WebDriver manager ======
+2022-11-04 17:23:11,668 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:23:11,668 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:23:11,670 INFO  * Restarting with stat
+2022-11-04 17:23:12,140 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:23:12,488 INFO ====== WebDriver manager ======
+2022-11-04 17:23:12,499 WARNING  * Debugger is active!
+2022-11-04 17:23:12,502 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:23:12,768 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:23:12,907 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:23:13,510 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:23:14,227 INFO Браузер открыт
+2022-11-04 17:23:14,549 INFO Браузер открыт
+2022-11-04 17:23:14,923 INFO 127.0.0.1 - - [04/Nov/2022 17:23:14] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:23:15,196 INFO 127.0.0.1 - - [04/Nov/2022 17:23:15] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:23:16,591 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:23:16,751 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:23:21,490 INFO 127.0.0.1 - - [04/Nov/2022 17:23:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-04 17:23:21,623 INFO 127.0.0.1 - - [04/Nov/2022 17:23:21] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:23:21,736 INFO 127.0.0.1 - - [04/Nov/2022 17:23:21] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:23:21,738 INFO Найдено 114466 объявлений
+2022-11-04 17:23:22,170 INFO Найдено 114461 объявлений
+2022-11-04 17:23:22,539 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_586m_1126et._2467523088
+2022-11-04 17:23:22,962 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/5-k._kvartira_1231m_4854et._2475934701
+2022-11-04 17:23:27,365 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_586m_1126et._2467523088 с ценой 12476368
+2022-11-04 17:23:27,365 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:23:27,510 INFO 127.0.0.1 - - [04/Nov/2022 17:23:27] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:23:27,529 INFO 127.0.0.1 - - [04/Nov/2022 17:23:27] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:23:27,850 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/5-k._kvartira_1231m_4854et._2475934701 с ценой 43326174
+2022-11-04 17:23:27,850 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:23:31,928 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:23:32,500 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:24:01,947 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_503m_1516et._2600226598
+2022-11-04 17:24:02,516 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_586m_1126et._2467523088
+2022-11-04 17:24:06,494 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:24:07,054 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_535m_333et._2467691682
+2022-11-04 17:24:11,622 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_535m_333et._2467691682 с ценой 13816113
+2022-11-04 17:24:11,622 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 17:24:16,129 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_39m_1626et._2595463296
+2022-11-04 17:24:20,691 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_39m_1626et._2595463296 с ценой 13182624
+2022-11-04 17:24:20,692 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 17:24:25,224 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_503m_1516et._2600226598
+2022-11-04 17:24:29,812 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:24:36,511 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_503m_1516et._2600226598 с ценой 8540940
+2022-11-04 17:24:36,512 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1116et._2599881333
+2022-11-04 17:24:41,002 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:24:59,836 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1116et._2599881333
+2022-11-04 17:25:04,521 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:25:11,022 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1116et._2599881333 с ценой 5775224
+2022-11-04 17:25:11,023 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1822et._2613141447
+2022-11-04 17:25:16,050 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_212m_321et._2600418920
+2022-11-04 17:25:16,108 INFO 127.0.0.1 - - [04/Nov/2022 17:25:16] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:25:16,125 INFO 127.0.0.1 - - [04/Nov/2022 17:25:16] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:25:20,562 INFO 127.0.0.1 - - [04/Nov/2022 17:25:20] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:25:20,578 INFO 127.0.0.1 - - [04/Nov/2022 17:25:20] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:25:20,636 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_212m_321et._2600418920 с ценой 7462238
+2022-11-04 17:25:20,636 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_456m_2424et._2348300447
+2022-11-04 17:25:25,396 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_456m_2424et._2348300447 с ценой 12475178
+2022-11-04 17:25:25,396 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 17:25:30,030 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:25:34,544 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-04 17:25:39,091 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:26:00,039 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_414m_1013et._2623220287
+2022-11-04 17:26:04,571 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_414m_1013et._2623220287 с ценой 13927342
+2022-11-04 17:26:04,571 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_608m_1722et._2320824602
+2022-11-04 17:26:09,113 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_212m_321et._2600418920
+2022-11-04 17:26:09,121 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:26:13,627 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_951m_1441et._2603877181
+2022-11-04 17:26:18,176 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_951m_1441et._2603877181 с ценой 26775800
+2022-11-04 17:26:18,176 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003
+2022-11-04 17:26:22,662 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_255m_820et._2499551231
+2022-11-04 17:26:27,189 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_255m_820et._2499551231 с ценой 6359445
+2022-11-04 17:26:27,189 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_223m_55et._2628334650
+2022-11-04 17:26:31,687 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_608m_1722et._2320824602
+2022-11-04 17:26:36,267 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 17:26:39,152 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_608m_1722et._2320824602 с ценой 11093350
+2022-11-04 17:26:39,152 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003
+2022-11-04 17:26:43,957 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_349m_613et._2499059492
+2022-11-04 17:26:48,493 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_349m_613et._2499059492 с ценой 9972744
+2022-11-04 17:26:48,493 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_223m_55et._2628334650
+2022-11-04 17:26:52,104 INFO  * Detected change in 'C:\\Users\\simpl\\Desktop\\grrr\\hakaton_task_6\\app\\routes.py', reloading
+2022-11-04 17:26:52,974 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_559m_215et._2338928864
+2022-11-04 17:27:07,110 INFO ====== WebDriver manager ======
+2022-11-04 17:27:07,122 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2022-11-04 17:27:07,122 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 17:27:07,124 INFO  * Restarting with stat
+2022-11-04 17:27:07,568 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:27:08,026 INFO ====== WebDriver manager ======
+2022-11-04 17:27:08,035 WARNING  * Debugger is active!
+2022-11-04 17:27:08,038 INFO  * Debugger PIN: 952-476-392
+2022-11-04 17:27:08,176 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:27:08,445 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 17:27:08,562 INFO 192.168.0.105 - - [04/Nov/2022 17:27:08] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 17:27:08,578 INFO 192.168.0.105 - - [04/Nov/2022 17:27:08] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:27:08,938 INFO 192.168.0.105 - - [04/Nov/2022 17:27:08] "GET /static/form.css HTTP/1.1" 200 -
+2022-11-04 17:27:09,029 INFO 192.168.0.105 - - [04/Nov/2022 17:27:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-04 17:27:09,244 INFO Driver [C:\Users\simpl\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 17:27:09,387 INFO Браузер открыт
+2022-11-04 17:27:10,245 INFO Браузер открыт
+2022-11-04 17:27:11,891 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:27:12,881 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-04 17:27:14,662 INFO 127.0.0.1 - - [04/Nov/2022 17:27:14] "[32mGET / HTTP/1.1[0m" 302 -
+2022-11-04 17:27:14,678 INFO 127.0.0.1 - - [04/Nov/2022 17:27:14] "GET /auth HTTP/1.1" 200 -
+2022-11-04 17:27:14,738 INFO 127.0.0.1 - - [04/Nov/2022 17:27:14] "GET /static/form.css HTTP/1.1" 200 -
+2022-11-04 17:27:16,574 INFO Найдено 114383 объявлений
+2022-11-04 17:27:17,231 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_50m_2644et._2066921609
+2022-11-04 17:27:17,652 INFO Найдено 114328 объявлений
+2022-11-04 17:27:18,485 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_238m_1721et._2600140324
+2022-11-04 17:27:19,912 INFO 127.0.0.1 - - [04/Nov/2022 17:27:19] "POST /auth HTTP/1.1" 200 -
+2022-11-04 17:27:19,998 INFO 127.0.0.1 - - [04/Nov/2022 17:27:19] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:27:21,984 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_921et._2600181723
+2022-11-04 17:27:23,306 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_238m_1721et._2600140324 с ценой 9141921
+2022-11-04 17:27:23,306 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:27:25,560 INFO 127.0.0.1 - - [04/Nov/2022 17:27:25] "[32mPOST /auth HTTP/1.1[0m" 302 -
+2022-11-04 17:27:25,568 INFO 127.0.0.1 - - [04/Nov/2022 17:27:25] "GET /welcome HTTP/1.1" 200 -
+2022-11-04 17:27:25,587 INFO 127.0.0.1 - - [04/Nov/2022 17:27:25] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-04 17:27:26,487 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_921et._2600181723 с ценой 6878082
+2022-11-04 17:27:26,487 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-04 17:27:27,930 ERROR Ошибка!!! Жду 30 секунд
