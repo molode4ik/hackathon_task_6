@@ -27,10 +27,19 @@ def start():
 def index():
     if current_user.is_authenticated:
         return redirect(url_for('welcome'))
+    #form1 = generate_password_hash(LoginForm().login)
+    #form2 = generate_password_hash(LoginForm().password)
     form = LoginForm()
     if form.validate_on_submit():
         try:
-            user = Users.get(login=form.login.data, password=form.password.data)
+            #user = Users.get(login=form.login.data, password=form.password.data)
+            print(LoginForm().login.data)
+            print()
+            for person in Users.select():
+                print(person.login)
+                if check_password_hash(person.login,LoginForm().login.data) and check_password_hash(person.password,LoginForm().password.data):
+                    user = Users.get(login=person.login, password=person.password)
+                    break
         except:
             return render_template('auth.html', form=form)
         user_auth = User_n(id=user.id_users, login=user.login, password=user.password)
@@ -62,7 +71,7 @@ def registration():
     if form_reg.validate_on_submit():
         login_reg = form_reg.username.data
         password_reg = form_reg.password.data
-        Users.create(login=login_reg, password=password_reg)
+        Users.create(login=generate_password_hash(login_reg), password=generate_password_hash(password_reg))
         return redirect(url_for('index'))
     return render_template('registration.html', form=form_reg)
 
