@@ -111,7 +111,14 @@ class AvitoParser(Parser):
                             if item['title'] == "Тип дома":
                                 result.update({'house_type': item['description']})
                             elif item['title'] == "Год постройки":
-                                result.update({'construction_year': int(item['description'])})
+                                segments = {
+                                    "старый жилищний фонд": (1, 1990),
+                                    "современное жилье": (1991, datetime.datetime.now().year - 1)
+                                }
+                                for segment_key, segment_value in segments.items():
+                                    if int(segment_value[0]) <= int(re.findall(r'\d+', item['description'])[0]) <= int(
+                                            segment_value[1]):
+                                        result.update({'segment': segment_key})
                             elif item['title'] == "Пассажирский лифт":
                                 result.update({'passenger_elevator': int(item['description'])})
                             elif item['title'] == "Грузовой лифт":
@@ -123,7 +130,7 @@ class AvitoParser(Parser):
                             elif item['title'] == "Парковка":
                                 result.update({'parking': item['description']})
                             elif item['title'] == "Срок сдачи":
-                                result.update({'deadline': item['description']})
+                                result.update({'segment': "новостройка"})
                         for item in flat_data:
                             if item['title'] == "Количество комнат":
                                 result.update(
@@ -153,7 +160,7 @@ class AvitoParser(Parser):
                             elif item['title'] == "Высота потолков":
                                 result.update({'ceiling_height': float(re.findall(r'\d+', item['description'])[0])})
                             elif item['title'] == "Отделка":
-                                result.update({'repairs': item['description']})
+                                result.update({'repairs': "без отделки"})
                             elif item['title'] == "Способ продажи":
                                 result.update({'selling_method': item['description']})
                             elif item['title'] == "Вид сделки":
@@ -161,13 +168,19 @@ class AvitoParser(Parser):
                         if metro_data:
                             result.update({'metro_info': metro_data})
                             result.update({'nearest_metro_station': metro_data[0]['content']})
-                            result.update({'nearest_metro_time': int(re.findall(r'\d+',
-                                                                                metro_data[0]['afterWithIcon'][
-                                                                                    'text'][0])[0])})
+                            if isinstance(metro_data[0]['afterWithIcon']['text'], list):
+                                result.update({'nearest_metro_time': int(re.findall(r'\d+',
+                                                                                    metro_data[0]['afterWithIcon'][
+                                                                                        'text'][0])[0])})
+                            else:
+                                result.update({'nearest_metro_time': int(re.findall(r'\d+',
+                                                                                    metro_data[0]['afterWithIcon'][
+                                                                                        'text'])[0])})
+
                             return result
 
-        except Exception:
-            logging.error('Ошибка!!! Жду 30 секунд')
+        except Exception as e:
+            logging.error(f'Ошибка {e}./nЖду 30 секунд')
             time.sleep(30)
             return result
 
@@ -246,66 +259,69 @@ class AvitoParser(Parser):
     @staticmethod
     def run_parser(url: str):
         while True:
-            AvitoParser.__log()
-            parser = AvitoParser(url)
-            pages = parser.get_pages()
-            i = 1
-            for url_page in pages:
-                if url_page != url:
-                    parser.open_new_page(url_page)
-                advertisements = parser.get_advertisements()
-                for advertisement in advertisements:
-                    try:
-                        advertisements_info = parser._get_more_data(advertisement["url"])
-                        if advertisements_info:
-                            Advertisement.create(**advertisement)
+            try:
+                AvitoParser.__log()
+                parser = AvitoParser(url)
+                pages = parser.get_pages()
+                i = 1
+                for url_page in pages:
+                    if url_page != url:
+                        parser.open_new_page(url_page)
+                    advertisements = parser.get_advertisements()
+                    for advertisement in advertisements:
+                        try:
+                            advertisements_info = parser._get_more_data(advertisement["url"])
+                            if advertisements_info:
+                                Advertisement.create(**advertisement)
+                                elm = Advertisement.get(Advertisement.id_avito == advertisement['id_avito'])
+                                elm.house_type = advertisements_info.get('house_type')
+                                elm.segment = advertisements_info.get("segment")
+                                elm.passenger_elevator = advertisements_info.get('passenger_elevator')
+                                elm.cargo_elevator = advertisements_info.get('cargo_elevator')
+                                elm.courtyard = advertisements_info.get('courtyard')
+                                elm.parking = advertisements_info.get('parking')
+                                elm.number_rooms = advertisements_info.get('number_rooms')
+                                elm.total_area = advertisements_info.get('total_area')
+                                elm.kitchen_area = advertisements_info.get('kitchen_area')
+                                elm.living_area = advertisements_info.get('living_area')
+                                elm.floor = advertisements_info.get('floor')
+                                elm.floor_total = advertisements_info.get('floor_total')
+                                elm.balcony = advertisements_info.get('balcony')
+                                elm.bathroom = advertisements_info.get('bathroom')
+                                elm.windows = advertisements_info.get('windows')
+                                elm.repairs = advertisements_info.get('repairs')
+                                elm.ceiling_height = advertisements_info.get('ceiling_height')
+                                elm.selling_method = advertisements_info.get('selling_method')
+                                elm.transaction_type = advertisements_info.get('transaction_type')
+                                elm.metro_info = advertisements_info.get('metro_info')
+                                elm.nearest_metro_station = advertisements_info.get('nearest_metro_station')
+                                elm.nearest_metro_time = advertisements_info.get('nearest_metro_time')
+                                elm.vendor = advertisements_info.get('vendor')
+                                elm.save()
+                                logging.info(
+                                    f'Добавлено новое объявление {advertisement["url"]} с ценой {advertisement["price"]}')
+                        except peewee.IntegrityError:
                             elm = Advertisement.get(Advertisement.id_avito == advertisement['id_avito'])
-                            elm.house_type = advertisements_info.get('house_type')
-                            elm.construction_year = advertisements_info.get('construction_year')
-                            elm.passenger_elevator = advertisements_info.get('passenger_elevator')
-                            elm.cargo_elevator = advertisements_info.get('cargo_elevator')
-                            elm.courtyard = advertisements_info.get('courtyard')
-                            elm.parking = advertisements_info.get('parking')
-                            elm.deadline = advertisements_info.get('deadline')
-                            elm.number_rooms = advertisements_info.get('number_rooms')
-                            elm.total_area = advertisements_info.get('total_area')
-                            elm.kitchen_area = advertisements_info.get('kitchen_area')
-                            elm.living_area = advertisements_info.get('living_area')
-                            elm.floor = advertisements_info.get('floor')
-                            elm.floor_total = advertisements_info.get('floor_total')
-                            elm.balcony = advertisements_info.get('balcony')
-                            elm.bathroom = advertisements_info.get('bathroom')
-                            elm.windows = advertisements_info.get('windows')
-                            elm.repairs = advertisements_info.get('repairs')
-                            elm.ceiling_height = advertisements_info.get('ceiling_height')
-                            elm.selling_method = advertisements_info.get('selling_method')
-                            elm.transaction_type = advertisements_info.get('transaction_type')
-                            elm.metro_info = advertisements_info.get('metro_info')
-                            elm.nearest_metro_station = advertisements_info.get('nearest_metro_station')
-                            elm.nearest_metro_time = advertisements_info.get('nearest_metro_time')
-                            elm.vendor = advertisements_info.get('vendor')
+                            if advertisement['price'] != elm.price:
+                                price_difference = elm.price - advertisement['price']
+                                elm.price = advertisement['price']
+                                if price_difference > 0:
+                                    logging.info(f'Снижение цены для {advertisement["url"]} на {price_difference}')
+                            elm.date_update = datetime.datetime.now()
+                            if not elm.activated:
+                                elm.activated = True
+                                logging.info(f'Объявление {elm.url} активировано')
                             elm.save()
-                            logging.info(
-                                f'Добавлено новое объявление {advertisement["url"]} с ценой {advertisement["price"]}')
-                    except peewee.IntegrityError:
-                        elm = Advertisement.get(Advertisement.id_avito == advertisement['id_avito'])
-                        if advertisement['price'] != elm.price:
-                            price_difference = elm.price - advertisement['price']
-                            elm.price = advertisement['price']
-                            if price_difference > 0:
-                                logging.info(f'Снижение цены для {advertisement["url"]} на {price_difference}')
-                        elm.date_update = datetime.datetime.now()
-                        if not elm.activated:
-                            elm.activated = True
-                            logging.info(f'Объявление {elm.url} активировано')
-                        elm.save()
-                logging.info(f'Просмотрено {i} страниц из {len(pages)}')
-                i += 1
-            date_update = datetime.datetime.now() - datetime.timedelta(days=1)
-            deactivation_list = Advertisement.select().where(
-                (Advertisement.date_update < date_update) & (Advertisement.activated is True))
-            for elm in deactivation_list:
-                logging.info(f'Объявление {elm.url} снято')
-                elm.activated = False
-                elm.save()
-            time.sleep(3600)
+                    logging.info(f'Просмотрено {i} страниц из {len(pages)}')
+                    i += 1
+                date_update = datetime.datetime.now() - datetime.timedelta(days=1)
+                deactivation_list = Advertisement.select().where(
+                    (Advertisement.date_update < date_update) & (Advertisement.activated is True))
+                for elm in deactivation_list:
+                    logging.info(f'Объявление {elm.url} снято')
+                    elm.activated = False
+                    elm.save()
+                time.sleep(3600)
+            except Exception as e:
+                logging.error(e)
+                time.sleep(900)

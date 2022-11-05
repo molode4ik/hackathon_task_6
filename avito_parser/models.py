@@ -33,12 +33,11 @@ class Advertisement(BaseModel):
     date_update = DateTimeField(default=datetime.datetime.now)
     activated = BooleanField(default=True)
     house_type = CharField(null=True, default=None, max_length=50)
-    construction_year = IntegerField(null=True, default=None)
+    segment = CharField(null=True, default=None, max_length=50)
     passenger_elevator = IntegerField(null=True, default=None)
     cargo_elevator = IntegerField(null=True, default=None)
     courtyard = CharField(null=True, default=None, max_length=50)
     parking = CharField(null=True, default=None, max_length=50)
-    deadline = CharField(null=True, default=None, max_length=50)
     number_rooms = IntegerField(null=True, default=None)
     total_area = FloatField(null=True, default=None)
     kitchen_area = FloatField(null=True, default=None)
@@ -63,14 +62,10 @@ class Advertisement(BaseModel):
 
 
 class Users(BaseModel):
-    __table_name__ = 'Users'
     id_users = IntegerField(primary_key=True)
     login = CharField()
     password = CharField()
     blacklist_avito = TextField(null=True, default=None)
-
-    def get_id(self):
-        return self.id
 
     class Meta:
         table_name = 'Users'
