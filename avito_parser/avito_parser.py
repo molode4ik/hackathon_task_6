@@ -3,6 +3,7 @@ import json
 import urllib.parse
 from selenium.webdriver.common.by import By
 from .models import Advertisement
+from calculation.calculation import get_geocode
 import peewee
 import os
 import re
@@ -135,7 +136,9 @@ class AvitoParser(Parser):
                             elif item['title'] == "Жилая площадь":
                                 result.update({'living_area': float(re.findall(r'\d+', item['description'])[0])})
                             elif item['title'] == "Этаж":
-                                result.update({'floor': item['description'].replace(" из ", "/")})
+                                floor_info = item['description'].split(" из ")
+                                result.update({'floor': floor_info[0]})
+                                result.update({'floor_total': floor_info[1]})
                             elif item['title'] == "Балкон или лоджия":
                                 result.update({'balcony': item['description']})
                             elif item['title'] == "Санузел":
@@ -143,16 +146,20 @@ class AvitoParser(Parser):
                             elif item['title'] == "Окна":
                                 result.update({'windows': item['description']})
                             elif item['title'] == "Ремонт":
-                                result.update({'repairs': item['description']})
+                                if item['description'] in ['евро', 'косметический', 'дизайнерский']:
+                                    result.update({'repairs': 'современный ремонт'})
+                                elif item['description'] in ['требует ремонта']:
+                                    result.update({'repairs': 'муниципальный ремонт'})
                             elif item['title'] == "Высота потолков":
                                 result.update({'ceiling_height': float(re.findall(r'\d+', item['description'])[0])})
                             elif item['title'] == "Отделка":
-                                result.update({'facing': item['description']})
+                                result.update({'repairs': item['description']})
                             elif item['title'] == "Способ продажи":
                                 result.update({'selling_method': item['description']})
                             elif item['title'] == "Вид сделки":
                                 result.update({'transaction_type': item['description']})
                         if metro_data:
+                            print(metro_data[0]['content'])
                             result.update({'metro_info': metro_data})
                             result.update({'nearest_metro_station': metro_data[0]['content']})
                             result.update({'nearest_metro_time': int(re.findall(r'\d+',
@@ -197,6 +204,11 @@ class AvitoParser(Parser):
                 except:
                     vendor = None
 
+                try:
+                    lat, lng = get_geocode(item['location']['name'], item['geo']['formattedAddress'])
+                except:
+                    logging.error('Ошибка!!! Жду 30 секунд')
+                    time.sleep(30)
                 advertisements = {
                     'id_avito': item['id'],
                     'url': 'https://www.avito.ru' + item['urlPath'],
@@ -213,8 +225,8 @@ class AvitoParser(Parser):
                     'delivery': item['contacts']['delivery'],
                     'message': item['contacts']['message'],
                     'parameters': parameters,
-                    'coords_lat': item['coords']['lat'],
-                    'coords_lng': item['coords']['lng'],
+                    'coords_lat': lat,
+                    'coords_lng': lng,
                     'vendor': vendor,
                 }
                 yield advertisements
@@ -246,6 +258,7 @@ class AvitoParser(Parser):
                 for advertisement in advertisements:
                     try:
                         advertisements_info = parser._get_more_data(advertisement["url"])
+                        print(advertisements_info)
                         if advertisements_info:
                             Advertisement.create(**advertisement)
                             elm = Advertisement.get(Advertisement.id_avito == advertisement['id_avito'])
@@ -261,12 +274,12 @@ class AvitoParser(Parser):
                             elm.kitchen_area = advertisements_info.get('kitchen_area')
                             elm.living_area = advertisements_info.get('living_area')
                             elm.floor = advertisements_info.get('floor')
+                            elm.floor_total = advertisements_info.get('floor_total')
                             elm.balcony = advertisements_info.get('balcony')
                             elm.bathroom = advertisements_info.get('bathroom')
                             elm.windows = advertisements_info.get('windows')
                             elm.repairs = advertisements_info.get('repairs')
                             elm.ceiling_height = advertisements_info.get('ceiling_height')
-                            elm.facing = advertisements_info.get('facing')
                             elm.selling_method = advertisements_info.get('selling_method')
                             elm.transaction_type = advertisements_info.get('transaction_type')
                             elm.metro_info = advertisements_info.get('metro_info')

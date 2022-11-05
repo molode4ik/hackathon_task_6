@@ -10299,3 +10299,1377 @@ AttributeError: 'Flask' object has no attribute 'login_manager'
 2022-11-04 17:27:26,487 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_921et._2600181723 с ценой 6878082
 2022-11-04 17:27:26,487 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
 2022-11-04 17:27:27,930 ERROR Ошибка!!! Жду 30 секунд
+2022-11-04 18:00:19,729 INFO ====== WebDriver manager ======
+2022-11-04 18:00:19,752 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.169.113:5000
+2022-11-04 18:00:19,753 INFO [33mPress CTRL+C to quit[0m
+2022-11-04 18:00:19,756 INFO  * Restarting with stat
+2022-11-04 18:00:20,419 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 18:00:20,686 INFO ====== WebDriver manager ======
+2022-11-04 18:00:20,692 WARNING  * Debugger is active!
+2022-11-04 18:00:20,697 INFO  * Debugger PIN: 666-897-141
+2022-11-04 18:00:20,967 INFO Get LATEST chromedriver version for google-chrome 107.0.5304
+2022-11-04 18:00:21,177 INFO Driver [C:\Users\user\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 18:00:21,489 INFO Driver [C:\Users\user\.wdm\drivers\chromedriver\win32\107.0.5304\chromedriver.exe] found in cache
+2022-11-04 18:00:22,275 INFO Браузер открыт
+2022-11-04 18:00:22,425 INFO Браузер открыт
+2022-11-04 18:00:29,514 ERROR Ошибка браузера!!! Не удалось открыть сайт
+2022-11-05 02:09:55,801 INFO ====== WebDriver manager ======
+2022-11-05 02:09:55,813 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:09:55,813 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:09:55,814 INFO  * Restarting with stat
+2022-11-05 02:09:56,806 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:09:57,086 INFO ====== WebDriver manager ======
+2022-11-05 02:09:57,105 WARNING  * Debugger is active!
+2022-11-05 02:09:57,112 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:09:57,562 INFO About to download new driver from https://chromedriver.storage.googleapis.com/106.0.5249.61/chromedriver_win32.zip
+2022-11-05 02:09:57,577 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:09:58,136 INFO About to download new driver from https://chromedriver.storage.googleapis.com/106.0.5249.61/chromedriver_win32.zip
+2022-11-05 02:09:59,346 INFO Driver has been saved in cache [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249]
+2022-11-05 02:09:59,809 INFO Driver has been saved in cache [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249]
+2022-11-05 02:10:01,478 INFO Браузер открыт
+2022-11-05 02:10:01,509 INFO Браузер открыт
+2022-11-05 02:10:06,174 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:10:09,773 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:10:11,369 INFO Найдено 113728 объявлений
+2022-11-05 02:10:35,067 INFO ====== WebDriver manager ======
+2022-11-05 02:10:35,079 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:10:35,079 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:10:35,080 INFO  * Restarting with stat
+2022-11-05 02:10:35,503 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:10:36,091 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:10:36,171 INFO ====== WebDriver manager ======
+2022-11-05 02:10:36,179 WARNING  * Debugger is active!
+2022-11-05 02:10:36,184 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:10:36,602 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:10:37,124 INFO Браузер открыт
+2022-11-05 02:10:37,229 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:10:38,263 INFO Браузер открыт
+2022-11-05 02:10:39,070 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:10:41,090 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:11:29,183 INFO ====== WebDriver manager ======
+2022-11-05 02:11:29,194 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:11:29,194 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:11:29,196 INFO  * Restarting with stat
+2022-11-05 02:11:29,616 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:11:30,204 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:11:30,278 INFO ====== WebDriver manager ======
+2022-11-05 02:11:30,288 WARNING  * Debugger is active!
+2022-11-05 02:11:30,292 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:11:30,703 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:11:31,316 INFO Браузер открыт
+2022-11-05 02:11:31,410 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:11:32,469 INFO Браузер открыт
+2022-11-05 02:11:33,717 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:11:34,972 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:12:14,006 INFO ====== WebDriver manager ======
+2022-11-05 02:12:14,015 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:12:14,017 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:12:14,019 INFO  * Restarting with stat
+2022-11-05 02:12:14,419 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:12:14,988 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:12:15,036 INFO ====== WebDriver manager ======
+2022-11-05 02:12:15,044 WARNING  * Debugger is active!
+2022-11-05 02:12:15,049 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:12:15,423 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:12:16,028 INFO Браузер открыт
+2022-11-05 02:12:16,091 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:12:17,130 INFO Браузер открыт
+2022-11-05 02:12:18,722 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:12:19,808 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:13:47,426 INFO ====== WebDriver manager ======
+2022-11-05 02:13:47,446 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:13:47,446 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:13:47,448 INFO  * Restarting with stat
+2022-11-05 02:13:47,985 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:13:48,571 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:13:48,632 INFO ====== WebDriver manager ======
+2022-11-05 02:13:48,640 WARNING  * Debugger is active!
+2022-11-05 02:13:48,644 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:13:49,032 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:13:49,634 INFO Браузер открыт
+2022-11-05 02:13:49,684 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:13:50,719 INFO Браузер открыт
+2022-11-05 02:13:53,454 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:13:58,855 INFO Найдено 114202 объявлений
+2022-11-05 02:14:00,133 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-05 02:14:03,642 ERROR Ошибка браузера!!! Не удалось открыть сайт
+2022-11-05 02:15:38,076 INFO ====== WebDriver manager ======
+2022-11-05 02:15:38,087 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:15:38,087 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:15:38,089 INFO  * Restarting with stat
+2022-11-05 02:15:38,519 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:15:39,153 INFO ====== WebDriver manager ======
+2022-11-05 02:15:39,162 WARNING  * Debugger is active!
+2022-11-05 02:15:39,167 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:15:39,298 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:15:39,648 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:15:40,291 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:15:40,391 INFO Браузер открыт
+2022-11-05 02:15:41,359 INFO Браузер открыт
+2022-11-05 02:15:43,152 ERROR Ошибка браузера!!! Не удалось открыть сайт
+2022-11-05 02:15:43,163 ERROR Ошибка браузера!!! Не удалось открыть сайт
+2022-11-05 02:15:53,287 INFO ====== WebDriver manager ======
+2022-11-05 02:15:53,301 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:15:53,301 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:15:53,304 INFO  * Restarting with stat
+2022-11-05 02:15:53,721 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:15:54,308 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:15:54,341 INFO ====== WebDriver manager ======
+2022-11-05 02:15:54,352 WARNING  * Debugger is active!
+2022-11-05 02:15:54,356 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:15:54,733 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:15:55,348 INFO Браузер открыт
+2022-11-05 02:15:55,369 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:15:56,403 INFO Браузер открыт
+2022-11-05 02:19:05,310 INFO ====== WebDriver manager ======
+2022-11-05 02:19:05,322 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:19:05,322 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:19:05,323 INFO  * Restarting with stat
+2022-11-05 02:19:05,784 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:19:06,488 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:19:06,560 INFO ====== WebDriver manager ======
+2022-11-05 02:19:06,573 WARNING  * Debugger is active!
+2022-11-05 02:19:06,578 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:19:07,096 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:19:07,535 INFO Браузер открыт
+2022-11-05 02:19:07,841 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:19:08,895 INFO Браузер открыт
+2022-11-05 02:19:11,822 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:19:17,506 INFO Найдено 113680 объявлений
+2022-11-05 02:19:18,008 ERROR Ошибка браузера!!! Не удалось открыть сайт
+2022-11-05 02:19:22,080 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018E0B6A4DC0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/5f518276039658b676f59c651b46a4e2/window
+2022-11-05 02:19:26,176 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018E0B6A6D00>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/5f518276039658b676f59c651b46a4e2/window
+2022-11-05 02:19:30,256 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018E0B6A8880>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/5f518276039658b676f59c651b46a4e2/window
+2022-11-05 02:19:42,706 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A52DA2D90>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/2b44c438cd000f09747f79273bc376c4/window
+2022-11-05 02:19:46,793 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A52D88BB0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/2b44c438cd000f09747f79273bc376c4/window
+2022-11-05 02:19:50,895 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A52DA78B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/2b44c438cd000f09747f79273bc376c4/window
+2022-11-05 02:27:11,093 INFO ====== WebDriver manager ======
+2022-11-05 02:27:11,109 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:27:11,109 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:27:11,111 INFO  * Restarting with stat
+2022-11-05 02:27:11,851 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:27:12,167 INFO ====== WebDriver manager ======
+2022-11-05 02:27:12,177 WARNING  * Debugger is active!
+2022-11-05 02:27:12,184 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:27:12,504 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:27:12,599 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:27:13,232 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:27:14,610 INFO Браузер открыт
+2022-11-05 02:27:19,270 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:27:19,504 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:27:26,954 INFO Найдено 115117 объявлений
+2022-11-05 02:27:27,624 INFO Найдено 113728 объявлений
+2022-11-05 02:27:29,061 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_355m_116et._2600678383
+2022-11-05 02:27:29,934 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_355m_116et._2600678383
+2022-11-05 02:27:30,568 INFO 127.0.0.1 - - [05/Nov/2022 02:27:30] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-05 02:27:31,737 INFO 127.0.0.1 - - [05/Nov/2022 02:27:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-05 02:27:34,433 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:27:35,560 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:27:49,549 INFO 127.0.0.1 - - [05/Nov/2022 02:27:49] "[36mGET /static/form.css HTTP/1.1[0m" 304 -
+2022-11-05 02:29:31,591 INFO  * Detected change in 'C:\\Users\\Dmitry\\Desktop\\hakaton_task_6-main\\main.py', reloading
+2022-11-05 02:29:31,685 INFO Браузер закрыт
+2022-11-05 02:29:34,952 INFO  * Restarting with stat
+2022-11-05 02:29:36,048 INFO ====== WebDriver manager ======
+2022-11-05 02:29:36,057 WARNING  * Debugger is active!
+2022-11-05 02:29:36,061 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:29:36,470 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:29:37,117 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:29:44,862 INFO ====== WebDriver manager ======
+2022-11-05 02:29:44,873 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:29:44,873 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:29:44,875 INFO  * Restarting with stat
+2022-11-05 02:29:45,298 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:29:45,848 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:29:45,907 INFO ====== WebDriver manager ======
+2022-11-05 02:29:45,915 WARNING  * Debugger is active!
+2022-11-05 02:29:45,919 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:29:46,321 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:29:46,951 INFO Браузер открыт
+2022-11-05 02:29:47,032 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:29:48,096 INFO Браузер открыт
+2022-11-05 02:29:49,806 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:29:50,291 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:29:55,143 INFO Найдено 113756 объявлений
+2022-11-05 02:29:55,440 INFO Найдено 115117 объявлений
+2022-11-05 02:29:57,415 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_75m_217et._2450019314
+2022-11-05 02:29:58,168 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_499m_3341et._2604164214
+2022-11-05 02:30:02,779 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_75m_217et._2450019314 с ценой 17500000
+2022-11-05 02:30:02,965 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_499m_3341et._2604164214 с ценой 17122585
+2022-11-05 02:30:03,127 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_199m_533et._2499174702
+2022-11-05 02:30:03,173 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 02:30:07,794 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_199m_533et._2499174702 с ценой 5858361
+2022-11-05 02:30:07,848 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:30:08,009 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 02:30:12,512 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:30:37,907 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590 с ценой 6711416
+2022-11-05 02:30:38,137 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_3033et._2435380958
+2022-11-05 02:30:42,726 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_3033et._2435380958 с ценой 11425014
+2022-11-05 02:30:42,854 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_509m_3033et._2435380958
+2022-11-05 02:30:42,961 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_589m_1011et._2467455612
+2022-11-05 02:30:47,782 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 02:30:52,530 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:31:22,554 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719 с ценой 14700000
+2022-11-05 02:31:22,753 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_822m_217et._2245097704
+2022-11-05 02:31:27,270 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_822m_217et._2245097704 с ценой 15720000
+2022-11-05 02:31:27,525 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_417m_233et._2467011965
+2022-11-05 02:31:32,963 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_417m_233et._2467011965 с ценой 9536373
+2022-11-05 02:31:33,184 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 02:31:37,659 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725 с ценой 12900000
+2022-11-05 02:31:37,852 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_324m_2733et._2499112928
+2022-11-05 02:31:42,276 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_324m_2733et._2499112928 с ценой 10313568
+2022-11-05 02:31:42,499 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_483m_634et._2498879031
+2022-11-05 02:31:47,089 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_483m_634et._2498879031 с ценой 13117614
+2022-11-05 02:31:47,292 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869
+2022-11-05 02:31:51,668 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869 с ценой 12600000
+2022-11-05 02:31:51,873 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_36m_1218et._2498934741
+2022-11-05 02:31:56,320 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_36m_1218et._2498934741 с ценой 8323056
+2022-11-05 02:31:56,504 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003
+2022-11-05 02:32:01,067 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_384m_312et._2597134003 с ценой 6333593
+2022-11-05 02:32:01,334 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_59m_917et._2499424406
+2022-11-05 02:32:05,857 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_59m_917et._2499424406 с ценой 14576680
+2022-11-05 02:32:06,121 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_417m_2424et._2499390791
+2022-11-05 02:32:10,521 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_417m_2424et._2499390791 с ценой 15518655
+2022-11-05 02:32:10,722 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 02:32:15,160 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:32:55,023 INFO ====== WebDriver manager ======
+2022-11-05 02:32:55,041 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:32:55,041 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:32:55,044 INFO  * Restarting with stat
+2022-11-05 02:32:56,163 INFO ====== WebDriver manager ======
+2022-11-05 02:32:56,172 WARNING  * Debugger is active!
+2022-11-05 02:32:56,176 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:32:56,585 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:32:57,193 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:32:58,304 INFO Браузер открыт
+2022-11-05 02:33:01,332 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:33:06,099 INFO Найдено 113755 объявлений
+2022-11-05 02:33:07,354 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_381m_222et._2636657127
+2022-11-05 02:33:11,963 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_381m_222et._2636657127 с ценой 11500000
+2022-11-05 02:33:12,164 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_701m_241et._2414461660
+2022-11-05 02:33:16,859 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_701m_241et._2414461660 с ценой 41954850
+2022-11-05 02:33:17,047 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 02:33:21,592 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:34:15,821 INFO ====== WebDriver manager ======
+2022-11-05 02:34:15,833 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:34:15,834 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:34:15,837 INFO  * Restarting with stat
+2022-11-05 02:34:16,348 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:34:16,968 INFO There is no [win32] chromedriver for browser None in cache
+2022-11-05 02:34:16,968 INFO About to download new driver from https://chromedriver.storage.googleapis.com/106.0.5249.61/chromedriver_win32.zip
+2022-11-05 02:34:27,304 INFO ====== WebDriver manager ======
+2022-11-05 02:34:27,317 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:34:27,318 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:34:27,319 INFO  * Restarting with stat
+2022-11-05 02:34:27,722 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:34:28,367 INFO ====== WebDriver manager ======
+2022-11-05 02:34:28,377 WARNING  * Debugger is active!
+2022-11-05 02:34:28,382 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:34:28,390 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:34:28,777 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:34:29,449 INFO Браузер открыт
+2022-11-05 02:34:29,450 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:34:30,510 INFO Браузер открыт
+2022-11-05 02:34:31,955 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:34:33,749 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:34:37,565 INFO Найдено 113755 объявлений
+2022-11-05 02:34:39,606 INFO Найдено 113755 объявлений
+2022-11-05 02:34:41,291 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_129m_24et._2563851342
+2022-11-05 02:34:41,705 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-05 02:34:46,010 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_129m_24et._2563851342 с ценой 4386000
+2022-11-05 02:34:46,224 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_604m_4649et._2224361974
+2022-11-05 02:34:46,385 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:34:50,869 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_604m_4649et._2224361974 с ценой 24595553
+2022-11-05 02:34:51,069 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 02:34:56,494 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:35:16,415 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565 с ценой 4450000
+2022-11-05 02:35:16,638 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-05 02:35:21,327 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928 с ценой 33600000
+2022-11-05 02:35:21,512 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-05 02:35:26,020 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626 с ценой 10600000
+2022-11-05 02:35:26,240 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676
+2022-11-05 02:35:26,532 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590 с ценой 6711416
+2022-11-05 02:35:26,723 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_376m_814et._2600357675
+2022-11-05 02:35:30,830 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:35:31,535 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:36:00,855 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676 с ценой 9800000
+2022-11-05 02:36:01,076 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809
+2022-11-05 02:36:01,557 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_376m_814et._2600357675 с ценой 9096192
+2022-11-05 02:36:01,800 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_496m_317et._2339095757
+2022-11-05 02:36:05,707 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:36:06,618 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_496m_317et._2339095757 с ценой 10146672
+2022-11-05 02:36:06,823 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 02:36:11,348 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:36:35,738 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_810et._2614452809 с ценой 14500000
+2022-11-05 02:36:35,931 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-05 02:36:40,468 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483 с ценой 3579000
+2022-11-05 02:36:40,716 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-05 02:36:41,377 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719 с ценой 14700000
+2022-11-05 02:36:42,560 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_247m_23et._2564506481
+2022-11-05 02:36:45,308 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652 с ценой 27500000
+2022-11-05 02:36:45,556 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373
+2022-11-05 02:36:47,074 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_247m_23et._2564506481 с ценой 5987094
+2022-11-05 02:36:47,264 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_463m_1518et._2531450464
+2022-11-05 02:36:50,119 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373 с ценой 7343000
+2022-11-05 02:36:50,331 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602
+2022-11-05 02:36:51,865 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_463m_1518et._2531450464 с ценой 10614923
+2022-11-05 02:36:52,067 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 02:36:54,967 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602 с ценой 17500000
+2022-11-05 02:36:55,169 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846
+2022-11-05 02:36:56,625 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725 с ценой 12900000
+2022-11-05 02:36:56,821 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_519m_633et._2466992630
+2022-11-05 02:36:59,692 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846 с ценой 15000000
+2022-11-05 02:36:59,892 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524
+2022-11-05 02:37:01,386 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_519m_633et._2466992630 с ценой 13742842
+2022-11-05 02:37:01,609 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_593m_217et._2467631567
+2022-11-05 02:37:04,646 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524 с ценой 12500000
+2022-11-05 02:37:04,904 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166
+2022-11-05 02:37:06,177 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_593m_217et._2467631567 с ценой 14102147
+2022-11-05 02:37:06,405 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869
+2022-11-05 02:37:09,505 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166 с ценой 35000000
+2022-11-05 02:37:09,718 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969
+2022-11-05 02:37:11,012 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869 с ценой 12600000
+2022-11-05 02:37:14,280 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969 с ценой 64990000
+2022-11-05 02:37:14,477 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1723et._2590915477
+2022-11-05 02:37:18,238 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_95m_719et._2573911132
+2022-11-05 02:37:19,309 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:37:22,763 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_95m_719et._2573911132 с ценой 31500000
+2022-11-05 02:37:22,974 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_634m_1224et._2339801172
+2022-11-05 02:37:27,500 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_634m_1224et._2339801172 с ценой 19297692
+2022-11-05 02:37:27,692 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 02:37:32,087 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:37:49,330 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1723et._2590915477 с ценой 22800000
+2022-11-05 02:37:49,530 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_57m_617et._2591580636
+2022-11-05 02:37:54,070 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_57m_617et._2591580636 с ценой 17000000
+2022-11-05 02:37:54,253 INFO Открываю страницу: https://www.avito.ru/moskva_zelenograd/kvartiry/1-k._kvartira_286m_28et._2593373748
+2022-11-05 02:37:58,904 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_2333et._2585168202
+2022-11-05 02:38:02,105 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319 с ценой 23700000
+2022-11-05 02:38:02,311 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_209m_714et._2630056120
+2022-11-05 02:38:03,397 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_2333et._2585168202 с ценой 14500000
+2022-11-05 02:38:03,603 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_34m_715et._2608348809
+2022-11-05 02:38:06,806 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_209m_714et._2630056120 с ценой 5852000
+2022-11-05 02:38:08,159 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_34m_715et._2608348809 с ценой 15000000
+2022-11-05 02:38:08,341 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_264m_1115et._2476718710
+2022-11-05 02:38:12,811 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:38:14,057 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_55m_416et._2615224855
+2022-11-05 02:38:18,554 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_55m_416et._2615224855 с ценой 14661310
+2022-11-05 02:38:25,776 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_407m_1616et._2615292587
+2022-11-05 02:38:30,245 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_407m_1616et._2615292587 с ценой 11972677
+2022-11-05 02:38:30,442 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598
+2022-11-05 02:38:34,968 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598 с ценой 4900000
+2022-11-05 02:38:35,217 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_443m_2741et._2476116324
+2022-11-05 02:38:39,755 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_443m_2741et._2476116324 с ценой 14886421
+2022-11-05 02:38:39,933 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004
+2022-11-05 02:38:42,839 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_264m_1115et._2476718710 с ценой 6400000
+2022-11-05 02:38:43,018 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_72m_221et._2606063561
+2022-11-05 02:38:44,417 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004 с ценой 3950000
+2022-11-05 02:38:44,643 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_701m_241et._2414461660
+2022-11-05 02:38:47,416 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_72m_221et._2606063561 с ценой 29800000
+2022-11-05 02:38:49,551 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_701m_241et._2414461660 с ценой 41954850
+2022-11-05 02:38:49,807 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_346m_116et._2600250620
+2022-11-05 02:38:54,272 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:39:02,628 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_129m_24et._2563851342
+2022-11-05 02:39:14,279 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_50m_310et._2618793106
+2022-11-05 02:39:18,812 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_50m_310et._2618793106 с ценой 20700000
+2022-11-05 02:39:19,036 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_604m_4649et._2224361974
+2022-11-05 02:39:24,209 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 02:39:24,289 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_346m_116et._2600250620 с ценой 6200320
+2022-11-05 02:39:28,679 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:39:31,509 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743
+2022-11-05 02:39:36,104 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743 с ценой 9900000
+2022-11-05 02:39:36,309 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687
+2022-11-05 02:39:40,816 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687 с ценой 6321000
+2022-11-05 02:39:41,029 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_364m_1421et._2435143211
+2022-11-05 02:39:45,622 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_364m_1421et._2435143211 с ценой 9339876
+2022-11-05 02:40:05,947 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_376m_814et._2600357675
+2022-11-05 02:40:10,415 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:40:40,688 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_463m_1518et._2531450464
+2022-11-05 02:40:52,380 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 02:40:56,817 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:41:27,045 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_55m_416et._2615224855
+2022-11-05 02:41:31,698 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 02:41:36,334 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_247m_23et._2564506481
+2022-11-05 02:41:40,993 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_407m_1616et._2615292587
+2022-11-05 02:41:45,770 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_593m_217et._2467631567
+2022-11-05 02:41:50,415 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869
+2022-11-05 02:41:54,993 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 02:41:59,481 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:42:29,675 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_701m_241et._2414461660
+2022-11-05 02:42:34,317 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_209m_714et._2630056120
+2022-11-05 02:42:39,034 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_374m_416et._2615760769
+2022-11-05 02:42:43,575 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_374m_416et._2615760769 с ценой 11120566
+2022-11-05 02:42:43,825 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_95m_719et._2573911132
+2022-11-05 02:42:48,623 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_363m_59et._2499036383
+2022-11-05 02:42:53,086 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:43:23,104 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_363m_59et._2499036383 с ценой 7778727
+2022-11-05 02:43:23,300 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598
+2022-11-05 02:43:27,901 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_346m_116et._2600250620
+2022-11-05 02:43:32,333 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:44:02,544 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004
+2022-11-05 02:44:07,383 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_519m_633et._2466992630
+2022-11-05 02:44:12,169 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_496m_317et._2339095757
+2022-11-05 02:44:16,812 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743
+2022-11-05 02:44:21,549 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687
+2022-11-05 02:44:26,160 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_36m_2633et._2339120260
+2022-11-05 02:44:30,867 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_36m_2633et._2339120260 с ценой 8401320
+2022-11-05 02:44:31,067 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_634m_1224et._2339801172
+2022-11-05 02:44:35,823 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511
+2022-11-05 02:44:40,183 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511 с ценой 4552300
+2022-11-05 02:44:40,374 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_553m_59et._2585360662
+2022-11-05 02:44:44,766 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:45:14,788 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_553m_59et._2585360662 с ценой 66234399
+2022-11-05 02:45:14,790 INFO Просмотрено 1 страниц из 10
+2022-11-05 02:45:14,790 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?p=2
+2022-11-05 02:45:21,240 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_377m_1925et._2615492818
+2022-11-05 02:45:25,758 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_377m_1925et._2615492818 с ценой 6690000
+2022-11-05 02:45:25,987 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1416et._2600277490
+2022-11-05 02:45:30,381 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:46:00,403 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_1416et._2600277490 с ценой 5775224
+2022-11-05 02:46:00,600 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_403m_79et._2558311980
+2022-11-05 02:46:04,996 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_403m_79et._2558311980 с ценой 7270000
+2022-11-05 02:46:05,226 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_499m_121et._2600055741
+2022-11-05 02:46:09,664 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_499m_121et._2600055741 с ценой 17863249
+2022-11-05 02:46:09,880 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_368m_116et._2599854979
+2022-11-05 02:46:14,271 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:46:44,293 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_368m_116et._2599854979 с ценой 7286400
+2022-11-05 02:46:44,524 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_455m_913et._2621394148
+2022-11-05 02:46:48,934 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_455m_913et._2621394148 с ценой 8450000
+2022-11-05 02:46:50,841 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_224m_421et._2599857639
+2022-11-05 02:46:55,246 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_224m_421et._2599857639 с ценой 7603738
+2022-11-05 02:46:55,448 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_49m_521et._2599911211
+2022-11-05 02:46:59,947 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_49m_521et._2599911211 с ценой 15052961
+2022-11-05 02:47:00,163 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_655m_79et._2614999484
+2022-11-05 02:47:04,572 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:47:34,603 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_655m_79et._2614999484 с ценой 8640000
+2022-11-05 02:47:34,807 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_443m_2741et._2476116324
+2022-11-05 02:47:39,468 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_375m_812et._2597315282
+2022-11-05 02:47:54,423 INFO ====== WebDriver manager ======
+2022-11-05 02:47:54,436 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:47:54,436 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:47:54,438 INFO  * Restarting with stat
+2022-11-05 02:47:54,915 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:47:55,740 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:47:55,820 INFO ====== WebDriver manager ======
+2022-11-05 02:47:55,833 WARNING  * Debugger is active!
+2022-11-05 02:47:55,839 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:47:56,613 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:47:57,064 INFO Браузер открыт
+2022-11-05 02:47:57,261 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:47:58,320 INFO Браузер открыт
+2022-11-05 02:48:13,714 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:48:15,388 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:48:18,612 INFO Найдено 115117 объявлений
+2022-11-05 02:48:19,603 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_238m_22et._2564218652
+2022-11-05 02:48:20,519 INFO Найдено 113756 объявлений
+2022-11-05 02:48:24,574 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_238m_22et._2564218652 с ценой 6711600
+2022-11-05 02:48:31,792 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_254m_1133et._2467741874
+2022-11-05 02:48:36,287 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:49:06,315 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_254m_1133et._2467741874 с ценой 6789071
+2022-11-05 02:49:06,554 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 02:49:11,057 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:49:41,273 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_812m_2133et._2435202156
+2022-11-05 02:49:45,880 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_812m_2133et._2435202156 с ценой 16216452
+2022-11-05 02:49:46,129 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._apartamenty_972m_1324et._2508631246
+2022-11-05 02:49:47,705 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))': /session/2045e3e66736e47480bdc3a300fa7cf6/window
+2022-11-05 02:51:30,743 INFO ====== WebDriver manager ======
+2022-11-05 02:51:30,761 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:51:30,761 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:51:30,763 INFO  * Restarting with stat
+2022-11-05 02:51:31,195 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:51:31,859 INFO ====== WebDriver manager ======
+2022-11-05 02:51:31,864 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:51:31,868 WARNING  * Debugger is active!
+2022-11-05 02:51:31,872 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:51:32,269 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:51:32,927 INFO Браузер открыт
+2022-11-05 02:51:32,931 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:51:33,991 INFO Браузер открыт
+2022-11-05 02:51:35,750 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:51:37,700 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:51:40,912 INFO Найдено 113756 объявлений
+2022-11-05 02:51:42,674 INFO Найдено 113756 объявлений
+2022-11-05 02:51:50,816 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_25et._2597985731
+2022-11-05 02:51:55,402 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_435m_25et._2597985731 с ценой 13500000
+2022-11-05 02:52:10,707 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_917et._2606730310
+2022-11-05 02:52:15,261 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_38m_917et._2606730310 с ценой 9700000
+2022-11-05 02:52:15,554 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_237m_916et._2615769342
+2022-11-05 02:52:20,385 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 02:52:50,407 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_237m_916et._2615769342 с ценой 7598006
+2022-11-05 02:52:57,672 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_742m_1114et._2611151028
+2022-11-05 02:53:03,195 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_742m_1114et._2611151028 с ценой 20500000
+2022-11-05 02:53:24,553 INFO ====== WebDriver manager ======
+2022-11-05 02:53:24,564 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:53:24,564 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:53:24,565 INFO  * Restarting with stat
+2022-11-05 02:53:24,972 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:53:25,616 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:53:25,639 INFO ====== WebDriver manager ======
+2022-11-05 02:53:25,650 WARNING  * Debugger is active!
+2022-11-05 02:53:25,659 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:53:26,072 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:53:26,671 INFO Браузер открыт
+2022-11-05 02:53:26,818 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:53:27,906 INFO Браузер открыт
+2022-11-05 02:53:28,987 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:53:29,988 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:53:33,828 INFO Найдено 113756 объявлений
+2022-11-05 02:53:34,968 INFO Найдено 113756 объявлений
+2022-11-05 02:53:35,064 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_713m_36et._2344502181
+2022-11-05 02:53:39,939 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_713m_36et._2344502181 с ценой 28900000
+2022-11-05 02:53:51,302 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_713m_36et._2344502181
+2022-11-05 02:54:11,088 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_32m_611et._2620075802
+2022-11-05 02:54:25,729 INFO ====== WebDriver manager ======
+2022-11-05 02:54:25,747 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 02:54:25,748 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 02:54:25,751 INFO  * Restarting with stat
+2022-11-05 02:54:26,816 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:54:27,529 INFO ====== WebDriver manager ======
+2022-11-05 02:54:27,540 WARNING  * Debugger is active!
+2022-11-05 02:54:27,547 INFO  * Debugger PIN: 167-717-702
+2022-11-05 02:54:27,644 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:54:27,965 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 02:54:28,862 INFO Браузер открыт
+2022-11-05 02:54:28,920 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 02:54:30,029 INFO Браузер открыт
+2022-11-05 02:54:30,958 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:54:33,032 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 02:54:36,151 INFO Найдено 115117 объявлений
+2022-11-05 02:54:37,313 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_447m_220et._2508094600
+2022-11-05 02:54:38,176 INFO Найдено 113728 объявлений
+2022-11-05 02:54:39,385 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_206m_116et._2372265732
+2022-11-05 02:54:42,012 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_447m_220et._2508094600 с ценой 17040241
+2022-11-05 02:54:43,975 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_206m_116et._2372265732 с ценой 5600000
+2022-11-05 02:54:57,767 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 03:00:26,805 INFO ====== WebDriver manager ======
+2022-11-05 03:00:26,817 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 03:00:26,817 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 03:00:26,819 INFO  * Restarting with stat
+2022-11-05 03:00:27,332 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:00:27,967 INFO ====== WebDriver manager ======
+2022-11-05 03:00:27,976 WARNING  * Debugger is active!
+2022-11-05 03:00:27,980 INFO  * Debugger PIN: 167-717-702
+2022-11-05 03:00:27,986 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:00:28,414 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:00:29,015 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:00:29,040 INFO Браузер открыт
+2022-11-05 03:00:30,095 INFO Браузер открыт
+2022-11-05 03:00:31,626 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:00:32,922 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:00:36,553 INFO Найдено 115117 объявлений
+2022-11-05 03:00:37,843 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-05 03:00:37,941 INFO Найдено 113756 объявлений
+2022-11-05 03:00:39,089 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_14m_710et._2410312770
+2022-11-05 03:00:42,524 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:00:43,938 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:01:27,583 INFO ====== WebDriver manager ======
+2022-11-05 03:01:27,598 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 03:01:27,599 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 03:01:27,601 INFO  * Restarting with stat
+2022-11-05 03:01:28,174 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:01:29,219 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:01:29,312 INFO ====== WebDriver manager ======
+2022-11-05 03:01:29,321 WARNING  * Debugger is active!
+2022-11-05 03:01:29,325 INFO  * Debugger PIN: 167-717-702
+2022-11-05 03:01:30,612 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:01:30,752 INFO Браузер открыт
+2022-11-05 03:01:31,196 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:01:32,238 INFO Браузер открыт
+2022-11-05 03:01:32,937 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:01:34,913 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:01:38,530 INFO Найдено 115117 объявлений
+2022-11-05 03:01:40,598 INFO Найдено 113756 объявлений
+2022-11-05 03:01:41,557 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_633et._2435092557
+2022-11-05 03:01:46,179 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_633et._2435092557 с ценой 9316260
+2022-11-05 03:02:01,417 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 03:02:06,054 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:02:36,096 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590 с ценой 6711416
+2022-11-05 03:02:36,271 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_256m_1621et._2562934958
+2022-11-05 03:02:40,789 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_256m_1621et._2562934958 с ценой 6937705
+2022-11-05 03:14:38,784 INFO  * Detected change in 'C:\\Users\\Dmitry\\Desktop\\hakaton_task_6-main\\avito_parser\\avito_parser.py', reloading
+2022-11-05 03:14:38,962 INFO Браузер закрыт
+2022-11-05 03:14:41,139 INFO  * Restarting with stat
+2022-11-05 03:14:42,146 INFO ====== WebDriver manager ======
+2022-11-05 03:14:42,157 WARNING  * Debugger is active!
+2022-11-05 03:14:42,161 INFO  * Debugger PIN: 167-717-702
+2022-11-05 03:14:42,583 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:14:43,196 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:14:44,261 INFO Браузер открыт
+2022-11-05 03:14:49,026 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:14:53,970 INFO Найдено 113756 объявлений
+2022-11-05 03:14:55,009 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_618m_1233et._2338889928
+2022-11-05 03:14:59,712 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_618m_1233et._2338889928 с ценой 14355522
+2022-11-05 03:14:59,907 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 03:15:04,418 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:15:34,675 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_546m_917et._2357006964
+2022-11-05 03:15:39,250 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_546m_917et._2357006964 с ценой 12700000
+2022-11-05 03:15:39,485 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_675m_1154et._2604124529
+2022-11-05 03:15:44,051 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_675m_1154et._2604124529 с ценой 21794505
+2022-11-05 03:15:44,255 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_561m_721et._2600771915
+2022-11-05 03:15:48,821 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_561m_721et._2600771915 с ценой 21133094
+2022-11-05 03:15:49,041 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 03:15:53,592 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:16:23,629 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719 с ценой 14700000
+2022-11-05 03:16:23,895 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_622m_3333et._2339353050
+2022-11-05 03:16:28,450 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_622m_3333et._2339353050 с ценой 15556842
+2022-11-05 03:16:29,593 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 03:16:34,133 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725 с ценой 12900000
+2022-11-05 03:16:34,367 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_533m_3754et._2604347394
+2022-11-05 03:16:38,940 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_533m_3754et._2604347394 с ценой 19607268
+2022-11-05 03:16:39,128 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869
+2022-11-05 03:16:43,756 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869 с ценой 12600000
+2022-11-05 03:16:43,936 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_526m_1028et._2468767832
+2022-11-05 03:16:48,547 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_526m_1028et._2468767832 с ценой 15517000
+2022-11-05 03:16:48,739 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 03:16:53,224 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:17:23,266 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319 с ценой 23700000
+2022-11-05 03:17:23,487 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_428m_1821et._2339039881
+2022-11-05 03:17:28,066 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_428m_1821et._2339039881 с ценой 12479966
+2022-11-05 03:17:28,303 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_249m_1553et._2279184943
+2022-11-05 03:17:32,861 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:18:02,911 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_249m_1553et._2279184943 с ценой 10990063
+2022-11-05 03:18:03,157 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598
+2022-11-05 03:18:07,681 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598 с ценой 4900000
+2022-11-05 03:18:07,849 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_479m_1021et._2600501962
+2022-11-05 03:18:12,351 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_479m_1021et._2600501962 с ценой 16458809
+2022-11-05 03:18:13,099 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_438m_2126et._2379902395
+2022-11-05 03:18:17,647 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_438m_2126et._2379902395 с ценой 15457325
+2022-11-05 03:18:17,898 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004
+2022-11-05 03:18:22,410 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004 с ценой 3950000
+2022-11-05 03:18:22,623 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_355m_116et._2600405176
+2022-11-05 03:18:27,132 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:18:57,171 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_355m_116et._2600405176 с ценой 7029000
+2022-11-05 03:18:57,366 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743
+2022-11-05 03:19:02,270 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743 с ценой 9900000
+2022-11-05 03:19:02,501 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687
+2022-11-05 03:19:07,064 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687 с ценой 6321000
+2022-11-05 03:19:07,298 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_427m_2833et._2339336895
+2022-11-05 03:19:11,849 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_427m_2833et._2339336895 с ценой 10469186
+2022-11-05 03:19:12,050 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511
+2022-11-05 03:19:16,553 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511 с ценой 4552300
+2022-11-05 03:19:16,752 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_338m_1725et._2339279655
+2022-11-05 03:19:21,437 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_455m_15et._2581689559
+2022-11-05 03:19:25,898 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:19:55,949 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_455m_15et._2581689559 с ценой 9300000
+2022-11-05 03:19:56,161 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_542m_1011et._2338888634
+2022-11-05 03:20:00,871 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639
+2022-11-05 03:20:05,388 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:20:35,430 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639 с ценой 5990000
+2022-11-05 03:20:35,652 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_641m_823et._2467315868
+2022-11-05 03:20:40,309 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_641m_823et._2467315868 с ценой 13647531
+2022-11-05 03:20:40,531 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1521et._2600556978
+2022-11-05 03:20:45,074 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1521et._2600556978 с ценой 7354756
+2022-11-05 03:20:45,312 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_148m_112et._2597546822
+2022-11-05 03:20:49,846 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:21:19,897 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_148m_112et._2597546822 с ценой 3600000
+2022-11-05 03:21:20,137 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_32m_79et._2519224617
+2022-11-05 03:21:24,608 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:21:54,650 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_32m_79et._2519224617 с ценой 7999999
+2022-11-05 03:21:54,855 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_279m_229et._2458863770
+2022-11-05 03:21:59,375 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_279m_229et._2458863770 с ценой 9750911
+2022-11-05 03:21:59,614 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_481m_1733et._2499051118
+2022-11-05 03:22:04,128 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_481m_1733et._2499051118 с ценой 11116872
+2022-11-05 03:22:05,317 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_377m_1925et._2615492818
+2022-11-05 03:22:09,815 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_377m_1925et._2615492818 с ценой 6690000
+2022-11-05 03:22:10,009 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_20m_921et._2600551840
+2022-11-05 03:22:14,532 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_20m_921et._2600551840 с ценой 7667860
+2022-11-05 03:22:15,960 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_358m_1014et._2612065395
+2022-11-05 03:22:20,480 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:22:50,526 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_358m_1014et._2612065395 с ценой 8300000
+2022-11-05 03:22:50,748 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_812m_2733et._2435367655
+2022-11-05 03:22:55,280 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_812m_2733et._2435367655 с ценой 16282224
+2022-11-05 03:22:55,466 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_403m_79et._2558311980
+2022-11-05 03:22:59,942 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_403m_79et._2558311980 с ценой 7270000
+2022-11-05 03:23:00,115 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_692m_421et._2488847728
+2022-11-05 03:23:04,709 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_692m_421et._2488847728 с ценой 33326720
+2022-11-05 03:23:04,933 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_655m_79et._2614999484
+2022-11-05 03:23:09,414 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:23:39,446 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_655m_79et._2614999484 с ценой 8640000
+2022-11-05 03:23:39,740 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_226m_618et._2615625246
+2022-11-05 03:23:44,320 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_226m_618et._2615625246 с ценой 8559327
+2022-11-05 03:23:44,553 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_722m_2233et._2531677553
+2022-11-05 03:23:49,086 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_722m_2233et._2531677553 с ценой 17727408
+2022-11-05 03:23:49,320 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_375m_812et._2597315282
+2022-11-05 03:23:53,837 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_375m_812et._2597315282 с ценой 6550000
+2022-11-05 03:23:54,106 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_241et._2508269772
+2022-11-05 03:23:58,646 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_241et._2508269772 с ценой 15320763
+2022-11-05 03:23:58,827 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_25m_44et._2542018694
+2022-11-05 03:24:03,343 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_25m_44et._2542018694 с ценой 8490000
+2022-11-05 03:24:03,540 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_20m_821et._2600063974
+2022-11-05 03:24:08,009 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_20m_821et._2600063974 с ценой 7631540
+2022-11-05 03:24:08,267 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_633et._2435092557
+2022-11-05 03:24:12,993 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_56m_39et._2585033122
+2022-11-05 03:24:17,418 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_56m_39et._2585033122 с ценой 7050000
+2022-11-05 03:24:17,613 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_421et._2600251338
+2022-11-05 03:24:22,101 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_421et._2600251338 с ценой 8563509
+2022-11-05 03:24:22,324 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_168m_14et._2597886892
+2022-11-05 03:24:26,755 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_168m_14et._2597886892 с ценой 3311000
+2022-11-05 03:24:26,756 INFO Просмотрено 1 страниц из 10
+2022-11-05 03:24:26,756 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?p=2
+2022-11-05 03:24:33,235 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_458m_1014et._2624633242
+2022-11-05 03:24:37,673 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_458m_1014et._2624633242 с ценой 5490000
+2022-11-05 03:24:37,935 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_618m_1233et._2338889928
+2022-11-05 03:24:42,672 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_631m_926et._2476101418
+2022-11-05 03:24:47,163 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_631m_926et._2476101418 с ценой 18765467
+2022-11-05 03:24:47,409 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_326m_69et._2599186285
+2022-11-05 03:24:51,866 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_326m_69et._2599186285 с ценой 5000000
+2022-11-05 03:24:52,090 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_561m_721et._2600771915
+2022-11-05 03:24:56,683 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_726m_1217et._2666137177
+2022-11-05 03:25:01,167 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_726m_1217et._2666137177 с ценой 7978903
+2022-11-05 03:25:01,374 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_554m_19et._2548436457
+2022-11-05 03:25:05,950 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_554m_19et._2548436457 с ценой 10607140
+2022-11-05 03:25:06,114 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_165m_24et._2614511595
+2022-11-05 03:25:10,556 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_165m_24et._2614511595 с ценой 5514000
+2022-11-05 03:25:10,768 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_641m_823et._2467315868
+2022-11-05 03:25:15,427 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_28m_24et._2511429733
+2022-11-05 03:25:19,898 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_28m_24et._2511429733 с ценой 7100000
+2022-11-05 03:25:20,125 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_479m_1021et._2600501962
+2022-11-05 03:25:24,790 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_351m_814et._2624011519
+2022-11-05 03:25:29,207 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_351m_814et._2624011519 с ценой 5971955
+2022-11-05 03:25:29,415 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_531m_533et._2339317119
+2022-11-05 03:25:33,884 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_531m_533et._2339317119 с ценой 17083544
+2022-11-05 03:25:34,075 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_415m_59et._2599531724
+2022-11-05 03:25:38,489 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:26:08,527 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_415m_59et._2599531724 с ценой 5080000
+2022-11-05 03:26:08,763 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_496m_317et._2339095757
+2022-11-05 03:26:13,251 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_496m_317et._2339095757 с ценой 10146672
+2022-11-05 03:26:13,452 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_79et._2593071564
+2022-11-05 03:26:17,848 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_79et._2593071564 с ценой 5480666
+2022-11-05 03:26:18,106 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_323m_816et._2467666627
+2022-11-05 03:26:22,569 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_323m_816et._2467666627 с ценой 7220083
+2022-11-05 03:26:22,741 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_325m_213et._2638043445
+2022-11-05 03:26:27,209 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_325m_213et._2638043445 с ценой 13500000
+2022-11-05 03:26:27,390 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_617m_533et._2339644472
+2022-11-05 03:26:31,892 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_617m_533et._2339644472 с ценой 15280773
+2022-11-05 03:26:32,099 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_402m_716et._2630303271
+2022-11-05 03:26:36,498 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:27:06,534 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_402m_716et._2630303271 с ценой 5200000
+2022-11-05 03:27:06,793 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_542m_1011et._2338888634
+2022-11-05 03:27:11,472 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_408m_39et._2624254938
+2022-11-05 03:27:15,939 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_408m_39et._2624254938 с ценой 5070000
+2022-11-05 03:27:16,236 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_235m_1868et._2380189397
+2022-11-05 03:27:20,694 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_235m_1868et._2380189397 с ценой 8023115
+2022-11-05 03:27:20,914 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_219m_218et._2615474448
+2022-11-05 03:27:25,415 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_219m_218et._2615474448 с ценой 7761290
+2022-11-05 03:27:25,588 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_593m_611et._2647830773
+2022-11-05 03:27:30,117 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_593m_611et._2647830773 с ценой 12510000
+2022-11-05 03:27:30,348 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_338m_1725et._2339279655
+2022-11-05 03:27:35,139 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969
+2022-11-05 03:27:39,546 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969 с ценой 64990000
+2022-11-05 03:27:39,779 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_279m_229et._2458863770
+2022-11-05 03:27:44,573 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_349m_79et._2666322107
+2022-11-05 03:27:48,967 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_349m_79et._2666322107 с ценой 5984000
+2022-11-05 03:27:49,223 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_533m_3754et._2604347394
+2022-11-05 03:27:53,825 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_355m_116et._2600405176
+2022-11-05 03:27:58,218 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:28:28,457 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_16m_19et._2628048906
+2022-11-05 03:28:32,942 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_16m_19et._2628048906 с ценой 4949469
+2022-11-05 03:28:33,139 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_812m_2733et._2435367655
+2022-11-05 03:28:37,724 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_25et._2628236031
+2022-11-05 03:28:42,109 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:29:12,154 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_25et._2628236031 с ценой 14900000
+2022-11-05 03:29:12,361 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_633et._2435092557
+2022-11-05 03:29:17,021 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_519m_77et._2469037313
+2022-11-05 03:29:21,497 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_519m_77et._2469037313 с ценой 13200000
+2022-11-05 03:29:21,709 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_84m_133et._2339730692
+2022-11-05 03:29:26,205 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_84m_133et._2339730692 с ценой 22086624
+2022-11-05 03:29:26,400 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_26m_117et._2585284155
+2022-11-05 03:29:30,857 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_26m_117et._2585284155 с ценой 5500000
+2022-11-05 03:29:31,050 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_721et._2600596742
+2022-11-05 03:29:35,475 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_721et._2600596742 с ценой 6831230
+2022-11-05 03:29:35,690 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_24m_25et._2465640843
+2022-11-05 03:29:40,092 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_24m_25et._2465640843 с ценой 6990000
+2022-11-05 03:29:40,304 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_692m_1325et._2283556858
+2022-11-05 03:29:44,782 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_692m_1325et._2283556858 с ценой 41356743
+2022-11-05 03:29:44,969 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_601m_1016et._2666616188
+2022-11-05 03:29:49,377 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:30:19,421 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_601m_1016et._2666616188 с ценой 8299000
+2022-11-05 03:30:19,645 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_493m_1324et._2531269636
+2022-11-05 03:30:24,068 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_493m_1324et._2531269636 с ценой 13148704
+2022-11-05 03:30:24,307 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_249m_1553et._2279184943
+2022-11-05 03:30:28,752 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:30:58,987 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_575m_1222et._2666428570
+2022-11-05 03:31:03,388 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_575m_1222et._2666428570 с ценой 6947000
+2022-11-05 03:31:03,571 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1521et._2600556978
+2022-11-05 03:31:08,133 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_512et._2618897945
+2022-11-05 03:31:12,507 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_512et._2618897945 с ценой 14200000
+2022-11-05 03:31:12,690 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_452m_1215et._2658173344
+2022-11-05 03:31:17,145 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:31:47,181 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_452m_1215et._2658173344 с ценой 32804397
+2022-11-05 03:31:47,390 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_389m_716et._2666749912
+2022-11-05 03:31:51,902 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:32:21,951 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_389m_716et._2666749912 с ценой 5500000
+2022-11-05 03:32:22,215 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_20m_921et._2600551840
+2022-11-05 03:32:26,640 INFO Просмотрено 2 страниц из 10
+2022-11-05 03:32:26,640 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?p=3
+2022-11-05 03:32:33,806 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_356m_720et._2666351986
+2022-11-05 03:32:38,347 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_356m_720et._2666351986 с ценой 4597000
+2022-11-05 03:32:38,515 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_711m_1568et._2444536081
+2022-11-05 03:32:43,000 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_711m_1568et._2444536081 с ценой 17360920
+2022-11-05 03:32:43,186 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_545m_1016et._2666334417
+2022-11-05 03:32:47,622 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_545m_1016et._2666334417 с ценой 8200000
+2022-11-05 03:32:47,838 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_618m_1233et._2338889928
+2022-11-05 03:32:53,591 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_56m_516et._2640535687
+2022-11-05 03:32:57,988 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_56m_516et._2640535687 с ценой 7685104
+2022-11-05 03:32:58,170 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_561m_721et._2600771915
+2022-11-05 03:33:02,743 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_274m_615et._2642211499
+2022-11-05 03:33:07,211 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_274m_615et._2642211499 с ценой 7860000
+2022-11-05 03:33:07,441 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_533m_3754et._2604347394
+2022-11-05 03:33:12,159 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_43m_1517et._2596548954
+2022-11-05 03:33:16,639 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_43m_1517et._2596548954 с ценой 13500000
+2022-11-05 03:33:16,862 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_249m_1553et._2279184943
+2022-11-05 03:33:21,411 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:33:51,638 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_238m_117et._2619127976
+2022-11-05 03:33:56,043 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_238m_117et._2619127976 с ценой 4600000
+2022-11-05 03:33:56,239 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_84m_133et._2339730692
+2022-11-05 03:34:00,903 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_99et._2585014494
+2022-11-05 03:34:05,325 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_99et._2585014494 с ценой 5200000
+2022-11-05 03:34:05,543 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_675m_1154et._2604124529
+2022-11-05 03:34:10,218 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_512m_316et._2621243660
+2022-11-05 03:34:14,708 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_512m_316et._2621243660 с ценой 8480000
+2022-11-05 03:34:14,929 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_622m_3333et._2339353050
+2022-11-05 03:34:19,586 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_57m_55et._2487282830
+2022-11-05 03:34:24,056 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_57m_55et._2487282830 с ценой 15000000
+2022-11-05 03:34:24,246 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_793m_1422et._2666776608
+2022-11-05 03:34:28,646 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:34:58,687 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_793m_1422et._2666776608 с ценой 11353000
+2022-11-05 03:34:58,941 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_427m_2833et._2339336895
+2022-11-05 03:35:03,636 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_64m_412et._2566411468
+2022-11-05 03:35:08,068 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:35:38,114 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_64m_412et._2566411468 с ценой 10700000
+2022-11-05 03:35:38,371 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_355m_116et._2600405176
+2022-11-05 03:35:42,828 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:36:13,038 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_526m_812et._2558671812
+2022-11-05 03:36:17,495 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:36:47,537 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_526m_812et._2558671812 с ценой 8800000
+2022-11-05 03:36:47,780 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_479m_1021et._2600501962
+2022-11-05 03:36:52,408 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_406m_1014et._2620101725
+2022-11-05 03:36:56,858 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:37:26,895 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_406m_1014et._2620101725 с ценой 7100000
+2022-11-05 03:37:27,120 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_482m_816et._2658474675
+2022-11-05 03:37:31,559 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:38:01,583 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_482m_816et._2658474675 с ценой 25064000
+2022-11-05 03:38:01,751 INFO Открываю страницу: https://www.avito.ru/moskva_zelenograd/kvartiry/2-k._kvartira_507m_417et._2601013379
+2022-11-05 03:38:06,470 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_226m_618et._2615625246
+2022-11-05 03:38:11,157 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_692m_421et._2488847728
+2022-11-05 03:38:15,901 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_402m_79et._2570934122
+2022-11-05 03:38:20,372 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_402m_79et._2570934122 с ценой 5080000
+2022-11-05 03:38:20,569 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_456m_2424et._2348300447
+2022-11-05 03:38:24,994 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_456m_2424et._2348300447 с ценой 12475178
+2022-11-05 03:38:25,235 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_524m_614et._2606301815
+2022-11-05 03:38:29,649 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_524m_614et._2606301815 с ценой 8620000
+2022-11-05 03:38:29,851 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1521et._2600556978
+2022-11-05 03:38:34,518 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_505m_214et._2604500294
+2022-11-05 03:38:39,016 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:39:09,057 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_505m_214et._2604500294 с ценой 11600000
+2022-11-05 03:39:09,253 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_75m_1416et._2555670086
+2022-11-05 03:39:14,057 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:39:44,082 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_75m_1416et._2555670086 с ценой 14500000
+2022-11-05 03:39:44,276 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_421et._2600251338
+2022-11-05 03:39:48,875 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_375m_1014et._2609138158
+2022-11-05 03:39:53,242 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_375m_1014et._2609138158 с ценой 6710000
+2022-11-05 03:39:53,436 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_402m_1115et._2614886044
+2022-11-05 03:39:57,996 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:40:28,026 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_402m_1115et._2614886044 с ценой 12519190
+2022-11-05 03:40:28,301 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_1116et._2606486425
+2022-11-05 03:40:32,701 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:41:02,733 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_51m_1116et._2606486425 с ценой 7800000
+2022-11-05 03:41:02,980 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_338m_1725et._2339279655
+2022-11-05 03:41:07,665 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_397m_316et._2553182988
+2022-11-05 03:41:12,096 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:43:51,074 INFO  * Detected change in 'C:\\Users\\Dmitry\\Desktop\\hakaton_task_6-main\\avito_parser\\avito_parser.py', reloading
+2022-11-05 03:43:51,479 INFO Браузер закрыт
+2022-11-05 03:43:53,847 INFO  * Restarting with stat
+2022-11-05 03:43:54,824 INFO ====== WebDriver manager ======
+2022-11-05 03:43:54,835 WARNING  * Debugger is active!
+2022-11-05 03:43:54,839 INFO  * Debugger PIN: 167-717-702
+2022-11-05 03:43:55,319 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:43:55,985 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:43:57,017 INFO Браузер открыт
+2022-11-05 03:43:59,654 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:44:04,453 INFO Найдено 113756 объявлений
+2022-11-05 03:44:06,156 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_25m_44et._2542018694
+2022-11-05 03:46:33,485 INFO ====== WebDriver manager ======
+2022-11-05 03:46:33,496 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 03:46:33,496 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 03:46:33,497 INFO  * Restarting with stat
+2022-11-05 03:46:33,903 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:46:34,519 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:46:34,598 INFO ====== WebDriver manager ======
+2022-11-05 03:46:34,608 WARNING  * Debugger is active!
+2022-11-05 03:46:34,613 INFO  * Debugger PIN: 167-717-702
+2022-11-05 03:46:35,016 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 03:46:35,581 INFO Браузер открыт
+2022-11-05 03:46:35,673 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 03:46:36,733 INFO Браузер открыт
+2022-11-05 03:46:37,820 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:46:39,522 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 03:46:43,261 INFO Найдено 114091 объявлений
+2022-11-05 03:46:44,678 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_382m_2021et._2615024240
+2022-11-05 03:46:45,523 INFO Найдено 114030 объявлений
+2022-11-05 03:46:50,251 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_382m_2021et._2615024240 с ценой 10828974
+2022-11-05 03:46:50,439 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 03:46:54,067 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_58m_216et._2573170143
+2022-11-05 03:46:54,933 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:46:58,892 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_58m_216et._2573170143 с ценой 14500000
+2022-11-05 03:47:14,184 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_719m_818et._2585476321
+2022-11-05 03:47:18,696 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:47:24,968 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590 с ценой 6711416
+2022-11-05 03:47:25,161 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1114et._2599839628
+2022-11-05 03:47:29,689 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:47:48,732 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_719m_818et._2585476321 с ценой 38718150
+2022-11-05 03:47:48,971 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 03:47:53,403 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:47:59,734 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1114et._2599839628 с ценой 10745220
+2022-11-05 03:47:59,934 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_487m_1418et._2531337212
+2022-11-05 03:48:04,462 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_487m_1418et._2531337212 с ценой 10905293
+2022-11-05 03:48:04,642 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 03:48:09,122 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:48:23,619 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_2023et._2339146316
+2022-11-05 03:48:28,152 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_2023et._2339146316 с ценой 11964582
+2022-11-05 03:48:35,437 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_465m_1114et._2599839628
+2022-11-05 03:48:39,149 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719 с ценой 14700000
+2022-11-05 03:48:39,352 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_40m_1225et._2571420968
+2022-11-05 03:48:39,933 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:48:43,957 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_40m_1225et._2571420968 с ценой 24009979
+2022-11-05 03:48:44,161 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 03:48:48,727 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725 с ценой 12900000
+2022-11-05 03:48:57,944 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_371m_614et._2423596948
+2022-11-05 03:49:02,519 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:49:10,129 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 03:49:14,665 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:49:32,559 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_371m_614et._2423596948 с ценой 10123727
+2022-11-05 03:49:32,743 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_325m_213et._2638043445
+2022-11-05 03:49:37,261 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_325m_213et._2638043445 с ценой 13500000
+2022-11-05 03:49:37,491 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_277m_29et._2585096657
+2022-11-05 03:49:41,965 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:49:44,915 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_55m_416et._2615224855
+2022-11-05 03:49:49,506 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_55m_416et._2615224855 с ценой 14661310
+2022-11-05 03:49:56,695 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_173m_1021et._2600575451
+2022-11-05 03:50:01,193 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_173m_1021et._2600575451 с ценой 6634524
+2022-11-05 03:50:08,413 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 03:50:12,007 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_277m_29et._2585096657 с ценой 34781742
+2022-11-05 03:50:12,249 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 03:50:12,909 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:50:16,723 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:50:42,957 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319 с ценой 23700000
+2022-11-05 03:50:43,154 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_487m_1418et._2531337212
+2022-11-05 03:50:46,974 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_345m_3333et._2339662281
+2022-11-05 03:50:47,926 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 03:50:51,550 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_345m_3333et._2339662281 с ценой 9677984
+2022-11-05 03:50:51,745 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869
+2022-11-05 03:50:52,848 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_414m_326et._2476008049
+2022-11-05 03:50:56,280 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869 с ценой 12600000
+2022-11-05 03:50:57,425 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_414m_326et._2476008049 с ценой 13232995
+2022-11-05 03:50:57,615 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_335m_817et._2666738086
+2022-11-05 03:51:02,082 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_335m_817et._2666738086 с ценой 3817340
+2022-11-05 03:51:03,511 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_1021et._2600330213
+2022-11-05 03:51:08,028 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_1021et._2600330213 с ценой 8589474
+2022-11-05 03:51:09,330 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_1021et._2600330213
+2022-11-05 03:51:13,975 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_345m_3333et._2339662281
+2022-11-05 03:51:18,703 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004
+2022-11-05 03:51:23,178 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004 с ценой 3950000
+2022-11-05 03:51:23,278 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598
+2022-11-05 03:51:23,369 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_277m_29et._2585096657
+2022-11-05 03:51:27,752 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:51:27,814 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598 с ценой 4900000
+2022-11-05 03:51:28,057 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_94m_1314et._2339484369
+2022-11-05 03:51:32,648 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_94m_1314et._2339484369 с ценой 27775709
+2022-11-05 03:51:32,888 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_621et._2600050080
+2022-11-05 03:51:37,560 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_621et._2600050080 с ценой 8301909
+2022-11-05 03:51:52,781 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004
+2022-11-05 03:51:57,417 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_224m_321et._2600570744
+2022-11-05 03:52:02,053 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_224m_321et._2600570744 с ценой 7562547
+2022-11-05 03:52:02,258 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687
+2022-11-05 03:52:09,512 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:52:13,066 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_597m_1017et._2599252279
+2022-11-05 03:52:14,008 INFO  * Detected change in 'C:\\Users\\Dmitry\\Desktop\\hakaton_task_6-main\\avito_parser\\avito_parser.py', reloading
+2022-11-05 03:52:17,568 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_597m_1017et._2599252279 с ценой 19550000
+2022-11-05 03:52:24,784 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_2733et._2466865070
+2022-11-05 03:52:29,184 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:52:39,810 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_225m_237et._2604072624
+2022-11-05 03:52:44,534 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_225m_237et._2604072624 с ценой 9068135
+2022-11-05 03:52:51,790 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_376m_2343et._2224825649
+2022-11-05 03:52:56,371 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_376m_2343et._2224825649 с ценой 17635392
+2022-11-05 03:52:59,223 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_2733et._2466865070 с ценой 5956332
+2022-11-05 03:53:03,586 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743
+2022-11-05 03:53:06,433 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869
+2022-11-05 03:53:08,117 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743 с ценой 9900000
+2022-11-05 03:53:11,069 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_40m_1225et._2571420968
+2022-11-05 03:53:15,557 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511
+2022-11-05 03:53:20,023 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511 с ценой 4552300
+2022-11-05 03:53:36,555 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:53:41,055 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:54:06,555 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598
+2022-11-05 03:54:11,058 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1192m_216et._2551387350
+2022-11-05 03:54:11,201 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_94m_1314et._2339484369
+2022-11-05 03:54:15,933 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:54:37,156 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:54:45,960 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1192m_216et._2551387350 с ценой 16883607
+2022-11-05 03:54:46,279 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_421et._2600679908
+2022-11-05 03:54:50,784 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_421et._2600679908 с ценой 8436990
+2022-11-05 03:54:50,979 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639
+2022-11-05 03:54:55,558 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:55:07,154 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_325m_213et._2638043445
+2022-11-05 03:55:11,826 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_221m_621et._2600050080
+2022-11-05 03:55:16,483 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_453m_1013et._2621774540
+2022-11-05 03:55:20,936 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 03:55:25,591 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639 с ценой 5990000
+2022-11-05 03:55:25,817 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_248m_321et._2600442794
+2022-11-05 03:55:30,712 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_248m_321et._2600442794 с ценой 9230800
+2022-11-05 03:55:37,987 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_161m_13et._2628347612
+2022-11-05 03:55:42,494 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_161m_13et._2628347612 с ценой 4213773
+2022-11-05 03:55:42,693 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_411m_316et._2615312444
+2022-11-05 03:55:47,746 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_411m_316et._2615312444 с ценой 10977933
+2022-11-05 03:55:50,978 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_453m_1013et._2621774540 с ценой 8320000
+2022-11-05 03:55:51,202 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_224m_321et._2600570744
+2022-11-05 04:09:14,948 INFO ====== WebDriver manager ======
+2022-11-05 04:09:14,962 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.168.101:5000
+2022-11-05 04:09:14,962 INFO [33mPress CTRL+C to quit[0m
+2022-11-05 04:09:14,964 INFO  * Restarting with stat
+2022-11-05 04:09:15,472 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 04:09:16,274 INFO ====== WebDriver manager ======
+2022-11-05 04:09:16,283 WARNING  * Debugger is active!
+2022-11-05 04:09:16,291 INFO  * Debugger PIN: 167-717-702
+2022-11-05 04:09:16,308 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 04:09:16,678 INFO Get LATEST chromedriver version for google-chrome 106.0.5249
+2022-11-05 04:09:17,348 INFO Браузер открыт
+2022-11-05 04:09:17,377 INFO Driver [C:\Users\Dmitry\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+2022-11-05 04:09:18,410 INFO Браузер открыт
+2022-11-05 04:09:22,650 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 04:09:23,129 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ
+2022-11-05 04:09:27,738 INFO Найдено 114069 объявлений
+2022-11-05 04:09:27,980 INFO Найдено 114091 объявлений
+2022-11-05 04:09:28,974 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565
+2022-11-05 04:09:29,168 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_267m_321et._2600026144
+2022-11-05 04:09:33,830 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:09:34,127 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_267m_321et._2600026144 с ценой 8613387
+2022-11-05 04:09:34,321 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 04:09:39,018 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:10:03,876 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_20m_19et._2558450565 с ценой 4450000
+2022-11-05 04:10:04,052 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928
+2022-11-05 04:10:08,722 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_100m_1730et._2610822928 с ценой 33600000
+2022-11-05 04:10:08,955 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626
+2022-11-05 04:10:09,063 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590 с ценой 6711416
+2022-11-05 04:10:09,293 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_415m_3033et._2338889406
+2022-11-05 04:10:13,563 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2563716626 с ценой 10600000
+2022-11-05 04:10:13,818 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676
+2022-11-05 04:10:14,273 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_415m_3033et._2338889406 с ценой 12713359
+2022-11-05 04:10:15,491 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_42m_1226et._2476622685
+2022-11-05 04:10:18,397 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:10:20,087 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_42m_1226et._2476622685 с ценой 14079291
+2022-11-05 04:10:20,350 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 04:10:24,917 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:10:48,434 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_567m_526et._2539782676 с ценой 9800000
+2022-11-05 04:10:48,626 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483
+2022-11-05 04:10:53,166 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_164m_14et._2589314483 с ценой 3579000
+2022-11-05 04:10:53,345 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652
+2022-11-05 04:10:54,958 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719 с ценой 14700000
+2022-11-05 04:10:55,517 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_588m_1323et._2339800917
+2022-11-05 04:10:57,914 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_84m_212et._2583504652 с ценой 27500000
+2022-11-05 04:10:58,140 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373
+2022-11-05 04:11:00,037 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_588m_1323et._2339800917 с ценой 11944044
+2022-11-05 04:11:00,212 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 04:11:02,618 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_21m_25et._2577119373 с ценой 7343000
+2022-11-05 04:11:02,801 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_16m_14et._2613992163
+2022-11-05 04:11:04,729 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725 с ценой 12900000
+2022-11-05 04:11:04,959 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_1083m_613et._2622862561
+2022-11-05 04:11:07,393 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_16m_14et._2613992163 с ценой 3125000
+2022-11-05 04:11:08,580 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602
+2022-11-05 04:11:09,564 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_1083m_613et._2622862561 с ценой 31092644
+2022-11-05 04:11:09,742 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869
+2022-11-05 04:11:13,104 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_65m_525et._2611109602 с ценой 17500000
+2022-11-05 04:11:13,296 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846
+2022-11-05 04:11:14,438 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_59et._2565882869 с ценой 12600000
+2022-11-05 04:11:14,650 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_23m_1616et._2600726812
+2022-11-05 04:11:17,798 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_502m_1017et._2611705846 с ценой 15000000
+2022-11-05 04:11:17,998 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524
+2022-11-05 04:11:19,245 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:11:22,488 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_38m_1113et._2619038524 с ценой 12500000
+2022-11-05 04:11:22,666 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1723et._2590915477
+2022-11-05 04:11:27,217 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:11:49,295 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_23m_1616et._2600726812 с ценой 5962520
+2022-11-05 04:11:49,485 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 04:11:54,007 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:11:57,263 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_66m_1723et._2590915477 с ценой 22800000
+2022-11-05 04:11:57,477 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166
+2022-11-05 04:12:02,088 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_73m_933et._2405260166 с ценой 35000000
+2022-11-05 04:12:02,260 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969
+2022-11-05 04:12:06,775 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_140m_4647et._2567548969 с ценой 64990000
+2022-11-05 04:12:06,972 INFO Открываю страницу: https://www.avito.ru/moskva_zelenograd/kvartiry/1-k._kvartira_286m_28et._2593373748
+2022-11-05 04:12:11,662 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_2333et._2585168202
+2022-11-05 04:12:16,171 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_49m_2333et._2585168202 с ценой 14500000
+2022-11-05 04:12:16,349 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_34m_715et._2608348809
+2022-11-05 04:12:20,899 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_34m_715et._2608348809 с ценой 15000000
+2022-11-05 04:12:21,085 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_264m_1115et._2476718710
+2022-11-05 04:12:24,460 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319 с ценой 23700000
+2022-11-05 04:12:24,670 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_236m_333et._2467711781
+2022-11-05 04:12:25,704 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:12:29,806 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:12:56,170 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_264m_1115et._2476718710 с ценой 6400000
+2022-11-05 04:12:56,353 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_72m_221et._2606063561
+2022-11-05 04:12:59,842 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_236m_333et._2467711781 с ценой 6104579
+2022-11-05 04:13:00,044 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_130m_322et._2526892335
+2022-11-05 04:13:01,748 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_72m_221et._2606063561 с ценой 29800000
+2022-11-05 04:13:04,735 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_130m_322et._2526892335 с ценой 75000000
+2022-11-05 04:13:04,941 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_921et._2600740397
+2022-11-05 04:13:08,999 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_25m_44et._2542018694
+2022-11-05 04:13:09,398 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_921et._2600740397 с ценой 8779881
+2022-11-05 04:13:13,574 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_25m_44et._2542018694 с ценой 8490000
+2022-11-05 04:13:20,786 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2597290127
+2022-11-05 04:13:25,305 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_99et._2597290127 с ценой 9395000
+2022-11-05 04:13:30,442 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:13:46,347 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:14:00,455 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598
+2022-11-05 04:14:04,957 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_33m_89et._2585488598 с ценой 4900000
+2022-11-05 04:14:05,207 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1721et._2600347501
+2022-11-05 04:14:09,785 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_1721et._2600347501 с ценой 7116637
+2022-11-05 04:14:09,993 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/5-k._kvartira_127m_49et._2022274869
+2022-11-05 04:14:16,349 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_518m_1012et._2612810792
+2022-11-05 04:14:21,004 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_518m_1012et._2612810792 с ценой 15100000
+2022-11-05 04:14:28,279 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_463m_25et._2648794926
+2022-11-05 04:14:32,847 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:14:35,481 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:15:02,883 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_463m_25et._2648794926 с ценой 12400000
+2022-11-05 04:15:03,095 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733
+2022-11-05 04:15:05,493 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_374m_216et._2615553448
+2022-11-05 04:15:07,680 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_243m_1414et._2606321733 с ценой 7088475
+2022-11-05 04:15:10,007 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_374m_216et._2615553448 с ценой 9943621
+2022-11-05 04:15:15,903 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_644m_2331et._2597973019
+2022-11-05 04:15:20,505 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:15:31,039 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:15:50,559 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_644m_2331et._2597973019 с ценой 32450000
+2022-11-05 04:15:50,740 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_436m_19et._2581225071
+2022-11-05 04:15:55,270 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:16:01,052 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004
+2022-11-05 04:16:05,512 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004 с ценой 3950000
+2022-11-05 04:16:05,702 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_448m_821et._2600268288
+2022-11-05 04:16:10,216 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_448m_821et._2600268288 с ценой 14941495
+2022-11-05 04:16:17,398 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743
+2022-11-05 04:16:21,763 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_45m_49et._2421284743 с ценой 9900000
+2022-11-05 04:16:25,297 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_436m_19et._2581225071 с ценой 13300000
+2022-11-05 04:16:32,502 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_768m_55et._2558141938
+2022-11-05 04:16:36,984 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687
+2022-11-05 04:16:37,059 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:16:41,474 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_367m_916et._2666433687 с ценой 6321000
+2022-11-05 04:16:41,702 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_405m_1030et._2615559394
+2022-11-05 04:16:46,138 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_405m_1030et._2615559394 с ценой 9976487
+2022-11-05 04:16:46,379 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_371m_1718et._2615323503
+2022-11-05 04:16:52,203 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_371m_1718et._2615323503 с ценой 13341617
+2022-11-05 04:16:52,429 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511
+2022-11-05 04:16:56,843 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_365m_1217et._2666754511 с ценой 4552300
+2022-11-05 04:17:04,498 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_2021et._2600653503
+2022-11-05 04:17:07,090 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_768m_55et._2558141938 с ценой 17290000
+2022-11-05 04:17:07,316 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_79et._2619420483
+2022-11-05 04:17:08,989 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_175m_2021et._2600653503 с ценой 7278005
+2022-11-05 04:17:12,044 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_44m_79et._2619420483 с ценой 13500000
+2022-11-05 04:17:19,295 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_631m_25et._2566725364
+2022-11-05 04:17:23,931 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:17:30,035 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:17:53,965 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_631m_25et._2566725364 с ценой 20200000
+2022-11-05 04:17:54,157 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_37m_612et._2587826533
+2022-11-05 04:17:58,781 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_37m_612et._2587826533 с ценой 11600000
+2022-11-05 04:17:59,013 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_564m_2021et._2489172277
+2022-11-05 04:18:00,039 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_455m_15et._2581689559
+2022-11-05 04:18:03,702 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_564m_2021et._2489172277 с ценой 36789720
+2022-11-05 04:18:03,886 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_372m_417et._2630299590
+2022-11-05 04:18:04,622 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:18:08,463 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:18:34,655 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_455m_15et._2581689559 с ценой 9300000
+2022-11-05 04:18:34,855 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_27m_49et._2585654444
+2022-11-05 04:18:38,664 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_415m_3033et._2338889406
+2022-11-05 04:18:39,336 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:18:43,443 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_130m_322et._2526892335
+2022-11-05 04:18:48,288 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_293m_421et._2339443364
+2022-11-05 04:18:52,881 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_293m_421et._2339443364 с ценой 7062570
+2022-11-05 04:18:53,064 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_52m_316et._2644728719
+2022-11-05 04:18:57,567 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:19:09,374 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_27m_49et._2585654444 с ценой 35376745
+2022-11-05 04:19:09,625 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639
+2022-11-05 04:19:14,046 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:19:27,797 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_588m_1323et._2339800917
+2022-11-05 04:19:32,656 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_1083m_613et._2622862561
+2022-11-05 04:19:37,373 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_45m_27et._2615229319
+2022-11-05 04:19:41,921 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:19:44,080 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_274m_11et._2270284639 с ценой 5990000
+2022-11-05 04:19:44,314 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_215et._2467692660
+2022-11-05 04:19:48,829 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_538m_215et._2467692660 с ценой 13334222
+2022-11-05 04:19:49,020 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_377m_1925et._2615492818
+2022-11-05 04:19:53,425 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_377m_1925et._2615492818 с ценой 6690000
+2022-11-05 04:19:53,617 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_238m_2225et._2508211004
+2022-11-05 04:19:58,074 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._apartamenty_238m_2225et._2508211004 с ценой 8830101
+2022-11-05 04:19:58,250 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_32m_79et._2519224617
+2022-11-05 04:20:02,654 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:20:12,900 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_23m_1616et._2600726812
+2022-11-05 04:20:17,497 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:20:32,702 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_32m_79et._2519224617 с ценой 7999999
+2022-11-05 04:20:32,897 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_1521et._2600273143
+2022-11-05 04:20:37,357 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_178m_1521et._2600273143 с ценой 7178571
+2022-11-05 04:20:37,612 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_148m_112et._2597546822
+2022-11-05 04:20:41,984 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:20:47,738 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/5-k._kvartira_127m_49et._2022274869
+2022-11-05 04:20:52,573 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_215m_917et._2595695850
+2022-11-05 04:20:57,134 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_215m_917et._2595695850 с ценой 6804320
+2022-11-05 04:20:57,317 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_51m_225et._2500537725
+2022-11-05 04:21:02,119 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_986m_1216et._2423836386
+2022-11-05 04:21:06,648 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:21:12,016 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_148m_112et._2597546822 с ценой 3600000
+2022-11-05 04:21:12,195 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_381m_413et._2393701790
+2022-11-05 04:21:16,768 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_381m_413et._2393701790 с ценой 20040600
+2022-11-05 04:21:17,010 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_358m_1014et._2612065395
+2022-11-05 04:21:21,425 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:21:36,694 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/4-k._kvartira_986m_1216et._2423836386 с ценой 20129183
+2022-11-05 04:21:36,885 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_335m_817et._2666738086
+2022-11-05 04:21:41,423 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_335m_817et._2666738086 с ценой 3817340
+2022-11-05 04:21:41,605 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_279m_229et._2458863770
+2022-11-05 04:21:46,190 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_279m_229et._2458863770 с ценой 9750911
+2022-11-05 04:21:46,376 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_597m_1017et._2599252279
+2022-11-05 04:21:51,011 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_597m_1017et._2599252279 с ценой 19550000
+2022-11-05 04:21:51,237 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_236m_333et._2467711781
+2022-11-05 04:21:51,469 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_358m_1014et._2612065395 с ценой 8300000
+2022-11-05 04:21:51,675 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._apartamenty_858m_824et._2508474101
+2022-11-05 04:21:55,796 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:21:56,186 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._apartamenty_858m_824et._2508474101 с ценой 18116957
+2022-11-05 04:21:56,400 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_403m_79et._2558311980
+2022-11-05 04:22:00,823 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_403m_79et._2558311980 с ценой 7270000
+2022-11-05 04:22:01,018 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_669m_216et._2338913541
+2022-11-05 04:22:05,516 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_669m_216et._2338913541 с ценой 16415654
+2022-11-05 04:22:05,733 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_555m_941et._2542020100
+2022-11-05 04:22:10,162 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_555m_941et._2542020100 с ценой 30691500
+2022-11-05 04:22:10,354 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_655m_79et._2614999484
+2022-11-05 04:22:14,740 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:22:26,025 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_185m_19et._2628432004
+2022-11-05 04:22:30,809 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_235m_921et._2600740397
+2022-11-05 04:22:35,475 INFO Просмотрено 1 страниц из 10
+2022-11-05 04:22:35,475 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?p=2
+2022-11-05 04:22:42,563 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_197m_1523et._2371282632
+2022-11-05 04:22:44,783 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_655m_79et._2614999484 с ценой 8640000
+2022-11-05 04:22:44,973 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_481m_3333et._2467637636
+2022-11-05 04:22:47,220 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_197m_1523et._2371282632 с ценой 6183160
+2022-11-05 04:22:49,579 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_481m_3333et._2467637636 с ценой 13709943
+2022-11-05 04:22:49,773 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_25m_44et._2542018694
+2022-11-05 04:22:54,372 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_234m_721et._2599993129
+2022-11-05 04:22:54,481 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_458m_1014et._2624633242
+2022-11-05 04:22:58,936 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_234m_721et._2599993129 с ценой 8924496
+2022-11-05 04:22:58,978 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_458m_1014et._2624633242 с ценой 5490000
+2022-11-05 04:22:59,118 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_375m_812et._2597315282
+2022-11-05 04:22:59,186 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_23m_316et._2600324134
+2022-11-05 04:23:03,480 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_375m_812et._2597315282 с ценой 6550000
+2022-11-05 04:23:03,715 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:23:03,752 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_706m_1927et._2570479645
+2022-11-05 04:23:08,380 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_706m_1927et._2570479645 с ценой 24409950
+2022-11-05 04:23:08,575 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_33m_29et._2585530213
+2022-11-05 04:23:13,034 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:23:33,752 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_23m_316et._2600324134 с ценой 5605560
+2022-11-05 04:23:33,975 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_726m_1217et._2666137177
+2022-11-05 04:23:38,972 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_726m_1217et._2666137177 с ценой 7978903
+2022-11-05 04:23:39,196 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_746m_1424et._2568125224
+2022-11-05 04:23:43,078 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_33m_29et._2585530213 с ценой 40267427
+2022-11-05 04:23:43,269 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_56m_39et._2585033122
+2022-11-05 04:23:43,639 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:23:47,694 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_56m_39et._2585033122 с ценой 7050000
+2022-11-05 04:23:47,877 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_532m_1516et._2551095352
+2022-11-05 04:23:52,288 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:24:13,677 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_746m_1424et._2568125224 с ценой 19167473
+2022-11-05 04:24:13,871 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_375m_116et._2599966271
+2022-11-05 04:24:18,313 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:24:22,325 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_532m_1516et._2551095352 с ценой 11211208
+2022-11-05 04:24:22,328 INFO Просмотрено 1 страниц из 10
+2022-11-05 04:24:22,328 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?p=2
+2022-11-05 04:24:29,026 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_458m_1014et._2624633242
+2022-11-05 04:24:33,834 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_374m_216et._2615553448
+2022-11-05 04:24:38,595 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_436m_1333et._2435543304
+2022-11-05 04:24:43,240 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_436m_1333et._2435543304 с ценой 10500624
+2022-11-05 04:24:43,423 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_455m_15et._2581689559
+2022-11-05 04:24:47,948 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:24:48,351 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_375m_116et._2599966271 с ценой 7371000
+2022-11-05 04:24:48,603 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_326m_69et._2599186285
+2022-11-05 04:24:52,978 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_326m_69et._2599186285 с ценой 5000000
+2022-11-05 04:24:53,226 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_916et._2600374156
+2022-11-05 04:24:57,701 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:25:18,165 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_726m_1217et._2666137177
+2022-11-05 04:25:22,989 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_687m_3232et._2338904204
+2022-11-05 04:25:27,608 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_687m_3232et._2338904204 с ценой 20348253
+2022-11-05 04:25:27,744 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/kvartira-studiya_182m_916et._2600374156 с ценой 5775224
+2022-11-05 04:25:27,804 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_972m_412et._2339787636
+2022-11-05 04:25:27,978 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_28m_24et._2511429733
+2022-11-05 04:25:32,453 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_972m_412et._2339787636 с ценой 25937820
+2022-11-05 04:25:32,492 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_28m_24et._2511429733 с ценой 7100000
+2022-11-05 04:25:32,642 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_326m_69et._2599186285
+2022-11-05 04:25:32,757 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._kvartira_783m_1148et._2570768156
+2022-11-05 04:25:37,312 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/2-k._kvartira_783m_1148et._2570768156 с ценой 34037088
+2022-11-05 04:25:37,479 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/2-k._apartamenty_746m_1424et._2568125224
+2022-11-05 04:25:37,493 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_165m_24et._2614511595
+2022-11-05 04:25:42,040 ERROR Ошибка!!! Жду 30 секунд
+2022-11-05 04:25:42,153 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/apartamenty-studiya_165m_24et._2614511595 с ценой 5514000
+2022-11-05 04:25:42,354 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/4-k._kvartira_1083m_613et._2622862561
+2022-11-05 04:25:47,060 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_351m_814et._2624011519
+2022-11-05 04:25:51,515 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/1-k._kvartira_351m_814et._2624011519 с ценой 5971955
+2022-11-05 04:25:51,717 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1021m_1024et._2339840541
+2022-11-05 04:25:56,172 INFO Добавлено новое объявление https://www.avito.ru/moskva/kvartiry/3-k._kvartira_1021m_1024et._2339840541 с ценой 25315695
+2022-11-05 04:25:56,333 INFO Открываю страницу: https://www.avito.ru/moskva/kvartiry/1-k._kvartira_415m_59et._2599531724
+2022-11-05 04:26:00,753 ERROR Ошибка!!! Жду 30 секунд

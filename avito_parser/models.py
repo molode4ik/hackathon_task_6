@@ -1,6 +1,7 @@
 import datetime
 import os
-from peewee import SqliteDatabase, Model, TextField, DateTimeField, PrimaryKeyField, CharField, IntegerField, BooleanField, FloatField
+from peewee import SqliteDatabase, Model, TextField, DateTimeField, PrimaryKeyField, CharField, IntegerField, \
+    BooleanField, FloatField
 
 db = SqliteDatabase(os.path.dirname(os.path.realpath(__file__)) + '/avito_parser.db')
 
@@ -16,18 +17,18 @@ class Advertisement(BaseModel):
     url = CharField()
     name = CharField()
     description = TextField()
-    category = CharField()  # разделить
-    location = CharField()  # разделить
+    category = CharField()
+    location = CharField()
     time = DateTimeField()
-    price = IntegerField()  # разделить
-    images = TextField()  # разделить
+    price = IntegerField()
+    images = TextField()
     address = CharField()
     phone = BooleanField()
     delivery = BooleanField()
     message = BooleanField()
     parameters = CharField(null=True, default=None)
-    coords_lat = IntegerField()
-    coords_lng = IntegerField()
+    coords_lat = FloatField()
+    coords_lng = FloatField()
     date_creation = DateTimeField(default=datetime.datetime.now)
     date_update = DateTimeField(default=datetime.datetime.now)
     activated = BooleanField(default=True)
@@ -42,20 +43,19 @@ class Advertisement(BaseModel):
     total_area = FloatField(null=True, default=None)
     kitchen_area = FloatField(null=True, default=None)
     living_area = FloatField(null=True, default=None)
-    floor = CharField(null=True, default=None, max_length=50)
+    floor = IntegerField(null=True, default=None)
+    floor_total = IntegerField(null=True, default=None)
     balcony = CharField(null=True, default=None, max_length=50)
     bathroom = CharField(null=True, default=None, max_length=50)
     windows = CharField(null=True, default=None, max_length=50)
     repairs = CharField(null=True, default=None, max_length=50)
     ceiling_height = FloatField(null=True, default=None)
-    facing = CharField(null=True, default=None, max_length=50)
     selling_method = CharField(null=True, default=None, max_length=50)
     transaction_type = CharField(null=True, default=None, max_length=50)
     metro_info = TextField(null=True, default=None)
-    nearest_metro_sttion = TextField(null=True, default=None)
+    nearest_metro_station = TextField(null=True, default=None)
     nearest_metro_time = IntegerField(null=True, default=None)
     vendor = CharField(null=True, default=None, max_length=50)
-
 
     class Meta:
         table_name = 'Advertisement'
@@ -64,7 +64,7 @@ class Advertisement(BaseModel):
 
 class Users(BaseModel):
     __table_name__ = 'Users'
-    id_users = IntegerField( primary_key=True)
+    id_users = IntegerField(primary_key=True)
     login = CharField()
     password = CharField()
     blacklist_avito = TextField(null=True, default=None)
@@ -72,14 +72,6 @@ class Users(BaseModel):
     def get_id(self):
         return self.id
 
-
     class Meta:
         table_name = 'Users'
         order_by = 'id'
-
-
-# class User(db.Model):
-#     id = datab.Column(datab.Integer, primary_key=True)
-#     username = datab.Column(datab.String(64), index=True, unique=True)
-#     password = datab.Column(datab.String(120), index=True, unique=True)
-#     blacklist_avito = datab.Column(datab.String(128))

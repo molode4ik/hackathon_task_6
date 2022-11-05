@@ -25,51 +25,266 @@
             <h3 class="title"> Эталонный объект </h3>
             <form class="form-horizontal">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Местоположение">
+                    <input type="text" class="form-control" placeholder="Местоположение"
+                           value="{% if file_data %}{{ file_data['Местоположение'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Количество комнат">
+                    <input type="text" class="form-control" placeholder="Количество комнат"
+                           value="{% if file_data %}{{ file_data['Количество комнат'] }}{% endif %}">
                 </div>
                 <div class="form-group">
                     <select class="form-control select">
+                        <!--TODO: Добавить материалы стен-->
+                        <!--Кирпич, монолит, панель-->
+                        {% if file_data %}
+                        <option {% if file_data.get(
+                        'Сегмент (Новостройка, современное жилье, старый жилой фонд)')=='Новостройка' %}selected{% endif
+                        %} class="form-control option">Новостройка</option>
+                        <option {% if file_data.get(
+                        'Сегмент (Новостройка, современное жилье, старый жилой фонд)')=='Современное жилье' %}selected{%
+                        endif %} class="form-control option">Современное жилье</option>
+                        <option {% if file_data.get(
+                        'Сегмент (Новостройка, современное жилье, старый жилой фонд)')=='Старый жилой фонд' %}selected{%
+                        endif %} class="form-control option">Старый жилой фонд</option>
+                        {% else %}
                         <option class="form-control option">Новостройка</option>
                         <option class="form-control option">Современное жилье</option>
                         <option class="form-control option">Старый жилой фонд</option>
+                        {% endif %}
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Этажность дома">
+                    <input type="text" class="form-control" placeholder="Этажность дома"
+                           value="{% if file_data %}{{ file_data['Этажность дома'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Этаж расположения">
+                    <input type="text" class="form-control" placeholder="Этаж расположения"
+                           value="{% if file_data %}{{ file_data['Этаж расположения'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Площадь квартиры">
+                    <input type="text" class="form-control" placeholder="Площадь квартиры"
+                           value="{% if file_data %}{{ file_data['Площадь квартиры, кв.м'] }}{% endif %}">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Площадь кухни"
+                           value="{% if file_data %}{{ file_data['Площадь кухни, кв.м'] }}{% endif %}">
                 </div>
                 <div class="form-group">
                     <select class="form-control select">
+                        {% if file_data %}
+                        <option {% if file_data.get(
+                        'Наличие балкона/лоджии')=='Да' %}selected{% endif %} class="form-control option">Есть балкон /
+                        лоджия</option>
+                        <option {% if file_data.get(
+                        'Наличие балкона/лоджии')=='Нет' %}selected{% endif %} class="form-control option">Нет балкона /
+                        лоджии</option>
+                        {% else %}
                         <option class="form-control option">Есть балкон / лоджия</option>
                         <option class="form-control option">Нет балкона / лоджии</option>
+                        {% endif %}
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Удаленность от станции метро (минуты)">
+                    <input type="text" class="form-control" placeholder="Удаленность от станции метро (минуты)"
+                           value="{% if file_data %}{{ file_data['Удаленность от станции метро, мин. пешком'] }}{% endif %}">
                 </div>
                 <div class="form-group">
                     <select class="form-control select">
+                        {% if file_data %}
+                        <option {% if file_data.get(
+                        'Состояние (без отделки, муниципальный ремонт, с современная отделка)')=='Без отделки'
+                        %}selected{% endif %} class="form-control option">Без отделки</option>
+                        <option {% if file_data.get(
+                        'Состояние (без отделки, муниципальный ремонт, с современная отделка)')=='Муниципальный ремонт'
+                        %}selected{% endif %} class="form-control option">Муниципальный ремонт</option>
+                        <option {% if file_data.get(
+                        'Состояние (без отделки, муниципальный ремонт, с современная отделка)')=='Современная отделка'
+                        %}selected{% endif %} class="form-control option">Современная отделка</option>
+                        {% else %}
                         <option class="form-control option">Без отделки</option>
                         <option class="form-control option">Муниципальный ремонт</option>
                         <option class="form-control option">Современная отделка</option>
+                        {% endif %}
                     </select>
                 </div>
-                <div class="form-group">
-                    <input class="form-control" type="file" accept=".xls, .xlsx" id="file_xl_welcome"
-                           name="file_xl_welcome">
-                </div>
-                <button name="excel_button_welcome" id="excel_button_welcome" class="btn signin">EXCEL</button>
-                <a class="btn signin" href="/analogue">Показать аналоги</a>
-                <a class="btn signin" href="/adjustments">Рассчитать</a>
+
             </form>
+
+            <form class="form-horizontal" action="/welcome" method="POST" enctype="multipart/form-data">
+                <div class="form-group align">
+                    <input class="form-control" onchange="javascript:this.form.submit();" type="file" id="file"
+                           name="file" accept="{{ allowed_extensions }}">
+                    <a class="btn signin" href="/analogue">Показать аналоги</a>
+                    <a class="btn signin" href="/adjustments">Рассчитать</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--TODO: Добавить поля в аналог-->
+<!--Источник информации, дата предложения, назначение(жилое помещение(квартира)),
+тип объекта (встроенное помещение), ближайшая станция метро, материал стен,
+доп. информация, цена предложения, цена предложения за кв.м-->
+<div class="container-fluid">
+    <div class="row">
+        <!--       Сюда нужно выводить аналоги после нажатия кнопки показать аналоги         -->
+        <!--       До нажатия кнопки этих блоков нет, добавляются в цикле         -->
+        <!--       Для каруселей надо id расставлять в цикле -->
+        <div class="col-md-4">
+            <div class="form-data align">
+                <!--В карусель ссылки на фото из БД-->
+                <div id="carousel1" class="carousel slide data image" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <label class="data">Местроположение: г. Москва</label>
+                <label class="data">Количество комнат: г. Москва</label>
+                <label class="data">Сегмент: г. Москва</label>
+                <label class="data">Этажность дома: г. Москва</label>
+                <label class="data">Этаж: г. Москва</label>
+                <label class="data">Площадь квартиры: г. Москва</label>
+                <label class="data">Наличие балкона / лоджии: г. Москва</label>
+                <label class="data">Удаленность от станции метро: г. Москва</label>
+                <label class="data">Состояние: г. Москва</label>
+                <label class="data">Этажность дома: г. Москва</label>
+                <form class="form-horizontal">
+                    <button class="btn signin"> Показать объявление</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-data align">
+                <!--В карусель ссылки на фото из БД-->
+                <div id="carousel2" class="carousel slide data image" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <label class="data">Местроположение: г. Москва</label>
+                <label class="data">Количество комнат: г. Москва</label>
+                <label class="data">Сегмент: г. Москва</label>
+                <label class="data">Этажность дома: г. Москва</label>
+                <label class="data">Этаж: г. Москва</label>
+                <label class="data">Площадь квартиры: г. Москва</label>
+                <label class="data">Наличие балкона / лоджии: г. Москва</label>
+                <label class="data">Удаленность от станции метро: г. Москва</label>
+                <label class="data">Состояние: г. Москва</label>
+                <label class="data">Этажность дома: г. Москва</label>
+                <form class="form-horizontal">
+                    <button class="btn signin"> Показать объявление</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-data align">
+                <!--В карусель ссылки на фото из БД-->
+                <div id="carousel3" class="carousel slide data image" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://54.img.avito.st/image/1/1.9-9Qr7a-WwYeBeEDMvCg-5QMXQDwClkM7vRQvOEMWQbkrFg.wTrLxq-7cCq4O6JxRim8R4C6HgSQyHbuqydxjH7MX-M"
+                                 class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <label class="data">Местроположение: г. Москва</label>
+                <label class="data">Количество комнат: г. Москва</label>
+                <label class="data">Сегмент: г. Москва</label>
+                <label class="data">Этажность дома: г. Москва</label>
+                <label class="data">Этаж: г. Москва</label>
+                <label class="data">Площадь квартиры: г. Москва</label>
+                <label class="data">Наличие балкона / лоджии: г. Москва</label>
+                <label class="data">Удаленность от станции метро: г. Москва</label>
+                <label class="data">Состояние: г. Москва</label>
+                <label class="data">Этажность дома: г. Москва</label>
+                <form class="form-horizontal">
+                    <button class="btn signin"> Показать объявление</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>

@@ -4,18 +4,32 @@ from flask import render_template, request, redirect, url_for, flash
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import current_user, login_user, LoginManager, login_required, UserMixin, logout_user
 from avito_parser.models import Users, db
+from excel_parser.excel_parser import parse_excel
+from config.config import Flask
+import os
+from werkzeug.utils import secure_filename
 
 n = 4  # pages в analogue и adjustments (кол-во аналагов, которые будут показываться), используется в jinja
 
-class User_n(UserMixin):
+app.config['UPLOAD_FOLDER'] = Flask.upload_folder
+
+
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in Flask.allowed_extensions
+
+
+class UserLogin(UserMixin):
     def __init__(self, id, login, password):
         self.id = id
         self.login = login
         self.password = password
 
+
 @login_manager.user_loader
 def load_user(user):
-    return User_n
+    return UserLogin
+
 
 @app.route('/', methods=["GET", "POST"])
 def start():
@@ -23,33 +37,46 @@ def start():
         return redirect(url_for('welcome'))
     return redirect(url_for('index'))
 
+
 @app.route('/auth', methods=["GET", "POST"])
 def index():
     if current_user.is_authenticated:
         return redirect(url_for('welcome'))
-    #form1 = generate_password_hash(LoginForm().login)
-    #form2 = generate_password_hash(LoginForm().password)
+    # form1 = generate_password_hash(LoginForm().login)
+    # form2 = generate_password_hash(LoginForm().password)
     form = LoginForm()
     if form.validate_on_submit():
         try:
-            #user = Users.get(login=form.login.data, password=form.password.data)
-            print(LoginForm().login.data)
-            print()
+            # user = Users.get(login=form.login.data, password=form.password.data)
+            # print(LoginForm().login.data)
+            # print()
             for person in Users.select():
-                print(person.login)
-                if check_password_hash(person.login, LoginForm().login.data) and check_password_hash(person.password, LoginForm().password.data):
+                # print(person.login)
+                if check_password_hash(person.login, LoginForm().login.data) and check_password_hash(person.password,
+                                                                                                     LoginForm().password.data):
                     user = Users.get(login=person.login, password=person.password)
-                    user_auth = User_n(id=user.id_users, login=user.login, password=user.password)
+                    user_auth = UserLogin(id=user.id_users, login=user.login, password=user.password)
                     login_user(user_auth)
                     return redirect(url_for('welcome'))
         except:
             return render_template('auth.html', form=form)
     return render_template('auth.html', form=form)
 
+
 @app.route('/welcome', methods=["GET", "POST"])
 @login_required
 def welcome():
-    return render_template('welcome.html')
+    if request.method == 'POST':
+        file = request.files['file']
+        if file:
+            filename = secure_filename(file.filename)
+            new_filename = f'{Flask.upload_folder}\\{file.filename}'
+            save_location = os.path.join('input', new_filename)
+            file.save(save_location)
+            file_data = parse_excel(new_filename)[0]
+            return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions),
+                                   file_data=file_data)
+    return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
 
 @app.route('/analogue', methods=["GET", "POST"])
@@ -73,6 +100,7 @@ def registration():
         Users.create(login=generate_password_hash(login_reg), password=generate_password_hash(password_reg))
         return redirect(url_for('index'))
     return render_template('registration.html', form=form_reg)
+
 
 @app.route("/logout")
 @login_required
