@@ -159,7 +159,6 @@ class AvitoParser(Parser):
                             elif item['title'] == "Вид сделки":
                                 result.update({'transaction_type': item['description']})
                         if metro_data:
-                            print(metro_data[0]['content'])
                             result.update({'metro_info': metro_data})
                             result.update({'nearest_metro_station': metro_data[0]['content']})
                             result.update({'nearest_metro_time': int(re.findall(r'\d+',
@@ -205,7 +204,7 @@ class AvitoParser(Parser):
                     vendor = None
 
                 try:
-                    lat, lng = get_geocode(item['location']['name'], item['geo']['formattedAddress'])
+                    lat, lng = get_geocode(item['location']['name'] + item['geo']['formattedAddress'])
                 except:
                     logging.error('Ошибка!!! Жду 30 секунд')
                     time.sleep(30)
@@ -258,7 +257,6 @@ class AvitoParser(Parser):
                 for advertisement in advertisements:
                     try:
                         advertisements_info = parser._get_more_data(advertisement["url"])
-                        print(advertisements_info)
                         if advertisements_info:
                             Advertisement.create(**advertisement)
                             elm = Advertisement.get(Advertisement.id_avito == advertisement['id_avito'])
