@@ -130,7 +130,7 @@ class Analog:
         return DECORATION_PERCENTS_LIST[analog_gap][gap]
 
 
-#def main():
+def main():
     # TODO: Тут явно нужно что-то поменять
     ...
     # a = Analog('Средние этажи', 25, 6, 'Нет', 5, 'Без отделки')
@@ -153,15 +153,14 @@ class Analog:
 #     'metro_distance': 1,
 #     'amount_floor': 9,
 #     'balcony': 'Нет',
-#     'material': 'Монолит',
+#     'material': 'монолит',
 #     'floor': 8,
 #     'state': 'муниципальный ремонт'
 # }
 #
-# print(
-#     *Analog(location=reference_data['location'], rooms=reference_data['rooms'], segment="",
-#             home_area=reference_data['home_square'],
-#             kitchen_area=reference_data['kitchen_square'], metro_time=reference_data['metro_distance'],
-#             floor_total=reference_data['amount_floor'], balcony=reference_data['balcony'],
-#             material=reference_data['material'], floor=reference_data['floor'],
-#             repairs=reference_data['state']).find_analog())
+# analogs = Analog(location=reference_data['location'], rooms=reference_data['rooms'], segment="новостройки",
+#                  home_area=reference_data['home_square'],
+#                  kitchen_area=reference_data['kitchen_square'], metro_time=reference_data['metro_distance'],
+#                  floor_total=reference_data['amount_floor'], balcony=reference_data['balcony'],
+#                  material=reference_data['material'], floor=reference_data['floor'],
+#                  repairs=reference_data['state']).find_analog()
