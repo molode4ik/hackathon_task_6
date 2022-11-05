@@ -3,13 +3,13 @@ from app.forms import RegistrationForm, LoginForm
 from flask import render_template, request, redirect, url_for, flash
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import current_user, login_user, LoginManager, login_required, UserMixin, logout_user
-from avito_parser.models import Users, db
+from avito_parser.models import Users, db, Advertisement
 from excel_parser.excel_parser import parse_excel
 from config.config import Flask
 import os
 from werkzeug.utils import secure_filename
 import openpyxl
-
+from calculation.calculation import Analog
 n = 4  # pages в analogue и adjustments (кол-во аналагов, которые будут показываться), используется в jinja
 
 app.config['UPLOAD_FOLDER'] = Flask.upload_folder
@@ -93,41 +93,47 @@ def welcome():
             metro_time_welcome_to_xl = request.form['metro_time']
             renovation_welcome_to_xl = request.form['renovation']
 
-            my_wb = openpyxl.Workbook()
-            my_sheet = my_wb.active
-            my_sheet['A1'] = 'Местоположение'
-            my_sheet['B1'] = 'Количество комнат'
-            my_sheet['C1'] = 'Сегмент'
-            my_sheet['D1'] = 'Этажность дома'
-            my_sheet['E1'] = 'Материал стен'
-            my_sheet['F1'] = 'Этаж расположения'
-            my_sheet['G1'] = 'Площадь квартиры'
-            my_sheet['H1'] = 'Площадь кухни'
-            my_sheet['I1'] = 'Наличие балкона/лоджии'
-            my_sheet['J1'] = 'Удаленность от станции метро, мин. пешком'
-            my_sheet['K1'] = 'Состояние'
 
-            my_sheet['A2'] = place_welcome_to_xl
-            my_sheet['B2'] = rooms_num_welcome_to_xl
-            my_sheet['C2'] = type_house_welcome_to_xl
-            my_sheet['D2'] = level_house_welcome_to_xl
-            my_sheet['E2'] = material_house_welcome_to_xl
-            my_sheet['F2'] = level_room_welcome_to_xl
-            my_sheet['G2'] = area_room_welcome_to_xl
-            my_sheet['H2'] = area_kitchen_welcome_to_xl
-            my_sheet['I2'] = balcony_welcome_to_xl
-            my_sheet['J2'] = metro_time_welcome_to_xl
-            my_sheet['K2'] = renovation_welcome_to_xl
-
-            my_wb.save('sample.xlsx')
-            my_wb.close()
             return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
     return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
+
+
+
 @app.route('/analogue', methods=["GET", "POST"])
 @login_required
 def analogue():
-    return render_template('analogue.html', pages=n)
+    if request.method == 'POST':
+
+        dict_charters = dict()
+        dict_charters['Местоположение'] = request.form['place']
+        dict_charters['Количество комнат'] = request.form['rooms_num']
+        dict_charters['Сегмент (Новостройка, современное жилье, старый жилой фонд)'] = request.form['type_house']
+        dict_charters['Этажность дома'] = request.form['level_house']
+        dict_charters['Материал стен (Кипич, панель, монолит)'] = request.form['material_house']
+        dict_charters['Этаж расположения'] = request.form['level_room']
+        dict_charters['Площадь квартиры, кв.м'] = request.form['area_room']
+        dict_charters['Площадь кухни, кв.м'] = request.form['area_kitchen']
+        dict_charters['Наличие балкона/лоджии'] = request.form['balcony']
+        dict_charters['Удаленность от станции метро, мин. пешком'] = request.form['metro_time']
+        dict_charters['Состояние (без отделки, муниципальный ремонт, с современная отделка)'] = request.form[
+            'renovation']
+        class_list = Analog(location=dict_charters['Местоположение'], rooms=int(dict_charters['Количество комнат']),
+                            segment=dict_charters['Сегмент (Новостройка, современное жилье, старый жилой фонд)'],
+                            home_area=int(dict_charters['Площадь квартиры, кв.м']),
+                            kitchen_area=int(dict_charters['Площадь кухни, кв.м']),
+                            metro_time=int(dict_charters['Удаленность от станции метро, мин. пешком']),
+                            floor_total=int(dict_charters['Этажность дома']),
+                            balcony=dict_charters['Наличие балкона/лоджии'],
+                            material=dict_charters['Материал стен (Кипич, панель, монолит)'],
+                            floor=int(dict_charters['Этаж расположения']),
+                            repairs=dict_charters[
+                                'Состояние (без отделки, муниципальный ремонт, с современная отделка)']).find_analog()
+
+
+        return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions),
+                               file_data=dict_charters, list_class=class_list)
+    return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
 
 @app.route('/adjustments', methods=["GET", "POST"])
@@ -140,12 +146,7 @@ def adjustments():
 def registration():
     form_reg = RegistrationForm()
     if form_reg.validate_on_submit():
-        for person in Users.select():
-            if check_password_hash(person.login, form_reg.username.data):
-                return redirect(url_for('registration'))
-            else:
-                flash('Логин уже имеется или пароли не совпадают!')
-                return redirect(url_for('registration'))
+
         login_reg = form_reg.username.data
         password_reg = form_reg.password.data
         Users.create(login=generate_password_hash(login_reg), password=generate_password_hash(password_reg))
