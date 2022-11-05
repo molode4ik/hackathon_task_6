@@ -3,6 +3,8 @@ import math
 from config.config import Yandex
 from avito_parser.models import Advertisement
 from datetime import datetime
+import re
+
 
 FLOOR_PERCENTS_LIST = [[0.0, 7.5, 3.2], [-7.0, 0, -4], [-3.1, 4.2, 0]]
 FLOORS_LIST = [["первый этаж"], ["средние этажи"], ["последний этаж"]]
@@ -17,7 +19,7 @@ KITCHEN_PERCENTS_LIST = [[0, 3, 9], [-2.9, 0, 5.8], [-8.3, -5.5, 0]]
 KITCHEN_SQUARES_LIST = [[i for i in range(7)], [i for i in range(7, 10)], [i for i in range(10, 15)]]
 
 BALCONY_PERCENTS_LIST = [[0, 5.3], [-5, 0]]
-BALCONY_LIST = [['нет'], ['есть']]
+BALCONY_LIST = [['нет'], ['да']]
 
 METRO_PERCENTS_LIST = [[0, -7, -11, None, None, None], [7, 0, -4, -8, None, None], [12, 4, 0, -5, -10, None],
                        [None, 9, 5, 0, -6, -9], [None, None, 11, 6, 0, -4], [None, None, None, 10, 4, 0]]
@@ -26,7 +28,7 @@ METRO_DISTANCES_LIST = [[i for i in range(5)], [i for i in range(5, 10)], [i for
 
 DECORATION_PERCENTS_LIST = [[0, 13400, 20100],
                             [-13400, 0, 6700], [-20100, -6700, 0]]
-DECORATION_STATES_LIST = [['без отделки'], ['эконом'], ['улучшеный']]
+DECORATION_STATES_LIST = [['без отделки'], ['муниципальынй ремонт'], ['современная отделка']]
 
 
 def get_geocode(address: str):
@@ -42,51 +44,7 @@ def get_distance(point: tuple, radius: int):
     return (lat_min, lat_max), (lng_min, lng_max)
 
 
-class Analog:
-    # def __init__(self, floor: str, home_square: int, kitchen_square: int, balcony: str, metro_distance: float,
-    #              decoration_state: str):
-    #     self.floor = floor.lower()
-    #     self.home_square = home_square
-    #     self.kitchen_square = kitchen_square
-    #     self.balcony = balcony.lower()
-    #     self.metro_distance = metro_distance
-    #     self.decoration_state = decoration_state.lower()
-    #
-    # def search_gap(self, input_square: int, squares_list: list):
-    #     for gap, squares in enumerate(squares_list):
-    #         for square in squares:
-    #             if square == input_square:
-    #                 return gap
-    #
-    # def search_floor_percent(self, input_square: str):
-    #     gap = self.search_gap(input_square.lower(), FLOORS_LIST)
-    #     analog_gap = self.search_gap(self.floor, FLOORS_LIST)
-    #     return FLOOR_PERCENTS_LIST[analog_gap][gap]
-    #
-    # def searh_home_square_percent(self, input_square: int):
-    #     gap = self.search_gap(input_square, HOME_SQUARES_LIST)
-    #     analog_gap = self.search_gap(self.home_square, HOME_SQUARES_LIST)
-    #     return HOME_PERCENTS_LIST[analog_gap][gap]  # return percent
-    #
-    # def search_kitchen_square_percent(self, input_square: int):
-    #     gap = self.search_gap(input_square, KITCHEN_SQUARES_LIST)
-    #     analog_gap = self.search_gap(self.kitchen_square, KITCHEN_SQUARES_LIST)
-    #     return KITCHEN_PERCENTS_LIST[analog_gap][gap]
-    #
-    # def search_balcony_percent(self, input_square: str):
-    #     gap = self.search_gap(input_square, BALCONY_LIST)
-    #     analog_gap = self.search_gap(self.balcony, BALCONY_LIST)
-    #     return BALCONY_PERCENTS_LIST[analog_gap][gap]
-    #
-    # def search_metro_distance_percent(self, input_square: int):
-    #     gap = self.search_gap(input_square, METRO_DISTANCES_LIST)
-    #     analog_gap = self.search_gap(self.metro_distance, METRO_DISTANCES_LIST)
-    #     return METRO_PERCENTS_LIST[analog_gap][gap]
-    #
-    # def search_decoration_state_percent(self, input_square: str):
-    #     gap = self.search_gap(input_square, DECORATION_STATES_LIST)
-    #     analog_gap = self.search_gap(self.decoration_state, DECORATION_STATES_LIST)
-    #     return DECORATION_PERCENTS_LIST[analog_gap][gap]
+class Analog:    
     def __init__(self, location: str, rooms: int, segment: str, home_area: float, kitchen_area: float, metro_time: int,
                  floor: int,
                  floor_total: int, balcony: str, material: str, repairs: str):
@@ -104,10 +62,6 @@ class Analog:
 
     def find_analog(self):
         lat_range, lng_range = get_distance(get_geocode(self.location), radius=1)
-        segments = {
-            "старый жилищний фонд": (1, 1990),
-            "современное жилье": (1991, datetime.now().year - 1),
-        }
         # TODO: Сегмент
         return Advertisement.select().where(
             (Advertisement.coords_lat.between(lat_range[0], lat_range[1]) & Advertisement.coords_lng.between(
@@ -115,9 +69,65 @@ class Analog:
             (self.rooms == Advertisement.get().number_rooms) &
             (Advertisement.floor_total.between(self.floor_total - 4, self.floor_total + 4)) &
             (self.material in Advertisement.get().house_type) &
-            (not Advertisement.deadline is None if self.segment in "новостройка"
-             else Advertisement.construction_year.between(segments[self.segment][0], segments[self.segment][1]))
+            (self.segment in Advertisement.get().segment)
         ).execute()
+
+    def search_floor_lvl(floor:int, total_floor: int) -> str:
+        if floor == 1: 
+            return 'первый этаж'
+        elif  1 < floor < total_floor:
+            return 'средние этажи'
+        elif floor == total_floor:
+            return 'последний этаж'
+
+    def search_balcony(balcony: str):
+        if len(re.findall(r'балкон|лоджия|есть|да', balcony.lower())) > 0 :
+            return 'да'
+        return 'нет'
+
+    def search_repair(repair: str) -> str:
+        if len(re.findall(r'современ'), repair.lower()) >0:
+            return 'современная отделка'
+        elif len(re.findall(r'муницип'), repair.lower()) >0:
+            return 'муниципальный ремонт'
+        elif len(re.findall(r'без'), repair.lower()) >0:
+            return 'без отделки'
+
+    def search_gap(self, input_square: int, squares_list: list):
+        for gap, squares in enumerate(squares_list):
+            for square in squares:
+                if square == input_square:
+                    return gap
+    
+    def search_floor_percent(self, floor: int, total_floor: int):
+        gap = self.search_gap(self.search_floor_lvl(floor, total_floor), FLOORS_LIST)
+        analog_gap = self.search_gap(self.search_floor_lvl(self.floor, self.total_floor), FLOORS_LIST)
+        return FLOOR_PERCENTS_LIST[analog_gap][gap]
+    
+    def searh_home_square_percent(self, home_area: int):
+        gap = self.search_gap(home_area, HOME_SQUARES_LIST)
+        analog_gap = self.search_gap(self.home_area, HOME_SQUARES_LIST)
+        return HOME_PERCENTS_LIST[analog_gap][gap]  # return percent
+    
+    def search_kitchen_square_percent(self, kitchen_area: int):
+        gap = self.search_gap(kitchen_area, KITCHEN_SQUARES_LIST)
+        analog_gap = self.search_gap(self.kitchen_area, KITCHEN_SQUARES_LIST)
+        return KITCHEN_PERCENTS_LIST[analog_gap][gap]
+    
+    def search_balcony_percent(self, balcony: str):
+        gap = self.search_gap(self.search_balcony(balcony), BALCONY_LIST)
+        analog_gap = self.search_gap(self.search_balcony(self.balcony), BALCONY_LIST)
+        return BALCONY_PERCENTS_LIST[analog_gap][gap]
+    
+    def search_metro_distance_percent(self, metro_time: int):
+        gap = self.search_gap(metro_time, METRO_DISTANCES_LIST)
+        analog_gap = self.search_gap(self.metro_time, METRO_DISTANCES_LIST)
+        return METRO_PERCENTS_LIST[analog_gap][gap]
+    
+    def search_decoration_state_percent(self, repairs: str):
+        gap = self.search_gap(self.search_repair(repairs), DECORATION_STATES_LIST)
+        analog_gap = self.search_gap(self.search_repair(self.repairs), DECORATION_STATES_LIST)
+        return DECORATION_PERCENTS_LIST[analog_gap][gap]
 
 
 #def main():
