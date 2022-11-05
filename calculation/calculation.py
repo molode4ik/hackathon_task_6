@@ -115,12 +115,12 @@ class Analog:
             (self.rooms == Advertisement.get().number_rooms) &
             (Advertisement.floor_total.between(self.floor_total - 4, self.floor_total + 4)) &
             (self.material in Advertisement.get().house_type) &
-            (not Advertisement.deadline is None if self.segment in "новостройки"
+            (not Advertisement.deadline is None if self.segment in "новостройка"
              else Advertisement.construction_year.between(segments[self.segment][0], segments[self.segment][1]))
         ).execute()
 
 
-def main():
+#def main():
     # TODO: Тут явно нужно что-то поменять
     ...
     # a = Analog('Средние этажи', 25, 6, 'Нет', 5, 'Без отделки')
@@ -143,13 +143,13 @@ def main():
 #     'metro_distance': 1,
 #     'amount_floor': 9,
 #     'balcony': 'Нет',
-#     'material': 'панель',
+#     'material': 'Монолит',
 #     'floor': 8,
 #     'state': 'муниципальный ремонт'
 # }
-
+#
 # print(
-#     *Analog(location=reference_data['location'], rooms=reference_data['rooms'], segment="современное жилье",
+#     *Analog(location=reference_data['location'], rooms=reference_data['rooms'], segment="",
 #             home_area=reference_data['home_square'],
 #             kitchen_area=reference_data['kitchen_square'], metro_time=reference_data['metro_distance'],
 #             floor_total=reference_data['amount_floor'], balcony=reference_data['balcony'],
