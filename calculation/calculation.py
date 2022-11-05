@@ -104,10 +104,6 @@ class Analog:
 
     def find_analog(self):
         lat_range, lng_range = get_distance(get_geocode(self.location), radius=1)
-        segments = {
-            "старый жилищний фонд": (1, 1990),
-            "современное жилье": (1991, datetime.now().year - 1),
-        }
         # TODO: Сегмент
         return Advertisement.select().where(
             (Advertisement.coords_lat.between(lat_range[0], lat_range[1]) & Advertisement.coords_lng.between(
@@ -115,12 +111,11 @@ class Analog:
             (self.rooms == Advertisement.get().number_rooms) &
             (Advertisement.floor_total.between(self.floor_total - 4, self.floor_total + 4)) &
             (self.material in Advertisement.get().house_type) &
-            (not Advertisement.deadline is None if self.segment in "новостройка"
-             else Advertisement.construction_year.between(segments[self.segment][0], segments[self.segment][1]))
+            (self.segment in Advertisement.get().segment)
         ).execute()
 
 
-#def main():
+def main():
     # TODO: Тут явно нужно что-то поменять
     ...
     # a = Analog('Средние этажи', 25, 6, 'Нет', 5, 'Без отделки')
@@ -143,15 +138,14 @@ class Analog:
 #     'metro_distance': 1,
 #     'amount_floor': 9,
 #     'balcony': 'Нет',
-#     'material': 'Монолит',
+#     'material': 'монолит',
 #     'floor': 8,
 #     'state': 'муниципальный ремонт'
 # }
 #
-# print(
-#     *Analog(location=reference_data['location'], rooms=reference_data['rooms'], segment="",
-#             home_area=reference_data['home_square'],
-#             kitchen_area=reference_data['kitchen_square'], metro_time=reference_data['metro_distance'],
-#             floor_total=reference_data['amount_floor'], balcony=reference_data['balcony'],
-#             material=reference_data['material'], floor=reference_data['floor'],
-#             repairs=reference_data['state']).find_analog())
+# analogs = Analog(location=reference_data['location'], rooms=reference_data['rooms'], segment="новостройки",
+#                  home_area=reference_data['home_square'],
+#                  kitchen_area=reference_data['kitchen_square'], metro_time=reference_data['metro_distance'],
+#                  floor_total=reference_data['amount_floor'], balcony=reference_data['balcony'],
+#                  material=reference_data['material'], floor=reference_data['floor'],
+#                  repairs=reference_data['state']).find_analog()
