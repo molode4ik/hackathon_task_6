@@ -23,19 +23,17 @@
     <div class="offset-md-4 col-md-4 offset-sm-3 col-sm-1">
         <div class="form-container align">
             <h3 class="title"> Эталонный объект </h3>
-            <form class="form-horizontal">
+            <form class="form-horizontal" method="post">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Местоположение"
+                    <input type="text" id="place" name="place" class="form-control" placeholder="Местоположение"
                            value="{% if file_data %}{{ file_data['Местоположение'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Количество комнат"
+                    <input type="text" id="rooms_num" name="rooms_num" class="form-control" placeholder="Количество комнат"
                            value="{% if file_data %}{{ file_data['Количество комнат'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <select class="form-control select">
-                        <!--TODO: Добавить материалы стен-->
-                        <!--Кирпич, монолит, панель-->
+                    <select class="form-control select" id="type_house" name="type_house">
                         {% if file_data %}
                         <option {% if file_data.get(
                         'Сегмент (Новостройка, современное жилье, старый жилой фонд)')=='Новостройка' %}selected{% endif
@@ -54,23 +52,42 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Этажность дома"
+                    <input type="text" id="level_house" name="level_house" class="form-control" placeholder="Этажность дома"
                            value="{% if file_data %}{{ file_data['Этажность дома'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Этаж расположения"
+                    <select class="form-control select" id="material_house" name="material_house">
+                        {% if file_data %}
+                        <option {% if file_data.get(
+                        'Материал стен (Кипич, панель, монолит)')=='Кирпич' %}selected{% endif
+                        %} class="form-control option">Кирпич</option>
+                        <option {% if file_data.get(
+                        'Материал стен (Кипич, панель, монолит)')=='Панель' %}selected{%
+                        endif %} class="form-control option">Панель</option>
+                        <option {% if file_data.get(
+                        'Материал стен (Кипич, панель, монолит)')=='Монолит' %}selected{%
+                        endif %} class="form-control option">Монолит</option>
+                        {% else %}
+                        <option class="form-control option">Кирпич</option>
+                        <option class="form-control option">Панель</option>
+                        <option class="form-control option">Монолит</option>
+                        {% endif %}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="level_room" name="level_room" class="form-control" placeholder="Этаж расположения"
                            value="{% if file_data %}{{ file_data['Этаж расположения'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Площадь квартиры"
+                    <input type="text" id="area_room" name="area_room" class="form-control" placeholder="Площадь квартиры"
                            value="{% if file_data %}{{ file_data['Площадь квартиры, кв.м'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Площадь кухни"
+                    <input type="text" id="area_kitchen" name="area_kitchen" class="form-control" placeholder="Площадь кухни"
                            value="{% if file_data %}{{ file_data['Площадь кухни, кв.м'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <select class="form-control select">
+                    <select class="form-control select" id="balcony" name="balcony">
                         {% if file_data %}
                         <option {% if file_data.get(
                         'Наличие балкона/лоджии')=='Да' %}selected{% endif %} class="form-control option">Есть балкон /
@@ -85,11 +102,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Удаленность от станции метро (минуты)"
+                    <input type="text" id="metro_time" name="metro_time" class="form-control" placeholder="Удаленность от станции метро (минуты)"
                            value="{% if file_data %}{{ file_data['Удаленность от станции метро, мин. пешком'] }}{% endif %}">
                 </div>
                 <div class="form-group">
-                    <select class="form-control select">
+                    <select class="form-control select" id="renovation" name="renovation">
                         {% if file_data %}
                         <option {% if file_data.get(
                         'Состояние (без отделки, муниципальный ремонт, с современная отделка)')=='Без отделки'
@@ -107,15 +124,19 @@
                         {% endif %}
                     </select>
                 </div>
-
+            <input type="submit" class="btn signin" value="Экспорт в Excel">
             </form>
 
             <form class="form-horizontal" action="/welcome" method="POST" enctype="multipart/form-data">
                 <div class="form-group align">
                     <input class="form-control" onchange="javascript:this.form.submit();" type="file" id="file"
                            name="file" accept="{{ allowed_extensions }}">
-                    <a class="btn signin" href="/analogue">Показать аналоги</a>
-                    <a class="btn signin" href="/adjustments">Рассчитать</a>
+                    <input type="submit" name="analogues_btn" id="analogues_btn" class="btn signin" value="Показать аналоги">
+                    <input type="submit" name="r_btn" id="r_btn" class="btn signin" value="Рассчитать">
+
+
+<!--                    <a class="btn signin" href="/analogue">Показать аналоги</a>-->
+<!--                    <a class="btn signin" href="/adjustments">Рассчитать</a>-->
                 </div>
             </form>
         </div>
@@ -288,5 +309,43 @@
         </div>
     </div>
 </div>
+
+<script>
+
+    let input1 = document.getElementById("place")
+    let input2 = document.getElementById("rooms_num")
+    let input3 = document.getElementById("type_house")
+    let input4 = document.getElementById("level_house")
+    let input5 = document.getElementById("material_house")
+    let input6 = document.getElementById("level_room")
+    let input7 = document.getElementById("area_room")
+    let input8 = document.getElementById("area_kitchen")
+    let input9 = document.getElementById("balcony")
+    let input10 = document.getElementById("metro_time")
+    let input11 = document.getElementById("renovation")
+
+    let button_analogue = document.getElementById("analogues_btn");
+    let button_r = document.getElementById("r_btn");
+    button_analogue.disabled = true;
+    button_r.disabled = true;
+
+
+    function button_check(){
+        console.log("fefewgwg")
+        if ((input1.value !== "") && (input2.value !== "") && (input4.value !== "") && (input6.value !== "") && (input7.value !== "") && (input8.value !== "") && (input10.value)){
+            console.log("if")
+            button_analogue.disabled = false
+            button_r.disabled = false;
+        } else {
+            button_analogue.disabled = true;
+            button_r.disabled = true;
+        }
+
+    }
+
+    input1.addEventListener('input', button_check)
+
+</script>
+
 </body>
 </html>

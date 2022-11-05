@@ -21,6 +21,9 @@
         <div class="offset-md-4 col-md-4 offset-sm-3 col-sm-1">
             <div class="form-container align">
                 <h3 class="title"> Регистрация </h3>
+                {% for msg in get_flashed_messages() %}
+                <div class="flash">{{msg}}</div>
+                {% endfor %}
                 <form method="post" class="form-horizontal">
                     {{ form.hidden_tag() }}
                     <div class="form-group">

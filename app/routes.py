@@ -8,6 +8,7 @@ from excel_parser.excel_parser import parse_excel
 from config.config import Flask
 import os
 from werkzeug.utils import secure_filename
+import openpyxl
 
 n = 4  # pages в analogue и adjustments (кол-во аналагов, которые будут показываться), используется в jinja
 
@@ -60,6 +61,7 @@ def index():
                     return redirect(url_for('welcome'))
         except:
             return render_template('auth.html', form=form)
+        flash('Неверный логин или пароль!')
     return render_template('auth.html', form=form)
 
 
@@ -67,18 +69,61 @@ def index():
 @login_required
 def welcome():
     if request.method == 'POST':
-        file = request.files['file']
-        if file:
-            filename = secure_filename(file.filename)
-            new_filename = f'{Flask.upload_folder}\\{file.filename}'
-            save_location = os.path.join('input', new_filename)
-            file.save(save_location)
-            file_data = parse_excel(new_filename)[0]
-            return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions),
-                                   file_data=file_data)
+        try:
+            file = request.files['file']
+            if file:
+                filename = secure_filename(file.filename)
+                new_filename = f'{Flask.upload_folder}\\{file.filename}'
+                save_location = os.path.join('input', new_filename)
+                file.save(save_location)
+                file_data = parse_excel(new_filename)[0]
+                return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions),
+                                       file_data=file_data)
+
+        except:
+            place_welcome_to_xl = request.form['place']
+            rooms_num_welcome_to_xl = request.form['rooms_num']
+            type_house_welcome_to_xl = request.form['type_house']
+            level_house_welcome_to_xl = request.form['level_house']
+            material_house_welcome_to_xl = request.form['material_house']
+            level_room_welcome_to_xl = request.form['level_room']
+            area_room_welcome_to_xl = request.form['area_room']
+            area_kitchen_welcome_to_xl = request.form['area_kitchen']
+            balcony_welcome_to_xl = request.form['balcony']
+            metro_time_welcome_to_xl = request.form['metro_time']
+            renovation_welcome_to_xl = request.form['renovation']
+
+            my_wb = openpyxl.Workbook()
+            my_sheet = my_wb.active
+            my_sheet['A1'] = 'Местоположение'
+            my_sheet['B1'] = 'Количество комнат'
+            my_sheet['C1'] = 'Сегмент'
+            my_sheet['D1'] = 'Этажность дома'
+            my_sheet['E1'] = 'Материал стен'
+            my_sheet['F1'] = 'Этаж расположения'
+            my_sheet['G1'] = 'Площадь квартиры'
+            my_sheet['H1'] = 'Площадь кухни'
+            my_sheet['I1'] = 'Наличие балкона/лоджии'
+            my_sheet['J1'] = 'Удаленность от станции метро, мин. пешком'
+            my_sheet['K1'] = 'Состояние'
+
+            my_sheet['A2'] = place_welcome_to_xl
+            my_sheet['B2'] = rooms_num_welcome_to_xl
+            my_sheet['C2'] = type_house_welcome_to_xl
+            my_sheet['D2'] = level_house_welcome_to_xl
+            my_sheet['E2'] = material_house_welcome_to_xl
+            my_sheet['F2'] = level_room_welcome_to_xl
+            my_sheet['G2'] = area_room_welcome_to_xl
+            my_sheet['H2'] = area_kitchen_welcome_to_xl
+            my_sheet['I2'] = balcony_welcome_to_xl
+            my_sheet['J2'] = metro_time_welcome_to_xl
+            my_sheet['K2'] = renovation_welcome_to_xl
+
+            my_wb.save('sample.xlsx')
+            my_wb.close()
+            return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
+
     return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
-
-
 @app.route('/analogue', methods=["GET", "POST"])
 @login_required
 def analogue():
@@ -95,9 +140,16 @@ def adjustments():
 def registration():
     form_reg = RegistrationForm()
     if form_reg.validate_on_submit():
+        for person in Users.select():
+            if check_password_hash(person.login, form_reg.username.data):
+                return redirect(url_for('registration'))
+            else:
+                flash('Логин уже имеется или пароли не совпадают!')
+                return redirect(url_for('registration'))
         login_reg = form_reg.username.data
         password_reg = form_reg.password.data
         Users.create(login=generate_password_hash(login_reg), password=generate_password_hash(password_reg))
+
         return redirect(url_for('index'))
     return render_template('registration.html', form=form_reg)
 
