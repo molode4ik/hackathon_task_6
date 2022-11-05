@@ -1,94 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Страница рассчета</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style_analogue.css') }}" type="text/css">
+    <title> Рассчёт </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="../static/form.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
 </head>
 <body>
-<center>
-    <table class="table_block two_per">
-        <tbody>
-            <tr>
-                <td><p>Корректировка на торг</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Корректировка на площадь:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Корректировка на удаленность от метро:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Корректировка на этаж:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Корректировка на комнатность:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Корректировка на площадь кухни:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Корректировка на наличие балкона/лоджии:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Корректировка на ремонт:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Разница между максимальным и минимальным значением:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Размер примененных корректировок, %:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Вес аналога:</p></td>
-                {% for i in range(pages) %}
-                <td>{{i}}</td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <td><p>Рыночная стоимость, руб./кв.м. (с НДС):</p></td>
-                <td>199</td>
-            </tr>
-            <tr>
-                <td><p>Рыночная стоимость, руб. (с НДС):</p></td>
-                <td>200</td>
-            </tr>
-        </tbody>
-    </table>
-</center>
-<table class="onehalf_per">
-    <tr><td><center><a class="small" href="/analogue">Назад</a></center></td>
-    <td><input class="styled" type="submit" name="Export" id="Export" value="Экспорт"></td></tr>
-</table>
+<div class="container-fluid">
+    <div class="row">
+        <div class="form-container align">
+            <table class="table form-horizontal">
+                <thead>
+                <tr>
+                    <th class="select" scope="col">Критерий</th>
+                    <th class="select" scope="col">Аналог 1</th>
+                    <th class="select" scope="col">Аналог 2</th>
+                    <th class="select" scope="col">Аналог 3</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th class="select" scope="row">Корректировка на торг</th>
+                    <td class="select">Mark</td>
+                    <td class="select">Otto</td>
+                    <td class="select">@mdo</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Корректировка на площадь</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Thornton</td>
+                    <td class="select">@fat</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Корректировка на удаленность от метро</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Корректировка на этаж</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Корректировка на комнатность</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Корректировка на площадь кухни</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Корректировка на наличие балкона/лоджии</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Корректировка на ремонт</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Разница между максимальным и минимальным значением</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Размер примененных корректировок, %</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Вес аналога</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Рыночная стоимость, руб./кв.м. (с НДС)</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                <tr>
+                    <th class="select" scope="row">Рыночная стоимость, руб. (с НДС)</th>
+                    <td class="select">Jacob</td>
+                    <td class="select">Larry the Bird</td>
+                    <td class="select">@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="offset-md-4 col-md-4 offset-sm-3 col-sm-1 form-horizontal">
+                <input type="submit" class="btn signup" value="Экспорт в Excel">
+                <input type="submit" class="btn signin" value="Назад">
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
