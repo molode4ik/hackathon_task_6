@@ -1,9 +1,11 @@
 import datetime
 import json
+import traceback
 import urllib.parse
 from selenium.webdriver.common.by import By
 from .models import Advertisement
 from calculation.calculation import get_geocode
+from yandex_geocoder import InvalidKey
 import peewee
 import os
 import re
@@ -120,11 +122,12 @@ class AvitoParser(Parser):
                                             segment_value[1]):
                                         result.update({'segment': segment_key})
                             elif item['title'] == "Пассажирский лифт":
-                                result.update({'passenger_elevator': int(item['description'])})
+                                result.update({'passenger_elevator': int(item['description']) if 'нет' not in item[
+                                        'description'] else None})
                             elif item['title'] == "Грузовой лифт":
                                 result.update(
-                                    {'cargo_elevator': int(item['description']) if item[
-                                                                                       'description'] != 'нет' else None})
+                                    {'cargo_elevator': int(item['description']) if 'нет' not in item[
+                                        'description'] else None})
                             elif item['title'] == "Двор":
                                 result.update({'courtyard': item['description']})
                             elif item['title'] == "Парковка":
@@ -134,8 +137,8 @@ class AvitoParser(Parser):
                         for item in flat_data:
                             if item['title'] == "Количество комнат":
                                 result.update(
-                                    {'number_rooms': int(item['description']) if item[
-                                                                                     'description'] != 'студия' else 1})
+                                    {'number_rooms': int(item['description']) if 'студия' not in item[
+                                        'description'] else 1})
                             elif item['title'] == "Общая площадь":
                                 result.update({'total_area': float(re.findall(r'\d+', item['description'])[0])})
                             elif item['title'] == "Площадь кухни":
@@ -180,7 +183,7 @@ class AvitoParser(Parser):
                             return result
 
         except Exception as e:
-            logging.error(f'Ошибка {e}./nЖду 30 секунд')
+            logging.error(f'Ошибка {e}. Жду 30 секунд')
             time.sleep(30)
             return result
 
@@ -188,10 +191,17 @@ class AvitoParser(Parser):
         data = self._get_data()
         count = data['count']
         logging.info(f'Найдено {count} объявлений')
-        pages = []
-        for page in data['catalog']['pager']['pages'].values():
-            pages.append('https://www.avito.ru' + page)
-        return pages
+        if data.get('catalog').get('pager').get('last'):
+            try:
+                pages_data = data['catalog']['pager']['last'].split("p=")
+                # TODO: Убрать + 12
+                pages = [f"https://www.avito.ru{pages_data[0]}p={i + 12}" for i in range(1, int(pages_data[1]) + 1)]
+                return pages
+            except:
+                pages = []
+                for page in data['catalog']['pager']['pages'].values():
+                    pages.append("https://www.avito.ru" + page)
+                    return pages
 
     def get_advertisements(self):
         data = self._get_data()
@@ -219,8 +229,8 @@ class AvitoParser(Parser):
                 try:
                     lat, lng = get_geocode(item['location']['name'] + item['geo']['formattedAddress'])
                 except:
-                    logging.error('Ошибка!!! Жду 30 секунд')
-                    time.sleep(30)
+                    lat, lng = None, None
+                    logging.error('Ошибка при получении геокода!!!')
                 advertisements = {
                     'id_avito': item['id'],
                     'url': 'https://www.avito.ru' + item['urlPath'],
@@ -230,7 +240,7 @@ class AvitoParser(Parser):
                     'location': item['location']['name'],
                     'time': datetime.datetime.fromtimestamp(item['sortTimeStamp'] // 1000),
                     'price': item['priceDetailed']['value'],
-                    'images': [image['636x476'] for image in item['images']],
+                    'images': ','.join([image['636x476'] for image in item['images']]),
                     'address': item['geo']['formattedAddress'],
                     'geoReferences': geoReferences,
                     'phone': item['contacts']['phone'],
