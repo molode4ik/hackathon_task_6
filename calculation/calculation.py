@@ -62,14 +62,21 @@ class Analog:
 
     def find_analog(self):
         lat_range, lng_range = get_distance(get_geocode(self.location), radius=1)
-        # TODO: Сегмент
+        # TODO: балкон, время до метро
+        print(self.segment)
         return Advertisement.select().where(
             (Advertisement.coords_lat.between(lat_range[0], lat_range[1]) & Advertisement.coords_lng.between(
                 lng_range[0], lng_range[1])) &
             (self.rooms == Advertisement.get().number_rooms) &
             (Advertisement.floor_total.between(self.floor_total - 4, self.floor_total + 4)) &
             (self.material in Advertisement.get().house_type) &
-            (self.segment in Advertisement.get().segment)
+            (self.segment in Advertisement.get().segment) &
+            (Advertisement.floor.between(self.floor - 4, self.floor + 4)) &
+            (Advertisement.total_area.between(self.home_area - 20, self.home_area + 20)) &
+            (Advertisement.kitchen_area.between(self.kitchen_area - 5, self.kitchen_area + 5)) &
+            #('лоджия/балкон' if not Advertisement.balcony is None else 'нет') &
+            #(Advertisement.nearest_metro_time.between(self.metro_time - 5, self.metro_time + 5)) &
+            (self.repairs in Advertisement.get().repairs)
         ).execute()
 
     def search_floor_lvl(floor:int, total_floor: int) -> str:
