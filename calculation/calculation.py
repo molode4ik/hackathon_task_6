@@ -31,9 +31,16 @@ DECORATION_PERCENTS_LIST = [[0, 13400, 20100],
 DECORATION_STATES_LIST = [['без отделки'], ['муниципальынй ремонт'], ['современная отделка']]
 
 
+# def get_geocode(address: str):
+#     coordinates = Yandex.client.coordinates(address)
+#     return float(coordinates[1]), float(coordinates[0])
+
 def get_geocode(address: str):
-    coordinates = Yandex.client.coordinates(address)
-    return float(coordinates[1]), float(coordinates[0])
+    gc_response = Here.client.geocode(query=address, limit=1)
+    data = gc_response.to_geojson()
+    if data:
+        return data[0].get('geometry').get('coordinates')[::-1]
+    return None
 
 
 def get_distance(point: tuple, radius: int):
