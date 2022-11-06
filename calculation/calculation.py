@@ -63,7 +63,6 @@ class Analog:
     def find_analog(self):
         lat_range, lng_range = get_distance(get_geocode(self.location), radius=1)
         # TODO: балкон, время до метро
-        print(self.segment)
         return Advertisement.select().where(
             (Advertisement.coords_lat.between(lat_range[0], lat_range[1]) & Advertisement.coords_lng.between(
                 lng_range[0], lng_range[1])) &
