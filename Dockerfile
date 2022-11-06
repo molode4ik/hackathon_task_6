@@ -1,6 +1,6 @@
 FROM python:3.9
 
-WORKDIR /app
-COPY requirements.txt /app
+WORKDIR /kyda-web
+COPY requirements.txt /kyda-web
 RUN pip install -r requirements.txt
-COPY . /app
+COPY . /kyda-web
