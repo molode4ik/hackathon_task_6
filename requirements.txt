@@ -1,0 +1,13 @@
+environs==8.0.0
+Flask==2.2.2
+Flask_Login==0.6.2
+Flask_WTF==1.0.1
+here_location_services==0.4.0
+openpyxl==3.0.10
+peewee==3.15.3
+selenium==4.6.0
+utm==0.7.0
+webdriver_manager==3.8.4
+Werkzeug==2.2.2
+WTForms==3.0.1
+yandex_geocoder==2.0.0
