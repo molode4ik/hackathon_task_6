@@ -1,6 +1,6 @@
 from utm import from_latlon
 import math
-from config.config import Yandex
+from config.config import Yandex, Here
 from avito_parser.models import Advertisement
 from datetime import datetime
 import re
