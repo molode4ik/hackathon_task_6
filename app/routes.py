@@ -81,20 +81,9 @@ def welcome():
                                        file_data=file_data)
 
         except:
-            place_welcome_to_xl = request.form['place']
-            rooms_num_welcome_to_xl = request.form['rooms_num']
-            type_house_welcome_to_xl = request.form['type_house']
-            level_house_welcome_to_xl = request.form['level_house']
-            material_house_welcome_to_xl = request.form['material_house']
-            level_room_welcome_to_xl = request.form['level_room']
-            area_room_welcome_to_xl = request.form['area_room']
-            area_kitchen_welcome_to_xl = request.form['area_kitchen']
-            balcony_welcome_to_xl = request.form['balcony']
-            metro_time_welcome_to_xl = request.form['metro_time']
-            renovation_welcome_to_xl = request.form['renovation']
+            return redirect(url_for('logout'))
 
-
-            return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
+        return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
     return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
@@ -129,17 +118,16 @@ def analogue():
                             floor=int(dict_charters['Этаж расположения']),
                             repairs=dict_charters[
                                 'Состояние (без отделки, муниципальный ремонт, с современная отделка)']).find_analog()
-
-
         return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions),
                                file_data=dict_charters, list_class=class_list)
     return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
 
-@app.route('/adjustments', methods=["GET", "POST"])
+@app.route('/adjustments/<data>', methods=["GET", "POST"])
 @login_required
-def adjustments():
-    return render_template('adjustments.html', pages=n)
+def adjustments(data):
+    print(data)
+    return render_template('adjustments.html', data=data)
 
 
 @app.route('/registration', methods=["GET", "POST"])
