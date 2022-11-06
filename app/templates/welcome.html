@@ -125,7 +125,7 @@
                     </select>
                 </div>
                 <input type="submit" name="r_btn" id="r_btn" class="btn signup" value="ПОКАЗАТЬ АНАЛОГИ">
-                <a href="/adjustments/{{list_id}}">Изменить</a>
+
             </form>
 
 
@@ -206,16 +206,17 @@
                 <label class="data">Состояние: {{ obj.repairs }}</label>
                 <form class="form-horizontal">
                 <a class="btn signin" href="{{obj.url}}">Показать объявление</a>
-
-
                 </form>
             </div>
         </div>
+
+        {% if list_class|length == loop.index %}
+            <center><div class="form-horizontal">
+                <a class="btn signin" href="/adjustments/{{list_id}}">Сделать рассчет</a>
+            </div></center>
+        {% endif %}
+
     {% endfor %}
-
-
-
-
 
     </div>
 </div>
@@ -233,13 +234,31 @@
     let input9 = document.getElementById("balcony")
     let input10 = document.getElementById("metro_time")
     let input11 = document.getElementById("renovation")
-    let button_analogue = document.getElementById("analogues_btn");
+
     let button_r = document.getElementById("r_btn");
+    console.log(button_r);
+    button_r.disabled = true
 
-
-
-
+    function button_check(){
+        console.log("fefewgwg")
+        if ((input1.value !== "") && (input2.value !== "") && (input4.value !== "") && (input6.value !== "") && (input7.value !== "") && (input8.value !== "") && (input10.value)){
+            console.log("if")
+            button_r.disabled = false;
+        } else {
+            button_r.disabled = true;
+        }
+    }
     input1.addEventListener('input', button_check)
+    input2.addEventListener('input', button_check)
+    input3.addEventListener('input', button_check)
+    input4.addEventListener('input', button_check)
+    input5.addEventListener('input', button_check)
+    input6.addEventListener('input', button_check)
+    input7.addEventListener('input', button_check)
+    input8.addEventListener('input', button_check)
+    input9.addEventListener('input', button_check)
+    input10.addEventListener('input', button_check)
+    input11.addEventListener('input', button_check)
 
 </script>
 

@@ -26,19 +26,19 @@ class UserLogin(UserMixin):
         self.login = login
         self.password = password
 
-
+#
 @login_manager.user_loader
 def load_user(user):
     return UserLogin
 
-
+#
 @app.route('/', methods=["GET", "POST"])
 def start():
     if current_user.is_authenticated:
         return redirect(url_for('welcome'))
     return redirect(url_for('index'))
 
-
+#
 @app.route('/auth', methods=["GET", "POST"])
 def index():
     if current_user.is_authenticated:
@@ -64,7 +64,7 @@ def index():
         flash('Неверный логин или пароль!')
     return render_template('auth.html', form=form)
 
-
+#
 @app.route('/welcome', methods=["GET", "POST"])
 @login_required
 def welcome():
@@ -88,7 +88,7 @@ def welcome():
     return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
 
-
+#
 @app.route('/analogue', methods=["GET", "POST"])
 @login_required
 def analogue():
@@ -126,7 +126,7 @@ def analogue():
                                file_data=dict_charters, list_class=class_list, list_id=class_list_id)
     return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
-
+#
 @app.route('/adjustments/<list_id>', methods=["GET", "POST"])
 @login_required
 def adjustments(list_id):
@@ -135,8 +135,12 @@ def adjustments(list_id):
     global dict_charters
     list_price = list()
     for item_id,i in enumerate(str1):
-        analog_value = Advertisement.get(id = int(i))
-        analog = Analog(analog_value.location,analog_value.number_rooms,analog_value.segment,analog_value.total_area,analog_value.kitchen_area,analog_value.nearest_metro_time,analog_value.floor,analog_value.floor_total,analog_value.balcony,analog_value.house_type,analog_value.repairs)
+        analog_value = Advertisement.get(id=int(i))
+        analog = Analog(analog_value.location, analog_value.number_rooms, analog_value.segment,
+                        analog_value.total_area, analog_value.kitchen_area, analog_value.nearest_metro_time,
+                        analog_value.floor, analog_value.floor_total, analog_value.balcony,
+                        analog_value.house_type, analog_value.repairs)
+
         floor = analog.search_floor_percent(int(dict_charters['Этаж расположения']),int(dict_charters['Этажность дома']))
         balcony = analog.search_balcony_percent(dict_charters['Наличие балкона/лоджии'])
         kitchen = analog.search_kitchen_square_percent(float(dict_charters['Площадь кухни, кв.м']))
@@ -148,30 +152,40 @@ def adjustments(list_id):
         analogs_dict.update({
             item_id: [-4.5, area, metro, floor, kitchen, balcony, repairs]
             })
-        list_price.append(round(analog_value.price/analog_value.total_area,3)) # цена на 
+        list_price.append(round(analog_value.price/analog_value.total_area,3)) # цена на кв.м
     
-    prices = []
-    sizes = []
+    prices = []  # Массив цен
+    sizes = []  # Размер примерных корректировок
     for key, price in zip(analogs_dict.keys(), list_price):
         start_price = price
-        sizes.append(sum(map(abs,analogs_dict[key])))
-        for item in analogs_dict[key]:
-            start_price = start_price + (start_price * item/100)
+        sizes.append(sum(map(abs, analogs_dict[key])))
+        for item_id, item in enumerate(analogs_dict[key]):
+            if item_id == 6:
+                if item > 0:
+                    analogs_dict[key].append(start_price/item)
+                    start_price = start_price + start_price/item
+                else:
+                    analogs_dict[key].append(item)
+                    start_price = start_price + (start_price * item/100)
+            else:
+                start_price = start_price + (start_price * item/100)
         prices.append(start_price)
-
-    weights = []
+    weights = []  # Вес аналога
     for size in sizes:
-        weights.append((1/size)/sum([1/i for i in sizes]))
+        weights.append(round((1/size)/sum([1/i for i in sizes]), 2))
     
-    etalon_price_per_m = 0
+    etalon_price_per_m = 0  # Рыночная стоимость, руб./кв.м. (с НДС)
     for price, weight in zip(prices,weights):
-        etalon_price_per_m += (etalon_price_per_m + price) * weight 
-    
-    print(etalon_price_per_m)
-    etalon_price = etalon_price_per_m * float(dict_charters['Площадь квартиры, кв.м'])
-    print(etalon_price)
+        etalon_price_per_m += int((etalon_price_per_m + price) * weight)
 
-    return render_template('adjustments.html', data=list_id)
+    # Рыночная стоимость, руб. (с НДС)
+    etalon_price = int(etalon_price_per_m * float(dict_charters['Площадь квартиры, кв.м']))
+
+    max_min = round((max(prices)/min(prices)) * 100 - 100, 2)  # Разница между max и min значением
+
+    return render_template('adjustments.html', data=list_id, analogs_dict=analogs_dict,
+                           etalon_price_per_m=etalon_price_per_m, etalon_price=etalon_price,
+                           weights=weights, sizes=sizes, max_min=max_min)
 
 
 @app.route('/registration', methods=["GET", "POST"])

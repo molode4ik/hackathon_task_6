@@ -6,12 +6,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: python main.py
+    command: python app.py
     restart: always
     env_file:
       - .env
     volumes:
-      - .:/kyda-web
+      - .:/app
     networks:
       - web_app
 

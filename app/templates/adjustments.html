@@ -20,100 +20,96 @@
 <div class="container-fluid">
     <div class="row">
         <div class="form-container align">
-            <p>{{data}}</p>
             <table class="table form-horizontal">
                 <thead>
                 <tr>
                     <th class="select" scope="col">Критерий</th>
-                    <th class="select" scope="col">Аналог 1</th>
-                    <th class="select" scope="col">Аналог 2</th>
-                    <th class="select" scope="col">Аналог 3</th>
+
+                    {% for i in analogs_dict %}
+                        <th class="select" scope="col">Аналог {{i + 1}}</th>
+                    {% endfor %}
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <th class="select" scope="row">Корректировка на торг</th>
-                    <td class="select">Mark</td>
-                    <td class="select">Otto</td>
-                    <td class="select">@mdo</td>
+
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][0]}}</td>
+                    {% endfor %}
+
                 </tr>
                 <tr>
                     <th class="select" scope="row">Корректировка на площадь</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Thornton</td>
-                    <td class="select">@fat</td>
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][1]}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Корректировка на удаленность от метро</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][2]}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Корректировка на этаж</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
-                </tr>
-                <tr>
-                    <th class="select" scope="row">Корректировка на комнатность</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][3]}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Корректировка на площадь кухни</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][4]}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Корректировка на наличие балкона/лоджии</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][5]}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Корректировка на ремонт</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][7]}}</td>
+                    {% endfor %}
+                </tr>
+                <tr>
+                    <th class="select" scope="row"> </th>
+                    {% for i in analogs_dict %}
+                        <td class="select" scope="col">{{analogs_dict[i][6]}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Разница между максимальным и минимальным значением</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    <td class="select" colspan="{{analogs_dict|length}}">{{max_min}}</td>
                 </tr>
                 <tr>
                     <th class="select" scope="row">Размер примененных корректировок, %</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    {% for i in sizes %}
+                        <td class="select">{{i}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Вес аналога</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    {% for i in weights %}
+                        <td class="select">{{i}}</td>
+                    {% endfor %}
                 </tr>
                 <tr>
                     <th class="select" scope="row">Рыночная стоимость, руб./кв.м. (с НДС)</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    <td class="select" colspan="{{analogs_dict|length}}">{{etalon_price_per_m}} руб.</td>
                 </tr>
                 <tr>
                     <th class="select" scope="row">Рыночная стоимость, руб. (с НДС)</th>
-                    <td class="select">Jacob</td>
-                    <td class="select">Larry the Bird</td>
-                    <td class="select">@twitter</td>
+                    <td class="select" colspan="{{analogs_dict|length}}">{{etalon_price}} руб.</td>
                 </tr>
                 </tbody>
             </table>
             <div class="offset-md-4 col-md-4 offset-sm-3 col-sm-1 form-horizontal">
                 <input type="submit" class="btn signup" value="Экспорт в Excel">
-                <input type="submit" class="btn signin" value="Назад">
+                <a class="btn signin" href="/analogue">Назад</a>
             </div>
         </div>
     </div>
