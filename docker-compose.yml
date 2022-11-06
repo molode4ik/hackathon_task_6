@@ -1,0 +1,20 @@
+version: "3.1"
+
+services:
+  tgbot:
+    container_name: kyda-web-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python app.py
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    networks:
+      - web_app
+
+networks:
+  web_app:
+    driver: bridge
