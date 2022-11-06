@@ -8,7 +8,7 @@ from threading import Thread
 def main():
     db.connect()
     db.create_tables([Advertisement, Users])
-    Thread(target=AvitoParser.run_parser, args=(Avito.url,)).start()
+    #Thread(target=AvitoParser.run_parser, args=(Avito.url,)).start()
     app.run(host=Flask.host, port=Flask.port, debug=True)
 
 
