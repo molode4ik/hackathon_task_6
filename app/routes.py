@@ -1,6 +1,6 @@
 from app import app, login_manager
 from app.forms import RegistrationForm, LoginForm
-from flask import render_template, request, redirect, url_for, flash
+from flask import render_template, request, redirect, url_for, flash,g
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import current_user, login_user, LoginManager, login_required, UserMixin, logout_user
 from avito_parser.models import Users, db, Advertisement
@@ -93,7 +93,7 @@ def welcome():
 @login_required
 def analogue():
     if request.method == 'POST':
-
+        global dict_charters
         dict_charters = dict()
         dict_charters['Местоположение'] = request.form['place']
         dict_charters['Количество комнат'] = request.form['rooms_num']
@@ -107,6 +107,7 @@ def analogue():
         dict_charters['Удаленность от станции метро, мин. пешком'] = request.form['metro_time']
         dict_charters['Состояние (без отделки, муниципальный ремонт, с современная отделка)'] = request.form[
             'renovation']
+
         class_list = Analog(location=dict_charters['Местоположение'], rooms=int(dict_charters['Количество комнат']),
                             segment=dict_charters['Сегмент (Новостройка, современное жилье, старый жилой фонд)'],
                             home_area=int(dict_charters['Площадь квартиры, кв.м']),
@@ -118,16 +119,59 @@ def analogue():
                             floor=int(dict_charters['Этаж расположения']),
                             repairs=dict_charters[
                                 'Состояние (без отделки, муниципальный ремонт, с современная отделка)']).find_analog()
+
+        class_list_id = " ".join([str(i.id) for i in class_list])
+
         return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions),
-                               file_data=dict_charters, list_class=class_list)
+                               file_data=dict_charters, list_class=class_list, list_id=class_list_id)
     return render_template('welcome.html', allowed_extensions=",".join(Flask.allowed_extensions))
 
 
-@app.route('/adjustments/<data>', methods=["GET", "POST"])
+@app.route('/adjustments/<list_id>', methods=["GET", "POST"])
 @login_required
-def adjustments(data):
-    print(data)
-    return render_template('adjustments.html', data=data)
+def adjustments(list_id):
+    str1 = list_id.split()
+    analogs_dict = dict()
+    global dict_charters
+    list_price = list()
+    for item_id,i in enumerate(str1):
+        analog_value = Advertisement.get(id = int(i))
+        analog = Analog(analog_value.location,analog_value.number_rooms,analog_value.segment,analog_value.total_area,analog_value.kitchen_area,analog_value.nearest_metro_time,analog_value.floor,analog_value.floor_total,analog_value.balcony,analog_value.house_type,analog_value.repairs)
+        floor = analog.search_floor_percent(int(dict_charters['Этаж расположения']),int(dict_charters['Этажность дома']))
+        balcony = analog.search_balcony_percent(dict_charters['Наличие балкона/лоджии'])
+        kitchen = analog.search_kitchen_square_percent(float(dict_charters['Площадь кухни, кв.м']))
+        repairs = analog.search_decoration_state_percent(dict_charters['Состояние (без отделки, муниципальный ремонт, с современная отделка)'])
+        metro = analog.search_metro_distance_percent(int(dict_charters['Удаленность от станции метро, мин. пешком']))
+        area = analog.searh_home_square_percent(float(dict_charters['Площадь квартиры, кв.м']))
+        if metro == None:
+            metro = 0
+        analogs_dict.update({
+            item_id: [-4.5, area, metro, floor, kitchen, balcony, repairs]
+            })
+        list_price.append(round(analog_value.price/analog_value.total_area,3)) # цена на 
+    
+    prices = []
+    sizes = []
+    for key, price in zip(analogs_dict.keys(), list_price):
+        start_price = price
+        sizes.append(sum(map(abs,analogs_dict[key])))
+        for item in analogs_dict[key]:
+            start_price = start_price + (start_price * item/100)
+        prices.append(start_price)
+
+    weights = []
+    for size in sizes:
+        weights.append((1/size)/sum([1/i for i in sizes]))
+    
+    etalon_price_per_m = 0
+    for price, weight in zip(prices,weights):
+        etalon_price_per_m += (etalon_price_per_m + price) * weight 
+    
+    print(etalon_price_per_m)
+    etalon_price = etalon_price_per_m * float(dict_charters['Площадь квартиры, кв.м'])
+    print(etalon_price)
+
+    return render_template('adjustments.html', data=list_id)
 
 
 @app.route('/registration', methods=["GET", "POST"])
